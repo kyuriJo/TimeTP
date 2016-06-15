@@ -1,0 +1,15 @@
+type	Microarray
+readType	NA
+dataDir	sampleDataset
+outDir	sampleResult
+single	1
+countFile	NA
+groupFile	group.txt
+geneConvFile	gene_conv.txt
+numTP	6
+species	hsa
+threshold	0.05
+maxDelay	1
+removeT0	0
+FDR	1
+k	20

@@ -1,0 +1,89 @@
+
+TimeTP README
+
+* Prerequisites for TimeTP
+0) Python 2.X
+1) R packages : Limma, Deseq2
+2) Python modules : Numpy (1.6.2 <=), Scipy (0.12.0 <=), NetworkX
+
+* To run TimeTP,
+1) Make a configuration file in the TimeTP directory
+2) Make a group file, a probe-gene file in the dataset/[your_dataset] directory
+3) Copy your expression files (CEL or raw count) in the dataset/[your_dataset] directory
+4) Run as './TimeTP [name_of_config_file]'
+
+* How to make a configuration file
+Below is the sample configuration file (tab-delimited).
+------------------------------------------------------------------------
+type	RNA-seq
+readType        single-read
+dataDir 	MyDataset
+outDir  	MyResult
+single		0
+countFile    	count.txt
+groupFile	group.txt
+geneConvFile	gene_conv.txt
+numTP   	10
+species 	hsa_files
+threshold       0.05
+maxDelay        1
+removeT0        1
+FDR     	1
+k		20
+------------------------------------------------------------------------
+1) type 	: 'RNA-seq' OR 'Microarray'
+2) readType 	: Only for RNA-seq data. 'single-read' OR 'paired-end'
+3) dataDir 	: Name of the dataset directory that includes your files (CEL or raw count).
+		  The directory should be created inside the 'dataset' directory (see below for directory structure)
+4) outDir	: Name of the output directory that results will be saved.
+5) single	: '0' for Control-Treatment samples and '1' for single time-series samples.
+6) countFile	: Only for RNA-seq data. Name of the raw read count input file.
+		  This file should be comma-delimited, with column and row headers.
+		  *** Column headers should be matched with sample names in the groupFile.***
+		  The number of column headers should be same as the number of samples.
+		  *** Row headers should be matched with probe names in the geneConvFile OR should be gene symbols.***
+7) groupFile	: Name of the group file.
+		  Group file consists of two columns (tab-delimited).
+		  * First column - group number.
+		  	i) Single time-series samples
+				Samples for the first time point : 0
+				Samples for the second time point : 1
+				...
+				Samples for the Nth time point : N-1
+			ii) Control-treatment time-series samples
+				Control samples for the first time point : 0
+				Control samples for the second time point : 1
+				...
+				Control samples for the Nth time point : N-1
+				Treatment samples for the first time point : N
+				...
+				Treatment samples for the Nth time point : 2N-1
+		  * Second column - sample names.
+			i) Microarray : same as CEL file names.
+			i) RNA-seq    : same as column headers of countFile. 
+8) geneConvFile	: Name of the gene conversion file.
+		  Gene conversion file consists of two columns (tab-delimited).
+		  * First column - Probe name
+		  * Second column - Gene symbol (Entrez ID or Official gene symbol)
+		  If row headers in countFile are already gene symbols, geneConvFile can be 'NA'.
+9) numTP	: The number of time points.
+10) species	: Name of the directory that includes additional files for GRN/PPI/Pathway information. 
+		  For Homo Sapiens, GRN/PPI/Pathway information is provided in 'hsa_files' folder.
+		  For other species, users can provide their own GRN/PPI/Pathway files. (This will be updated for future versions.)
+11) threshold	: Threshold for P-value (Default : 0.05)
+12) maxDelay	: Maximum delay of expression propagation (Default : 1)
+		  1 implies TimeTP allows expression propagation across one time point or less.
+		  It depends on whether time interval between time-series samples are short or long.
+13) removeT0	: '1' for removing DEGs found in the first time point and '0' for not removing them.
+		  (Default : 0 for single time-series, 1 for control-treatment)
+14) FDR		: '1' for using FDR corrected P-value for DEG selection and '0' for not using it. (Default : 1)
+15) k		: The maximum number of TFs to find by influence maximization algorithm. (Default: 20)
+
+* Directory structure for TimeTP is as follows :
+/TimeTP 
+  /dataset
+    /MyDataset
+  /result
+    /MyResult
+  /hsa_files
+
