@@ -4,7 +4,7 @@ TimeTP README
 * Prerequisites for TimeTP
 0) Python 2.X
 1) R packages : Limma, Deseq2
-2) Python modules : Numpy (1.6.2 <=), Scipy (0.12.0 <=), NetworkX
+2) Python modules : Numpy (1.6.2 <=), Scipy (0.15.0 <=), NetworkX
 
 * To run TimeTP,
 1) Make a configuration file in the TimeTP directory
@@ -24,7 +24,7 @@ countFile    	count.txt
 groupFile	group.txt
 geneConvFile	gene_conv.txt
 numTP   	10
-species 	hsa_files
+species 	hsa
 threshold       0.05
 maxDelay        1
 removeT0        1
@@ -68,7 +68,7 @@ k		20
 		  If row headers in countFile are already gene symbols, geneConvFile can be 'NA'.
 9) numTP	: The number of time points.
 10) species	: Name of the directory that includes additional files for GRN/PPI/Pathway information. 
-		  For Homo Sapiens, GRN/PPI/Pathway information is provided in 'hsa_files' folder.
+		  For Homo Sapiens, GRN/PPI/Pathway information is provided in 'hsa' folder.
 		  For other species, users can provide their own GRN/PPI/Pathway files. (This will be updated for future versions.)
 11) threshold	: Threshold for P-value (Default : 0.05)
 12) maxDelay	: Maximum delay of expression propagation (Default : 1)
@@ -85,5 +85,5 @@ k		20
     /MyDataset
   /result
     /MyResult
-  /hsa_files
+  /hsa
 
