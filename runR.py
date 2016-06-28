@@ -58,7 +58,7 @@ def makeRcode(dataPath, resPath, gFile, numTP, single) :
 		Rcode.write('eset <- rma(Data)\nwrite.exprs(eset, file="Expr_T'+str(i+1)+'.txt")\npData(eset)\ndesign <- model.matrix(~factor(c("'+'","'.join(s1)+'","'+'","'.join(s2)+'")))\ncolnames(design) <- c("C","T")\n')
 		Rcode.write('fit <- lmFit(eset, design)\nfit <- eBayes(fit)\noptions(digits=2)\ntable <- topTable(fit, coef=2, adjust="fdr", n=Inf)\n')
 		
-		Rcode.write('write.table(table, file="../../'+resPath+'/DEG_result.T'+str(i+1)+'.txt", sep="\\t", col.names=TRUE, row.names=TRUE)\n')
+		Rcode.write('write.table(table, file="'+resPath+'/DEG_result.T'+str(i+1)+'.txt", sep="\\t", col.names=TRUE, row.names=TRUE)\n')
 		i+=1
 
 # RNA-seq
@@ -102,7 +102,7 @@ def makeRcode2(dataPath, resPath, gFile, countF, numTP, single, read) :
 		Rcode.write('dds <- DESeqDataSetFromMatrix(countData=countData, colData=colData, design = ~condition)\n')
 		Rcode.write('dds$condition <- relevel(dds$condition, "untreated")\n')
 		Rcode.write('dds <- DESeq(dds)\nres <- results(dds)\n')
-		Rcode.write('write.table(res, file="../../'+resPath+'/DEG_result.T'+str(i+1)+'.txt", sep="\\t", col.names=TRUE, row.names=TRUE)\n')
+		Rcode.write('write.table(res, file="'+resPath+'/DEG_result.T'+str(i+1)+'.txt", sep="\\t", col.names=TRUE, row.names=TRUE)\n')
 		i+=1
 	Rcode.close()
 
