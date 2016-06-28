@@ -7,9 +7,11 @@ TimeTP README
 2) Python modules : Numpy (1.6.2 <=), Scipy (0.15.0 <=), NetworkX
 
 * To run TimeTP,
-1) Make a configuration file in the TimeTP directory
-2) Make a group file, a probe-gene file in the dataset/[your_dataset] directory
-3) Copy your expression files (CEL or raw count) in the dataset/[your_dataset] directory
+1) Make a GRN and PIN file for your species of interest.
+   The path to files should be addressed in the configuration file.
+2) Make a group file, a probe-gene file in the directory where your gene expression files (CEL or read count file) are.
+   The path to data should be addressed in the configuration file.
+3) Make a configuration file in the TimeTP directory.
 4) Run as './TimeTP [name_of_config_file]'
 
 * How to make a configuration file
@@ -17,14 +19,20 @@ Below is the sample configuration file (tab-delimited).
 ------------------------------------------------------------------------
 type	RNA-seq
 readType        single-read
-dataDir 	MyDataset
-outDir  	MyResult
+dataDir 	/Path_to_Your_Dataset_Directory
+outDir  	/Path_to_Your_Result_Directory
+GRNFilePath     /Path_to_GRN_File/File_name
+PINFilePath     /Path_to_PIN_File/File_name
+species		hsa
+downloadFiles	yes
+KEGGGeneFilePath	/Path_to_KEGG_Gene_File/File_name
+KEGGPathFilePath	/Path_to_KEGG_Pathway_File/File_name
+xmlFilePath	/Path_to_xml_File_Directory
 single		0
 countFile    	count.txt
 groupFile	group.txt
 geneConvFile	gene_conv.txt
 numTP   	10
-species 	hsa
 threshold       0.05
 maxDelay        1
 removeT0        1
@@ -33,16 +41,29 @@ k		20
 ------------------------------------------------------------------------
 1) type 	: 'RNA-seq' OR 'Microarray'
 2) readType 	: Only for RNA-seq data. 'single-read' OR 'paired-end'
-3) dataDir 	: Name of the dataset directory that includes your files (CEL or raw count).
-		  The directory should be created inside the 'dataset' directory (see below for directory structure)
-4) outDir	: Name of the output directory that results will be saved.
-5) single	: '0' for Control-Treatment samples and '1' for single time-series samples.
-6) countFile	: Only for RNA-seq data. Name of the raw read count input file.
+3) dataDir 	: Path to the directory that includes your files (CEL or raw count).
+4) outDir	: Path to the output directory that results will be saved.
+5) GRNFilePath	: Path to GRN file. GRN file is a tab-delimited file with TF (first column) and target gene (second column) name.
+		  TF and gene name can be an official gene symbol or Entrez ID.
+6) PINFilePath	: Path to PIN file. PIN file is a tab-delimited file with gene (first column) and gene (second column) name.
+		  Gene name can be an official gene symbol or Entrez ID.
+7) species	: KEGG organism code with three characters. It can be found at http://www.kegg.jp/kegg/catalog/org_list.html
+8) downloadFiles	: yes or no to download relevant files from KEGG, including a KEGG gene name file, a KEGG pathway list file and XML files for each pathway.
+			  If you say 'no', you should provide the file paths in 9), 10) and 11).
+			  If you say 'yes', the files will be downloaded in the /.../TimeTP/[species] folder.
+9) KEGGGeneFilePath	: (Write only when you wrote 'no' in 8)
+			  Path to KEGG-Gene symbol file. You can download it as http://rest.kegg.jp/list/[KEGG_organism_code]
+10) KEGGPathFilePath	: (Write only when you wrote 'no' in 8)
+			  Path to KEGG pathway list file. You can download it as http://rest.kegg.jp/list/pathway/[KEGG_organism_code]
+11) xmlFilePath		: (Write only when you wrote 'no' in 8)
+			  Path to a directory consisting of XML files from each KEGG pathway.
+12) single	: '0' for Control-Treatment samples and '1' for single time-series samples.
+13) countFile	: Only for RNA-seq data. Name of the raw read count input file.
 		  This file should be comma-delimited, with column and row headers.
 		  *** Column headers should be matched with sample names in the groupFile.***
 		  The number of column headers should be same as the number of samples.
 		  *** Row headers should be matched with probe names in the geneConvFile OR should be gene symbols.***
-7) groupFile	: Name of the group file.
+14) groupFile	: Name of the group file.
 		  Group file consists of two columns (tab-delimited).
 		  * First column - group number.
 		  	i) Single time-series samples
@@ -61,29 +82,18 @@ k		20
 		  * Second column - sample names.
 			i) Microarray : same as CEL file names.
 			i) RNA-seq    : same as column headers of countFile. 
-8) geneConvFile	: Name of the gene conversion file.
+15) geneConvFile: Name of the gene conversion file.
 		  Gene conversion file consists of two columns (tab-delimited).
 		  * First column - Probe name
 		  * Second column - Gene symbol (Entrez ID or Official gene symbol)
 		  If row headers in countFile are already gene symbols, geneConvFile can be 'NA'.
-9) numTP	: The number of time points.
-10) species	: Name of the directory that includes additional files for GRN/PPI/Pathway information. 
-		  For Homo Sapiens, GRN/PPI/Pathway information is provided in 'hsa' folder.
-		  For other species, users can provide their own GRN/PPI/Pathway files. (This will be updated for future versions.)
-11) threshold	: Threshold for P-value (Default : 0.05)
-12) maxDelay	: Maximum delay of expression propagation (Default : 1)
+16) numTP	: The number of time points.
+17) threshold	: Threshold for P-value (Default : 0.05)
+18) maxDelay	: Maximum delay of expression propagation (Default : 1)
 		  1 implies TimeTP allows expression propagation across one time point or less.
 		  It depends on whether time interval between time-series samples are short or long.
-13) removeT0	: '1' for removing DEGs found in the first time point and '0' for not removing them.
+19) removeT0	: '1' for removing DEGs found in the first time point and '0' for not removing them.
 		  (Default : 0 for single time-series, 1 for control-treatment)
-14) FDR		: '1' for using FDR corrected P-value for DEG selection and '0' for not using it. (Default : 1)
-15) k		: The maximum number of TFs to find by influence maximization algorithm. (Default: 20)
-
-* Directory structure for TimeTP is as follows :
-/TimeTP 
-  /dataset
-    /MyDataset
-  /result
-    /MyResult
-  /hsa
+20) FDR		: '1' for using FDR corrected P-value for DEG selection and '0' for not using it. (Default : 1)
+21) k		: The maximum number of TFs to find by influence maximization algorithm. (Default: 20)
 

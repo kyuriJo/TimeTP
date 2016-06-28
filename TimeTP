@@ -33,14 +33,29 @@ while read line; do
    eval $var=$param
 done < $CONF_FILE
 
+if [ "$downloadFiles" == "yes" ]; then
+echo "Downloading files from KEGG database"
+mkdir $species
+mkdir $species/xmlFiles
+wget "http://rest.kegg.jp/list/pathway/$species" -O "$species/KEGG_PathwayList.txt"
+wget "http://rest.kegg.jp/list/$species" -O "$species/KEGG_GeneSymbols.txt"
+IFS=$'\n'
+while read line; do
+  var=${line//(*)/.}
+  var=`echo "$var" | awk 'BEGIN{FS="\t"} {print $1}'`
+  var=${var#path:}
+  wget "http://rest.kegg.jp/get/${var}/kgml" -O "$species/xmlFiles/${var}.xml"
+done < $species/KEGG_PathwayList.txt
+fi
+
 echo "1. Running Rscript for DEG detection"
 python runR.py $CONF_FILE 0;
 if [ "$type" == "RNA-seq" ]; then
 echo ".. Deseq2 for RNA-seq dataset"
-Rscript dataset/$dataDir/deseq2.R
+Rscript $dataDir/deseq2.R
 else
 echo ".. Limma for microarray dataset"
-Rscript dataset/$dataDir/limma.R
+Rscript $dataDir/limma.R
 fi
 python runR.py $CONF_FILE 1;
 

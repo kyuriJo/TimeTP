@@ -25,8 +25,8 @@ import os
 
 # Microarray
 def makeRcode(dataPath, resPath, gFile, numTP, single) :
-	groupF= open(dataPath+'/'+gFile, 'r')
-	Rcode = open(dataPath+'/limma.R', 'w')
+	groupF= open(os.path.join(dataPath, gFile), 'r')
+	Rcode = open(os.path.join(dataPath, 'limma.R'), 'w')
 	g = {}
 	for l in groupF.readlines():
 		tp = l.split()
@@ -63,8 +63,8 @@ def makeRcode(dataPath, resPath, gFile, numTP, single) :
 
 # RNA-seq
 def makeRcode2(dataPath, resPath, gFile, countF, numTP, single, read) :
-        groupF= open(dataPath+'/'+gFile, 'r')
-        Rcode = open(dataPath+'/deseq2.R', 'w')
+        groupF= open(os.path.join(dataPath, gFile), 'r')
+        Rcode = open(os.path.join(dataPath, 'deseq2.R'), 'w')
         g = {}
         for l in groupF.readlines():
                 tp = l.split()
@@ -191,9 +191,9 @@ if __name__ == "__main__" :
 	for l in conf.readlines() :
         	tp = l.rstrip().split()
 		if tp[0]=='dataDir' :
-			dataPath = 'dataset/'+tp[1]
+			dataPath = tp[1]
 		elif tp[0]=='outDir' :
-			resPath = 'result/'+tp[1]
+			resPath = tp[1]
 		elif tp[0]=='geneConvFile' :
 			geneF = tp[1]
 		elif tp[0]=='countFile' :

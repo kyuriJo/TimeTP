@@ -47,7 +47,7 @@ def is_number(s):
     except ValueError:
         return False
 
-def genDict(file1, numTP, species) :
+def genDict(file1, KEGGgeneFilePath, numTP) :
 	pfile = open(file1, 'r')
 
 	# Gene ID - Profile
@@ -63,7 +63,7 @@ def genDict(file1, numTP, species) :
 	kgDict = {}
 	gkDict = {}
 	temp = {}
-	keggFile = open(species+'/KEGG_GeneSymbols.txt', 'r')
+	keggFile = open(KEGGgeneFilePath, 'r')
 	
 	nullP = []
 	for i in range(numTP) :
@@ -72,6 +72,7 @@ def genDict(file1, numTP, species) :
 		tp = l.split("\t")
                 tp2 = tp[1].split(";")
                 tp3 = tp2[0].split(", ")
+		species = tp[0].split(':')[0]
 		ent = tp[0].split(':')[1]
 		keggID = tp[0]
 		firstName = ''
@@ -113,7 +114,7 @@ def genDict(file1, numTP, species) :
 				gkDict[g]=l[1]
 				min = l[0]
 	
-	return (keggDict, kgDict, gkDict)
+	return (keggDict, kgDict, gkDict, species)
 
 def poisson_new(k, lamb):
         return (lamb**k/factorial(k)) * np.exp(-lamb)
@@ -159,6 +160,8 @@ def checkPathway(network, entry, keggDict, maxDelay, skip) :
 		e2 = entry[b]
 		for g1 in e1 :
 			for g2 in e2 :
+				if g1 not in keggDict or g2 not in keggDict :
+					continue 
 				if checkProfile(keggDict[g1], keggDict[g2], type, maxDelay) :
 					net_e.add_edge(a, b)
 					net_eg.add_edge(a+'!'+g1, b+'!'+g2)
@@ -280,8 +283,7 @@ def pathwayAnalysis(numTP, networks, entries, DEGs, DEGPval, maxDelay, profile, 
 
 	return pathPval, pathDict, labeled, labeled_path	
 
-def parseXml(species, keggDict) :
-	xmlPath = species+'/KEGG/'	
+def parseXml(xmlPath, keggDict) :
 	networks = {}
 	entries = {}
 	DEGs = {}	# pathName -> [DEGSet, geneSet]
@@ -311,7 +313,7 @@ def parseXml(species, keggDict) :
                                 entrydic[id]=set()
                                 for g in genelist :
 					DEGs[pathName][1].add(g)
-					if np.count_nonzero(keggDict[g])!=0 :
+					if g in keggDict and np.count_nonzero(keggDict[g])!=0 :
 						DEGs[pathName][0].add(g)
                                         entrydic[id].add(g)
 					
@@ -735,8 +737,8 @@ def cytoscapejs(webPath, pathway, pathNo, path, net_eg, knetwork, network, seedS
 	
 	return pathway+'_'+str(pathNo+1)+'.html', TFs
 
-def visualize(resPath, networks, network, pathDict, pathPval, DEGPval, seedSet, numTP, TFpath, threshold, species) :
-	pnameFile = open(species+'/KEGG_PathwayList.txt','r')
+def visualize(resPath, KEGGPathFilePath, networks, network, pathDict, pathPval, DEGPval, seedSet, numTP, TFpath, threshold) :
+	pnameFile = open(KEGGPathFilePath,'r')
 	pnameDic = {}
 	for path in pnameFile.readlines() :
                 tp = path.split("\t")
@@ -745,7 +747,7 @@ def visualize(resPath, networks, network, pathDict, pathPval, DEGPval, seedSet, 
                 pnameDic[tp2[1]]=tp3[0]
         pnameFile.close()
 
-	file1 = open(resPath+'/trap_pvalue.html', 'w')
+	file1 = open(os.path.join(resPath, 'trap_pvalue.html'), 'w')
 	file1.write('<!DOCTYPE html>\n<html>\n<head><link href="style.css" rel="stylesheet" /></head>\n<body>\n<table>\n')
 	file1.write('<tr><th>Pathway</th><th class="name">Pathway name</th><th>DEG p-value</th><th>Path</th><th>Path p-value</th><th>Combined p-value</th><th>Link1</th><th>Link2</th><th>TFs</th></tr>\n')
 	strs = []
@@ -761,7 +763,6 @@ def visualize(resPath, networks, network, pathDict, pathPval, DEGPval, seedSet, 
 		# If there is perturbed path(s)
 		for i in range(len(pathlist)) :
 			st, comPval = scipy.stats.combine_pvalues([DEGPval[pathway], pathPval[pathway][i]])
-			#comPval = pathPval[pathway][i]
 			if i!=0 :
 				s+='<tr>'
 			pstr = "{:5.3f}".format(pathPval[pathway][i])
@@ -899,14 +900,10 @@ if __name__ == "__main__" :
 	conf = open(sys.argv[1],'r')
 	for l in conf.readlines() :
 		tp = l.rstrip().split()
-		if tp[0]=='dataDir' :
-			dataPath = 'dataset/'+tp[1]
-		elif tp[0]=='outDir' :
-			resPath = 'result/'+tp[1]
+		if tp[0]=='outDir' :
+			resPath = tp[1]
 		elif tp[0]=='numTP' :
 			numTP = int(tp[1])
-		elif tp[0]=='species' :
-			species = tp[1]
 		elif tp[0]=='threshold' :
 			threshold = float(tp[1])
 		elif tp[0]=='maxDelay' :
@@ -915,10 +912,24 @@ if __name__ == "__main__" :
 			single = int(tp[1])
 		elif tp[0]=='k' :
 			k = int(tp[1])
+		elif tp[0]=='species' :
+			species = tp[1]
+		elif tp[0]=='downloadFiles' :
+			download = tp[1]
+		elif tp[0]=='KEGGGeneFilePath' :
+			KEGGgeneFilePath = tp[1]
+		elif tp[0]=='KEGGPathFilePath' :
+			KEGGPathFilePath = tp[1]
+		elif tp[0]=='GRNFilePath' :
+			GRNfile = tp[1]
+		elif tp[0]=='PINFilePath' :
+			PPIfile = tp[1]
+		elif tp[0]=='xmlFilePath' :
+			xmlPath = tp[1]
 	if single==1 :
 		numTP-=1
 
-	webPath = resPath+'/webpage'
+	webPath = os.path.join(resPath, 'webpage')
 	if not os.path.exists(resPath) :
 		os.mkdir(resPath) 
 	if not os.path.exists(webPath) :
@@ -928,21 +939,24 @@ if __name__ == "__main__" :
 	
 	pfile = 'DEG_profile.txt'
 	profile = 'DEG'
-
+	if download.upper()=="YES" :
+		KEGGgeneFilePath = os.path.join(species, 'KEGG_GeneSymbols.txt')
+		KEGGPathFilePath = os.path.join(species, 'KEGG_PathwayList.txt')
+		xmlPath = os.path.join(species, 'xmlFiles')		
+ 
 	print ". genDict"
-	(keggDict, kgDict, gkDict) = genDict(resPath+'/'+pfile, numTP, species)
+	(keggDict, kgDict, gkDict, species) = genDict(os.path.join(resPath, pfile), KEGGgeneFilePath, numTP)
+	
 	print ". parseXml"
-	(networks, entries, DEGs) = parseXml(species, keggDict)
+	(networks, entries, DEGs) = parseXml(xmlPath, keggDict)
 
         print ". DEGAnalysis"
         DEGPval = DEGAnalysis(DEGs)
 	print ". pathwayAnalysis"
 	pathPval, pathDict, labeled, labeled_path = pathwayAnalysis(numTP, networks, entries, DEGs, DEGPval, maxDelay, profile, threshold)
 
-	GRNfile = species+'/GRN.txt'
-	PPIfile = species+'/PPI.txt'
 	network = nx.DiGraph()
-	print ". read PPI and GRN"
+	print ". read PIN and GRN"
 	network = readFiles(GRNfile, PPIfile, species, network, labeled, maxDelay)
 
 	# Reweight the matched pair edges
@@ -964,6 +978,6 @@ if __name__ == "__main__" :
 		print gkDict[s]+'\t'+s
 
 	print ". Visualization"
-	visualize(webPath, networks, network, pathDict, pathPval, DEGPval, seedSet, numTP, TFpath, threshold, species)
+	visualize(webPath, KEGGPathFilePath, networks, network, pathDict, pathPval, DEGPval, seedSet, numTP, TFpath, threshold)
 	visualize2(webPath, networks, network, TFpath, labeled, labeled_path, pathDict, pathPval, DEGPval, threshold)
 	makeFiles(webPath)
