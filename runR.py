@@ -98,7 +98,7 @@ def makeRcode2(dataPath, resPath, gFile, countF, numTP, single, read) :
 		Rcode.write('rownames(colData) <- c('+','.join(rows)+') \n')
 		Rcode.write('colnames(colData) <- c("condition", "type")\n')
 		Rcode.write('colData <- data.frame(colData)\n')
-		Rcode.write('countData <- read.csv("'+countF+'", header=TRUE)[, c('+','.join(rows)+')]\n')
+		Rcode.write('countData <- read.csv("'+countF+'", header=TRUE, row.names=1)[, c('+','.join(rows)+')]\n')
 		Rcode.write('dds <- DESeqDataSetFromMatrix(countData=countData, colData=colData, design = ~condition)\n')
 		Rcode.write('dds$condition <- relevel(dds$condition, "untreated")\n')
 		Rcode.write('dds <- DESeq(dds)\nres <- results(dds)\n')

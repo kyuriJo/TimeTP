@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 28, 2015 16:04:48 +0900 (GMT+9) -->
+<!-- Creation date: Oct 30, 2015 10:07:59 +0900 (GMT+9) -->
 <pathway name="path:hsa00250" org="hsa" number="00250"
          title="Alanine, aspartate and glutamate metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00250.png"
@@ -112,7 +112,7 @@
     </entry>
     <entry id="42" name="hsa:2805 hsa:2806" type="gene" reaction="rn:R00355"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2805+hsa:2806">
-        <graphics name="GOT1, ASTQTL1, GIG18, cAspAT, cCAT..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GOT1, AST1, ASTQTL1, GIG18, cAspAT, cCAT..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="608" y="528" width="46" height="17"/>
     </entry>
     <entry id="43" name="hsa:8528" type="gene" reaction="rn:R00359"
@@ -187,7 +187,7 @@
     </entry>
     <entry id="63" name="hsa:790" type="gene" reaction="rn:R01397"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:790">
-        <graphics name="CAD" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CAD, CDG1Z" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="581" y="149" width="46" height="17"/>
     </entry>
     <entry id="65" name="path:hsa00240" type="map"
@@ -205,15 +205,15 @@
         <graphics name="Histidine metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="608" y="401" width="126" height="25"/>
     </entry>
-    <entry id="68" name="path:hsa00460" type="map"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00460">
+    <entry id="68" name="path:map00460" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map00460">
         <graphics name="Cyanoamino acid metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="336" y="105" width="158" height="25"/>
     </entry>
-    <entry id="69" name="path:hsa00330" type="map"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00330">
-        <graphics name="Arginine and proline metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="588" y="108" width="111" height="34"/>
+    <entry id="69" name="path:hsa00220" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00220">
+        <graphics name="Arginine biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="573" y="108" width="82" height="34"/>
     </entry>
     <entry id="70" name="path:hsa00300" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00300">
@@ -327,7 +327,7 @@
     </entry>
     <entry id="101" name="hsa:790" type="gene" reaction="rn:R00575"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:790">
-        <graphics name="CAD" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CAD, CDG1Z" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="848" y="794" width="46" height="17"/>
     </entry>
     <entry id="102" name="cpd:C00169" type="compound"
@@ -348,7 +348,7 @@
     <entry id="109" name="hsa:56954" type="gene" reaction="rn:R00269"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:56954">
         <graphics name="NIT2, HEL-S-8a" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="774" y="588" width="46" height="17"/>
+             type="rectangle" x="778" y="577" width="46" height="17"/>
     </entry>
     <entry id="111" name="cpd:C03912" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C03912">
@@ -362,7 +362,7 @@
     </entry>
     <entry id="114" name="hsa:2673 hsa:9945" type="gene" reaction="rn:R00768"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2673+hsa:9945">
-        <graphics name="GFPT1, CMSTA1, GFA, GFAT, GFAT_1, GFAT1, GFAT1m, GFPT, GFPT1L, MSLG..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GFPT1, CMS12, CMSTA1, GFA, GFAT, GFAT_1, GFAT1, GFAT1m, GFPT, GFPT1L, MSLG..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="897" y="671" width="46" height="17"/>
     </entry>
     <entry id="116" name="hsa:5471" type="gene" reaction="rn:R01072"
@@ -398,7 +398,7 @@
     <entry id="122" name="path:hsa00330" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00330">
         <graphics name="Arginine and proline metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="849" y="937" width="173" height="25"/>
+             type="roundrectangle" x="809" y="936" width="173" height="25"/>
     </entry>
     <entry id="123" name="path:hsa00340" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00340">
@@ -425,8 +425,8 @@
         <graphics name="Porphyrin and chlorophyll metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="525" y="861" width="131" height="25"/>
     </entry>
-    <entry id="128" name="path:hsa00460" type="map"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00460">
+    <entry id="128" name="path:map00460" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map00460">
         <graphics name="Cyanoamino acid metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="512" y="889" width="156" height="25"/>
     </entry>
@@ -503,7 +503,7 @@
     <entry id="149" name="hsa:57494" type="gene" reaction="rn:R10677"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:57494">
         <graphics name="RIMKLB, FAM80B, NAAGS, NAAGS-I" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="824" y="558" width="46" height="17"/>
+             type="rectangle" x="831" y="558" width="46" height="17"/>
     </entry>
     <entry id="150" name="cpd:C20775" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C20775">
@@ -524,6 +524,16 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?map00261">
         <graphics name="Monobactam biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="345" y="189" width="141" height="25"/>
+    </entry>
+    <entry id="154" name="path:hsa00220" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00220">
+        <graphics name="Arginine biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="850" y="888" width="124" height="25"/>
+    </entry>
+    <entry id="155" name="ko:K08590" type="ortholog" reaction="rn:R00269"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K08590">
+        <graphics name="K08590" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="778" y="598" width="46" height="17"/>
     </entry>
     <relation entry1="60" entry2="56" type="maplink">
         <subtype name="compound" value="20"/>
@@ -1271,6 +1281,96 @@
     </relation>
     <relation entry1="151" entry2="146" type="ECrel">
         <subtype name="compound" value="139"/>
+    </relation>
+    <relation entry1="101" entry2="154" type="maplink">
+        <subtype name="compound" value="102"/>
+    </relation>
+    <relation entry1="121" entry2="154" type="maplink">
+        <subtype name="compound" value="102"/>
+    </relation>
+    <relation entry1="122" entry2="152" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="130" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="129" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="128" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="127" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="126" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="125" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="124" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="123" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="112" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="96" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="93" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="84" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="122" entry2="90" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="130" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="129" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="128" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="127" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="126" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="125" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="124" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="123" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="112" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="96" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="93" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="84" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="152" entry2="90" type="maplink">
+        <subtype name="compound" value="79"/>
+    </relation>
+    <relation entry1="104" entry2="154" type="maplink">
+        <subtype name="compound" value="102"/>
     </relation>
     <reaction id="136" name="rn:R00488" type="irreversible">
         <substrate id="25" name="cpd:C01042"/>

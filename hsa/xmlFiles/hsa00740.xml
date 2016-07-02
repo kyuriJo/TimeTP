@@ -122,7 +122,7 @@
     </entry>
     <entry id="44" name="hsa:80308" type="gene" reaction="rn:R00161"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:80308">
-        <graphics name="FLAD1, FAD1, FADS" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="FLAD1, FAD1, FADS, PP591" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="784" y="305" width="46" height="17"/>
     </entry>
     <entry id="45" name="ko:K18453" type="ortholog" reaction="rn:R00160"
@@ -259,6 +259,11 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?K05368">
         <graphics name="K05368" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="613" y="365" width="46" height="17"/>
+    </entry>
+    <entry id="81" name="ko:K20146" type="ortholog" reaction="rn:R05705"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K20146">
+        <graphics name="K20146" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="749" y="365" width="46" height="17"/>
     </entry>
     <relation entry1="46" entry2="44" type="ECrel">
         <subtype name="compound" value="54"/>

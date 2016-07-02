@@ -175,24 +175,24 @@
         <graphics name="ADRB1, ADRB1R, B1AR, BETA1AR, RHR" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="851" y="209" width="46" height="17"/>
     </entry>
-    <entry id="35" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="35" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="851" y="136" width="46" height="17"/>
     </entry>
     <entry id="36" name="hsa:2778" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2778">
-        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, PHP1A, PHP1B, PHP1C, POH" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, POH, SCG6, SgVI" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="851" y="245" width="46" height="17"/>
     </entry>
     <entry id="37" name="hsa:107 hsa:108 hsa:109 hsa:111 hsa:112 hsa:113 hsa:114 hsa:115 hsa:196883" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:107+hsa:108+hsa:109+hsa:111+hsa:112+hsa:113+hsa:114+hsa:115+hsa:196883">
-        <graphics name="ADCY1, AC1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADCY1, AC1, DFNB44..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="799" y="268" width="46" height="17"/>
     </entry>
-    <entry id="38" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="38" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="740" y="309" width="46" height="17"/>
     </entry>
     <entry id="39" name="cpd:C00575" type="compound"
@@ -281,6 +281,9 @@
         <component id="8"/>
         <component id="9"/>
     </entry>
+    <relation entry1="35" entry2="34" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
     <relation entry1="34" entry2="36" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
     </relation>

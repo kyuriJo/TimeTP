@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jul 3, 2014 09:56:10 +0900 (GMT+09:00) -->
+<!-- Creation date: Apr 15, 2016 09:40:44 +0900 (GMT+9) -->
 <pathway name="path:hsa00400" org="hsa" number="00400"
          title="Phenylalanine, tyrosine and tryptophan biosynthesis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00400.png"
@@ -33,7 +33,7 @@
     <entry id="36" name="path:map00901" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?map00901">
         <graphics name="Indole alkaloid biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="116" y="490" width="91" height="34"/>
+             type="roundrectangle" x="80" y="490" width="91" height="34"/>
     </entry>
     <entry id="37" name="path:map00402" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?map00402">
@@ -68,7 +68,7 @@
     <entry id="43" name="path:hsa00380" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00380">
         <graphics name="Tryptophan metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="78" y="452" width="76" height="34"/>
+             type="roundrectangle" x="72" y="452" width="76" height="34"/>
     </entry>
     <entry id="44" name="path:hsa00360" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00360">
@@ -262,12 +262,12 @@
     </entry>
     <entry id="82" name="hsa:2805 hsa:2806" type="gene" reaction="rn:R00694"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2805+hsa:2806">
-        <graphics name="GOT1, ASTQTL1, GIG18, cAspAT, cCAT..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GOT1, AST1, ASTQTL1, GIG18, cAspAT, cCAT..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="305" y="715" width="46" height="17"/>
     </entry>
     <entry id="83" name="hsa:2805 hsa:2806" type="gene" reaction="rn:R00734"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2805+hsa:2806">
-        <graphics name="GOT1, ASTQTL1, GIG18, cAspAT, cCAT..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GOT1, AST1, ASTQTL1, GIG18, cAspAT, cCAT..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="499" y="715" width="46" height="17"/>
     </entry>
     <entry id="84" name="ko:K05358" type="ortholog" reaction="rn:R01873"
@@ -560,6 +560,11 @@
         <graphics name="Indole diterpene alkaloid biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="326" y="360" width="109" height="34"/>
     </entry>
+    <entry id="154" name="path:map00404" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map00404">
+        <graphics name="Staurosporine biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="114" y="528" width="81" height="34"/>
+    </entry>
     <relation entry1="62" entry2="71" type="ECrel">
         <subtype name="compound" value="101"/>
     </relation>
@@ -784,6 +789,12 @@
     </relation>
     <relation entry1="153" entry2="37" type="maplink">
         <subtype name="compound" value="106"/>
+    </relation>
+    <relation entry1="43" entry2="154" type="maplink">
+        <subtype name="compound" value="108"/>
+    </relation>
+    <relation entry1="36" entry2="154" type="maplink">
+        <subtype name="compound" value="108"/>
     </relation>
     <reaction id="61" name="rn:R00694" type="reversible">
         <substrate id="113" name="cpd:C00166"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Feb 28, 2014 15:36:55 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:15:07 +0900 (GMT+9) -->
 <pathway name="path:hsa04750" org="hsa" number="04750"
          title="Inflammatory mediator regulation of TRP channels"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04750.png"
@@ -17,7 +17,7 @@
     </entry>
     <entry id="3" name="hsa:623 hsa:624" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:623+hsa:624">
-        <graphics name="BDKRB1, B1BKR, B1R, BKB1R, BKR1, BRADYB1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="BDKRB1, B1BKR, B1R, BDKRB2, BKB1R, BKR1, BRADYB1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="238" width="46" height="17"/>
     </entry>
     <entry id="4" name="hsa:3356 hsa:3357 hsa:3358" type="gene"
@@ -27,7 +27,7 @@
     </entry>
     <entry id="5" name="hsa:3269" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3269">
-        <graphics name="HRH1, H1-R, hisH1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HRH1, H1-R, H1R, HH1R, hisH1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="313" width="46" height="17"/>
     </entry>
     <entry id="6" name="hsa:5732 hsa:5734" type="gene"
@@ -87,12 +87,12 @@
     </entry>
     <entry id="17" name="hsa:2778" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2778">
-        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, PHP1A, PHP1B, PHP1C, POH" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, POH, SCG6, SgVI" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="947" y="230" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:107 hsa:108 hsa:109 hsa:111 hsa:112 hsa:113 hsa:114 hsa:115 hsa:196883" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:107+hsa:108+hsa:109+hsa:111+hsa:112+hsa:113+hsa:114+hsa:115+hsa:196883">
-        <graphics name="ADCY1, AC1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADCY1, AC1, DFNB44..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="947" y="278" width="46" height="17"/>
     </entry>
     <entry id="19" name="hsa:5581" type="gene"
@@ -100,9 +100,9 @@
         <graphics name="PRKCE, PKCE, nPKC-epsilon" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="605" y="388" width="46" height="17"/>
     </entry>
-    <entry id="20" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="20" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="950" y="347" width="46" height="17"/>
     </entry>
     <entry id="21" name="hsa:815 hsa:816 hsa:817 hsa:818" type="gene"
@@ -132,7 +132,7 @@
     </entry>
     <entry id="26" name="hsa:5580" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5580">
-        <graphics name="PRKCD, CVID9, MAY1, PKCD, nPKC-delta" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PRKCD, ALPS3, CVID9, MAY1, PKCD, nPKC-delta" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="487" y="828" width="46" height="17"/>
     </entry>
     <entry id="27" name="hsa:6714" type="gene"
@@ -257,7 +257,7 @@
     </entry>
     <entry id="51" name="hsa:59341" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:59341">
-        <graphics name="TRPV4, CMT2C, HMSN2C, OTRPC4, SMAL, SPSMA, SSQTL1, TRP12, VRL2, VROAC" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TRPV4, BCYM3, CMT2C, HMSN2C, OTRPC4, SMAL, SPSMA, SSQTL1, TRP12, VRL2, VROAC" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1068" y="178" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:79054" type="gene"
@@ -297,12 +297,12 @@
     </entry>
     <entry id="60" name="hsa:162514" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:162514">
-        <graphics name="TRPV3, OLMS, VRL3" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TRPV3, FNEPPK2, OLMS, VRL3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1011" y="774" width="46" height="17"/>
     </entry>
     <entry id="61" name="hsa:59341" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:59341">
-        <graphics name="TRPV4, CMT2C, HMSN2C, OTRPC4, SMAL, SPSMA, SSQTL1, TRP12, VRL2, VROAC" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TRPV4, BCYM3, CMT2C, HMSN2C, OTRPC4, SMAL, SPSMA, SSQTL1, TRP12, VRL2, VROAC" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1341" y="563" width="46" height="17"/>
     </entry>
     <entry id="62" name="hsa:79054" type="gene"

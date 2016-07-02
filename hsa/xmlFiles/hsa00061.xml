@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 19, 2014 16:25:18 +0900 (GMT+09:00) -->
+<!-- Creation date: Aug 13, 2015 14:15:00 +0900 (GMT+9) -->
 <pathway name="path:hsa00061" org="hsa" number="00061"
          title="Fatty acid biosynthesis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00061.png"
@@ -1622,18 +1622,18 @@
         <product id="37" name="cpd:C06423"/>
     </reaction>
     <reaction id="53" name="rn:R07762" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="185" name="cpd:C05764"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="28" name="cpd:C16219"/>
     </reaction>
     <reaction id="58" name="rn:R04968" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="183" name="cpd:C05761"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="188" name="cpd:C05762"/>
     </reaction>
     <reaction id="59" name="rn:R04726" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="176" name="cpd:C05223"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="180" name="cpd:C05759"/>
     </reaction>
     <reaction id="60" name="rn:R04963" type="irreversible">
@@ -1647,8 +1647,8 @@
         <product id="172" name="cpd:C05753"/>
     </reaction>
     <reaction id="62" name="rn:R04957" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="167" name="cpd:C05749"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="171" name="cpd:C05750"/>
     </reaction>
     <reaction id="63" name="rn:R04952" type="irreversible">
@@ -1673,8 +1673,8 @@
         <product id="187" name="cpd:C04633"/>
     </reaction>
     <reaction id="80" name="rn:R04968" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="183" name="cpd:C05761"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="188" name="cpd:C05762"/>
     </reaction>
     <reaction id="83" name="rn:R04967" type="reversible">
@@ -1690,8 +1690,8 @@
         <product id="181" name="cpd:C04688"/>
     </reaction>
     <reaction id="91" name="rn:R04726" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="176" name="cpd:C05223"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="180" name="cpd:C05759"/>
     </reaction>
     <reaction id="94" name="rn:R04725" type="reversible">
@@ -1741,8 +1741,8 @@
         <product id="170" name="cpd:C04620"/>
     </reaction>
     <reaction id="124" name="rn:R04957" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="167" name="cpd:C05749"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="171" name="cpd:C05750"/>
     </reaction>
     <reaction id="127" name="rn:R04956" type="reversible">
@@ -1775,8 +1775,8 @@
         <product id="159" name="cpd:C05744"/>
     </reaction>
     <reaction id="146" name="rn:R04355" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="158" name="cpd:C03939"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="159" name="cpd:C05744"/>
     </reaction>
     <reaction id="147" name="rn:R01626" type="reversible">
@@ -1788,8 +1788,8 @@
         <product id="157" name="cpd:C01209"/>
     </reaction>
     <reaction id="152" name="rn:R01624" type="irreversible">
-        <substrate id="163" name="cpd:C00229"/>
         <substrate id="155" name="cpd:C00024"/>
+        <substrate id="163" name="cpd:C00229"/>
         <product id="158" name="cpd:C03939"/>
     </reaction>
     <reaction id="153" name="rn:R00742" type="reversible">
@@ -1797,8 +1797,8 @@
         <product id="156" name="cpd:C00083"/>
     </reaction>
     <reaction id="259" name="rn:R04355" type="irreversible">
-        <substrate id="157" name="cpd:C01209"/>
         <substrate id="158" name="cpd:C03939"/>
+        <substrate id="157" name="cpd:C01209"/>
         <product id="159" name="cpd:C05744"/>
     </reaction>
     <reaction id="300" name="rn:R01280" type="irreversible">

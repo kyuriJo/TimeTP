@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 29, 2013 17:48:33 +0900 (GMT+09:00) -->
+<!-- Creation date: Nov 26, 2015 09:36:41 +0900 (GMT+9) -->
 <pathway name="path:hsa05146" org="hsa" number="05146"
          title="Amoebiasis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05146.png"
@@ -95,9 +95,9 @@
         <graphics name="TLR2, CD282, TIL4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="902" y="513" width="46" height="17"/>
     </entry>
-    <entry id="19" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="19" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="656" y="397" width="46" height="17"/>
     </entry>
     <entry id="20" name="path:hsa04672" type="map"
@@ -225,9 +225,9 @@
         <graphics name="K08570" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="752" y="1238" width="46" height="17"/>
     </entry>
-    <entry id="46" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="46" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="896" y="1255" width="46" height="17"/>
     </entry>
     <entry id="47" name="hsa:731 hsa:732 hsa:733" type="gene"
@@ -267,7 +267,7 @@
     </entry>
     <entry id="55" name="hsa:107" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:107">
-        <graphics name="ADCY1, AC1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADCY1, AC1, DFNB44" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="193" y="284" width="46" height="17"/>
     </entry>
     <entry id="56" name="hsa:23236 hsa:5330 hsa:5331 hsa:5332" type="gene"
@@ -290,9 +290,9 @@
         <graphics name="C00076" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="138" y="352" width="8" height="8"/>
     </entry>
-    <entry id="60" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="60" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="193" y="357" width="46" height="17"/>
     </entry>
     <entry id="61" name="ko:K13974" type="ortholog"
@@ -315,9 +315,9 @@
         <graphics name="Arachidonic acid metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="749" y="1024" width="92" height="34"/>
     </entry>
-    <entry id="65" name="hsa:1277 hsa:1278 hsa:1280 hsa:1281 hsa:1282 hsa:1284 hsa:1285 hsa:1286 hsa:1287 hsa:1288 hsa:1289 hsa:1290 hsa:1301 hsa:1302 hsa:255631 hsa:50509 hsa:85301" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1277+hsa:1278+hsa:1280+hsa:1281+hsa:1282+hsa:1284+hsa:1285+hsa:1286+hsa:1287+hsa:1288+hsa:1289+hsa:1290+hsa:1301+hsa:1302+hsa:255631+hsa:50509+hsa:85301">
-        <graphics name="COL1A1, OI4..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="65" name="hsa:1277 hsa:1278 hsa:1282 hsa:1284 hsa:1285 hsa:1286 hsa:1287 hsa:1288" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1277+hsa:1278+hsa:1282+hsa:1284+hsa:1285+hsa:1286+hsa:1287+hsa:1288">
+        <graphics name="COL1A1, EDSC, OI1, OI2, OI3, OI4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="397" y="269" width="46" height="17"/>
     </entry>
     <entry id="68" name="cpd:C02737" type="compound"
@@ -345,9 +345,9 @@
         <graphics name="FN1, CIG, ED-B, FINC, FN, FNZ, GFND, GFND2, LETS, MSF" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="634" y="623" width="46" height="17"/>
     </entry>
-    <entry id="73" name="hsa:1277 hsa:1278 hsa:1280 hsa:1281 hsa:1282 hsa:1284 hsa:1285 hsa:1286 hsa:1287 hsa:1288 hsa:1289 hsa:1290 hsa:1301 hsa:1302 hsa:255631 hsa:50509 hsa:85301" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1277+hsa:1278+hsa:1280+hsa:1281+hsa:1282+hsa:1284+hsa:1285+hsa:1286+hsa:1287+hsa:1288+hsa:1289+hsa:1290+hsa:1301+hsa:1302+hsa:255631+hsa:50509+hsa:85301">
-        <graphics name="COL1A1, OI4..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="73" name="hsa:1277 hsa:1278 hsa:1281 hsa:1282 hsa:1284 hsa:1285 hsa:1286 hsa:1287 hsa:1288" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1277+hsa:1278+hsa:1281+hsa:1282+hsa:1284+hsa:1285+hsa:1286+hsa:1287+hsa:1288">
+        <graphics name="COL1A1, EDSC, OI1, OI2, OI3, OI4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="683" y="623" width="46" height="17"/>
     </entry>
     <entry id="74" name="hsa:5747" type="gene"
@@ -380,8 +380,8 @@
         <graphics name="CTSG, CATG, CG" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1409" y="954" width="46" height="17"/>
     </entry>
-    <entry id="81" name="hsa:1992 hsa:5055 hsa:5269 hsa:5272 hsa:5273 hsa:5275 hsa:6317 hsa:6318" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1992+hsa:5055+hsa:5269+hsa:5272+hsa:5273+hsa:5275+hsa:6317+hsa:6318">
+    <entry id="81" name="hsa:1992 hsa:5269 hsa:5272 hsa:5273 hsa:5275 hsa:6317 hsa:6318" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1992+hsa:5269+hsa:5272+hsa:5273+hsa:5275+hsa:6317+hsa:6318">
         <graphics name="SERPINB1, EI, ELANH2, HEL57, LEI, M/NEI, MNEI, PI-2, PI2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="821" y="954" width="46" height="17"/>
     </entry>

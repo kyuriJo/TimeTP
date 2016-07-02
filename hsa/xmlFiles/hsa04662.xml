@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jul 10, 2013 17:39:45 +0900 (GMT+09:00) -->
+<!-- Creation date: Feb 12, 2016 16:44:52 +0900 (GMT+9) -->
 <pathway name="path:hsa04662" org="hsa" number="04662"
          title="B cell receptor signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04662.png"
@@ -42,7 +42,7 @@
     </entry>
     <entry id="8" name="hsa:8517" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8517">
-        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IMD33, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="650" y="582" width="46" height="17"/>
     </entry>
     <entry id="9" name="hsa:1147" type="gene"
@@ -62,7 +62,7 @@
     </entry>
     <entry id="12" name="hsa:8915" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8915">
-        <graphics name="BCL10, CARMEN, CIPER, CLAP, c-E10, mE10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="BCL10, CARMEN, CIPER, CLAP, IMD37, c-E10, mE10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="553" y="554" width="46" height="17"/>
     </entry>
     <entry id="13" name="hsa:84433" type="gene"
@@ -72,7 +72,7 @@
     </entry>
     <entry id="14" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="472" y="620" width="46" height="17"/>
     </entry>
     <entry id="15" name="hsa:5579" type="gene"
@@ -137,7 +137,7 @@
     </entry>
     <entry id="27" name="hsa:4772 hsa:4773 hsa:4775" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4772+hsa:4773+hsa:4775">
-        <graphics name="NFATC1, NF-ATC, NFAT2, NFATc..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NFATC1, NF-ATC, NF-ATc1.2, NFAT2, NFATc..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="787" y="378" width="46" height="17"/>
     </entry>
     <entry id="28" name="hsa:5530 hsa:5532 hsa:5533 hsa:5534 hsa:5535" type="gene"
@@ -147,7 +147,7 @@
     </entry>
     <entry id="29" name="hsa:5879 hsa:5880 hsa:5881" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5879+hsa:5880+hsa:5881">
-        <graphics name="RAC1, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAC1, MIG5, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="591" y="324" width="46" height="17"/>
     </entry>
     <entry id="30" name="hsa:10451 hsa:7409 hsa:7410" type="gene"
@@ -185,9 +185,9 @@
         <graphics name="CD79A, IGA, MB-1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="161" y="279" width="46" height="17"/>
     </entry>
-    <entry id="37" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="37" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="161" y="259" width="46" height="17"/>
     </entry>
     <entry id="38" name="hsa:6850" type="gene"
@@ -247,7 +247,7 @@
     </entry>
     <entry id="49" name="hsa:5894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5894">
-        <graphics name="RAF1, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="639" y="475" width="46" height="17"/>
     </entry>
     <entry id="50" name="hsa:6654 hsa:6655" type="gene"
@@ -324,6 +324,9 @@
     </relation>
     <relation entry1="22" entry2="23" type="PPrel">
         <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="37" entry2="34" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
     </relation>
     <relation entry1="34" entry2="36" type="PPrel">
         <subtype name="phosphorylation" value="+p"/>

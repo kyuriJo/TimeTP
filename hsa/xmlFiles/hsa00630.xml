@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jun 2, 2015 17:34:15 +0900 (GMT+9) -->
+<!-- Creation date: Sep 10, 2015 16:58:51 +0900 (GMT+9) -->
 <pathway name="path:hsa00630" org="hsa" number="00630"
          title="Glyoxylate and dicarboxylate metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00630.png"
@@ -934,8 +934,8 @@
     <reaction id="213" name="rn:R00588" type="irreversible">
         <substrate id="159" name="cpd:C00048"/>
         <substrate id="214" name="cpd:C00065"/>
-        <product id="209" name="cpd:C00037"/>
         <product id="155" name="cpd:C00168"/>
+        <product id="209" name="cpd:C00037"/>
     </reaction>
     <reaction id="215" name="rn:R00945" type="irreversible">
         <substrate id="209" name="cpd:C00037"/>

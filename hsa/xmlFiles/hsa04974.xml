@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Nov 29, 2012 10:38:47 +0900 (GMT+09:00) -->
+<!-- Creation date: Nov 26, 2015 09:19:45 +0900 (GMT+9) -->
 <pathway name="path:hsa04974" org="hsa" number="04974"
          title="Protein digestion and absorption"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04974.png"
@@ -17,7 +17,7 @@
     </entry>
     <entry id="3" name="hsa:6505" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6505">
-        <graphics name="SLC1A1, EAAC1, EAAT3, SCZD18" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC1A1, DCBXA, EAAC1, EAAT3, SCZD18" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="534" y="511" width="46" height="17"/>
     </entry>
     <entry id="4" name="hsa:11136" type="gene"
@@ -280,9 +280,9 @@
         <graphics name="ELN, SVAS, WBS, WS" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="134" y="591" width="46" height="17"/>
     </entry>
-    <entry id="56" name="hsa:1277 hsa:1278 hsa:1280 hsa:1281 hsa:1282 hsa:1284 hsa:1285 hsa:1286 hsa:1287 hsa:1288 hsa:1289 hsa:1290 hsa:1291 hsa:1292 hsa:1293 hsa:1294 hsa:1297 hsa:1298 hsa:1299 hsa:1301 hsa:1302 hsa:1303 hsa:1305 hsa:1306 hsa:1308 hsa:131873 hsa:169044 hsa:255631 hsa:256076 hsa:50509 hsa:7373 hsa:80781 hsa:81578 hsa:85301" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1277+hsa:1278+hsa:1280+hsa:1281+hsa:1282+hsa:1284+hsa:1285+hsa:1286+hsa:1287+hsa:1288+hsa:1289+hsa:1290+hsa:1291+hsa:1292+hsa:1293+hsa:1294+hsa:1297+hsa:1298+hsa:1299+hsa:1301+hsa:1302+hsa:1303+hsa:1305+hsa:1306+hsa:1308+hsa:131873+hsa:169044+hsa:255631+hsa:256076+hsa:50509+hsa:7373+hsa:80781+hsa:81578+hsa:85301">
-        <graphics name="COL1A1, OI4..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="56" name="hsa:1277 hsa:1278 hsa:1280 hsa:1281 hsa:1282 hsa:1284 hsa:1285 hsa:1286 hsa:1287 hsa:1288 hsa:1289 hsa:1290 hsa:1291 hsa:1292 hsa:1293 hsa:1294 hsa:1297 hsa:1298 hsa:1299 hsa:1300 hsa:1301 hsa:1302 hsa:1303 hsa:1305 hsa:1306 hsa:1308 hsa:131873 hsa:169044 hsa:255631 hsa:256076 hsa:50509 hsa:7373 hsa:80781 hsa:81578 hsa:85301" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1277+hsa:1278+hsa:1280+hsa:1281+hsa:1282+hsa:1284+hsa:1285+hsa:1286+hsa:1287+hsa:1288+hsa:1289+hsa:1290+hsa:1291+hsa:1292+hsa:1293+hsa:1294+hsa:1297+hsa:1298+hsa:1299+hsa:1300+hsa:1301+hsa:1302+hsa:1303+hsa:1305+hsa:1306+hsa:1308+hsa:131873+hsa:169044+hsa:255631+hsa:256076+hsa:50509+hsa:7373+hsa:80781+hsa:81578+hsa:85301">
+        <graphics name="COL1A1, EDSC, OI1, OI2, OI3, OI4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="134" y="615" width="46" height="17"/>
     </entry>
     <entry id="57" name="cpd:C00246" type="compound"

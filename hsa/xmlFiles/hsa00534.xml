@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 8, 2013 14:49:36 +0900 (GMT+09:00) -->
+<!-- Creation date: Mar 3, 2016 11:32:01 +0900 (GMT+9) -->
 <pathway name="path:hsa00534" org="hsa" number="00534"
          title="Glycosaminoglycan biosynthesis - heparan sulfate / heparin"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00534.png"
@@ -52,7 +52,7 @@
     </entry>
     <entry id="12" name="hsa:3340 hsa:64579 hsa:8509 hsa:9348" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3340+hsa:64579+hsa:8509+hsa:9348">
-        <graphics name="NDST1, HSST, NST1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NDST1, HSST, MRT46, NST1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="379" y="462" width="46" height="17"/>
     </entry>
     <entry id="13" name="hsa:9956" type="gene"
@@ -77,7 +77,7 @@
     </entry>
     <entry id="18" name="hsa:9953 hsa:9955" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:9953+hsa:9955">
-        <graphics name="HS3ST3B1, 30ST3B1, 3OST3B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HS3ST3B1, 3-OST-3B, 3OST3B1, h3-OST-3B..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="786" y="941" width="46" height="17"/>
     </entry>
     <entry id="19" name="hsa:9956" type="gene"
@@ -207,7 +207,7 @@
     </entry>
     <entry id="52" name="hsa:3340 hsa:64579 hsa:8509 hsa:9348" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3340+hsa:64579+hsa:8509+hsa:9348">
-        <graphics name="NDST1, HSST, NST1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NDST1, HSST, MRT46, NST1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1312" y="640" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:222537" type="gene"
@@ -217,12 +217,12 @@
     </entry>
     <entry id="54" name="hsa:9953 hsa:9955" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:9953+hsa:9955">
-        <graphics name="HS3ST3B1, 30ST3B1, 3OST3B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HS3ST3B1, 3-OST-3B, 3OST3B1, h3-OST-3B..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="989" y="941" width="46" height="17"/>
     </entry>
     <entry id="55" name="hsa:9953 hsa:9955" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:9953+hsa:9955">
-        <graphics name="HS3ST3B1, 30ST3B1, 3OST3B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HS3ST3B1, 3-OST-3B, 3OST3B1, h3-OST-3B..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1130" y="942" width="46" height="17"/>
     </entry>
     <reaction id="7" name="rn:R05930" type="irreversible">

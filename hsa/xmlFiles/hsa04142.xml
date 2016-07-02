@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 20, 2015 11:56:30 +0900 (GMT+9) -->
+<!-- Creation date: Jun 19, 2015 11:24:10 +0900 (GMT+9) -->
 <pathway name="path:hsa04142" org="hsa" number="04142"
          title="Lysosome"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04142.png"
@@ -414,5 +414,10 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?C00275">
         <graphics name="C00275" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="939" y="782" width="8" height="8"/>
+    </entry>
+    <entry id="83" name="hsa:9516" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:9516">
+        <graphics name="LITAF, PIG7, SIMPLE, TP53I7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1127" y="575" width="46" height="17"/>
     </entry>
 </pathway>

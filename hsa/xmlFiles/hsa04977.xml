@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Apr 7, 2011 09:40:41 +0900 (GMT+09:00) -->
+<!-- Creation date: Jul 30, 2015 10:07:03 +0900 (GMT+9) -->
 <pathway name="path:hsa04977" org="hsa" number="04977"
          title="Vitamin digestion and absorption"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04977.png"
@@ -460,9 +460,9 @@
         <graphics name="C00681" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="83" y="722" width="8" height="8"/>
     </entry>
-    <entry id="92" name="cpd:C01885" type="compound"
-        link="http://www.kegg.jp/dbget-bin/www_bget?C01885">
-        <graphics name="C01885" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="92" name="cpd:C02112 cpd:C01885" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C02112+C01885">
+        <graphics name="C02112..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="69" y="686" width="8" height="8"/>
     </entry>
     <entry id="93" name="cpd:C00473 cpd:C02094 cpd:C05443 cpd:C02477 cpd:C02059 cpd:C00828 cpd:C05377" type="compound"

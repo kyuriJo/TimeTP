@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 2, 2013 14:37:58 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 09:50:01 +0900 (GMT+9) -->
 <pathway name="path:hsa04370" org="hsa" number="04370"
          title="VEGF signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04370.png"
@@ -97,7 +97,7 @@
     </entry>
     <entry id="19" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="373" y="498" width="46" height="17"/>
     </entry>
     <entry id="20" name="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503" type="gene"
@@ -172,7 +172,7 @@
     </entry>
     <entry id="34" name="hsa:5894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5894">
-        <graphics name="RAF1, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="653" y="109" width="46" height="17"/>
     </entry>
     <entry id="35" name="hsa:3265 hsa:3845 hsa:4893" type="gene"
@@ -197,7 +197,7 @@
     </entry>
     <entry id="39" name="hsa:5879 hsa:5880 hsa:5881" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5879+hsa:5880+hsa:5881">
-        <graphics name="RAC1, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAC1, MIG5, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="554" y="420" width="46" height="17"/>
     </entry>
     <entry id="40" name="path:hsa04151" type="map"

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Feb 21, 2014 15:28:01 +0900 (GMT+09:00) -->
+<!-- Creation date: Aug 14, 2015 09:29:38 +0900 (GMT+9) -->
 <pathway name="path:hsa04920" org="hsa" number="04920"
          title="Adipocytokine signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04920.png"
@@ -42,7 +42,7 @@
     </entry>
     <entry id="8" name="hsa:126129 hsa:1374 hsa:1375" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:126129+hsa:1374+hsa:1375">
-        <graphics name="CPT1C, CATL1, CPT1-B, CPT1P, CPTI-B, CPTIC..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CPT1C, CATL1, CPT1-B, CPT1P, CPTI-B, CPTIC, SPG73..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="711" y="811" width="46" height="17"/>
     </entry>
     <entry id="9" name="hsa:2538 hsa:57818 hsa:92579" type="gene"
@@ -112,7 +112,7 @@
     </entry>
     <entry id="22" name="hsa:51094 hsa:79602" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51094+hsa:79602">
-        <graphics name="ADIPOR1, ACDCR1, CGI45, PAQR1, TESBP1A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADIPOR1, ACDCR1, CGI-45, CGI45, PAQR1, TESBP1A..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="142" y="811" width="46" height="17"/>
     </entry>
     <entry id="23" name="hsa:5588" type="gene"
@@ -142,7 +142,7 @@
     </entry>
     <entry id="28" name="hsa:6513 hsa:6517" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6513+hsa:6517">
-        <graphics name="SLC2A1, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT1, GLUT1DS, HTLVR, PED..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC2A1, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED, CSE..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="845" width="46" height="17"/>
     </entry>
     <entry id="29" name="hsa:1147 hsa:3551 hsa:8517" type="gene"
@@ -162,7 +162,7 @@
     </entry>
     <entry id="32" name="hsa:6774" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6774">
-        <graphics name="STAT3, APRF, HIES" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="STAT3, ADMIO, APRF, HIES" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="308" y="482" width="46" height="17"/>
     </entry>
     <entry id="33" name="hsa:5599 hsa:5601 hsa:5602" type="gene"
@@ -172,7 +172,7 @@
     </entry>
     <entry id="34" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="557" y="247" width="46" height="17"/>
     </entry>
     <entry id="35" name="hsa:2475" type="gene"

@@ -30,8 +30,8 @@
         <graphics name="Glutamate metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="99" y="268" width="74" height="34"/>
     </entry>
-    <entry id="17" name="path:hsa00460" type="map"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00460">
+    <entry id="17" name="path:map00460" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map00460">
         <graphics name="Cyanoamino acid metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="103" y="133" width="101" height="34"/>
     </entry>

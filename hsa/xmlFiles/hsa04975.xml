@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 31, 2011 12:01:34 +0900 (GMT+09:00) -->
+<!-- Creation date: Jul 30, 2015 10:09:43 +0900 (GMT+9) -->
 <pathway name="path:hsa04975" org="hsa" number="04975"
          title="Fat digestion and absorption"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04975.png"
@@ -85,9 +85,9 @@
         <graphics name="C00187" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="172" y="396" width="8" height="8"/>
     </entry>
-    <entry id="17" name="cpd:C01885" type="compound"
-        link="http://www.kegg.jp/dbget-bin/www_bget?C01885">
-        <graphics name="C01885" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="17" name="cpd:C02112 cpd:C01885" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C02112+C01885">
+        <graphics name="C02112..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="407" y="382" width="8" height="8"/>
     </entry>
     <entry id="18" name="cpd:C00681" type="compound"
@@ -107,7 +107,7 @@
     </entry>
     <entry id="21" name="hsa:84649 hsa:8694" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:84649+hsa:8694">
-        <graphics name="DGAT2, ARAT, GS1999FULL..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DGAT2, ARAT, GS1999FULL, HMFN1045..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="749" y="570" width="46" height="17"/>
     </entry>
     <entry id="22" name="hsa:39" type="gene"
@@ -265,9 +265,9 @@
         <graphics name="C00865..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="1015" y="571" width="8" height="8"/>
     </entry>
-    <entry id="53" name="cpd:C01885" type="compound"
-        link="http://www.kegg.jp/dbget-bin/www_bget?C01885">
-        <graphics name="C01885" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="53" name="cpd:C02112 cpd:C01885" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C02112+C01885">
+        <graphics name="C02112..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="132" y="567" width="8" height="8"/>
     </entry>
     <entry id="54" name="cpd:C01558" type="compound"

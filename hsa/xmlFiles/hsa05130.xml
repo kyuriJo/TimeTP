@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 13, 2014 11:30:29 +0900 (GMT+09:00) -->
+<!-- Creation date: Feb 24, 2016 14:42:27 +0900 (GMT+9) -->
 <pathway name="path:hsa05130" org="hsa" number="05130"
          title="Pathogenic Escherichia coli infection"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05130.png"
@@ -52,7 +52,7 @@
     </entry>
     <entry id="10" name="hsa:7100" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7100">
-        <graphics name="TLR5, MELIOS, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TLR5, MELIOS, SLE1, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="414" y="255" width="46" height="17"/>
     </entry>
     <entry id="11" name="ko:K12787" type="ortholog"
@@ -187,7 +187,7 @@
     </entry>
     <entry id="37" name="hsa:7454 hsa:8976" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7454+hsa:8976">
-        <graphics name="WAS, IMD2, SCNX, THC, THC1, WASP..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="WAS, IMD2, SCNX, THC, THC1, WASP, WASPA..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="625" y="523" width="46" height="17"/>
     </entry>
     <entry id="38" name="ko:K12789" type="ortholog"

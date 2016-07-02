@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jun 3, 2014 17:28:46 +0900 (GMT+09:00) -->
+<!-- Creation date: May 20, 2016 16:22:53 +0900 (GMT+9) -->
 <pathway name="path:hsa00380" org="hsa" number="00380"
          title="Tryptophan metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00380.png"
@@ -28,7 +28,7 @@
     <entry id="74" name="path:hsa00760" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00760">
         <graphics name="Nicotinate and nicotinamide metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="950" y="811" width="146" height="25"/>
+             type="roundrectangle" x="949" y="811" width="146" height="25"/>
     </entry>
     <entry id="75" name="ko:K14265 ko:K00838" type="ortholog" reaction="rn:R02700"
         link="http://www.kegg.jp/dbget-bin/www_bget?K14265+K00838">
@@ -47,7 +47,7 @@
     </entry>
     <entry id="78" name="hsa:1543 hsa:1544 hsa:1545" type="gene" reaction="rn:R03629"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1543+hsa:1544+hsa:1545">
-        <graphics name="CYP1A1, AHH, AHRR, CP11, CYP1, P1-450, P450-C, P450DX..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP1A1, AHH, AHRR, CP11, CYP1, CYPIA1, P1-450, P450-C, P450DX..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="924" y="210" width="46" height="17"/>
     </entry>
     <entry id="79" name="hsa:438" type="gene" reaction="rn:R03130"
@@ -95,11 +95,6 @@
         <graphics name="K14265..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="642" y="276" width="46" height="17"/>
     </entry>
-    <entry id="92" name="ko:K03393" type="ortholog" reaction="rn:R02339"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K03393">
-        <graphics name="K03393" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="375" y="346" width="46" height="17"/>
-    </entry>
     <entry id="93" name="hsa:125061" type="gene" reaction="rn:R01959"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:125061">
         <graphics name="AFMID, FKF, KF, KFA" fgcolor="#000000" bgcolor="#BFFFBF"
@@ -112,7 +107,7 @@
     </entry>
     <entry id="97" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R03026"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="306" y="922" width="46" height="17"/>
     </entry>
     <entry id="98" name="hsa:2639" type="gene" reaction="rn:R02488"
@@ -128,12 +123,12 @@
     <entry id="100" name="ko:K10217" type="ortholog" reaction="rn:R03889"
         link="http://www.kegg.jp/dbget-bin/www_bget?K10217">
         <graphics name="K10217" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="675" y="889" width="46" height="17"/>
+             type="rectangle" x="674" y="890" width="46" height="17"/>
     </entry>
     <entry id="101" name="hsa:130013" type="gene" reaction="rn:R04323"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:130013">
         <graphics name="ACMSD" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="675" y="832" width="46" height="17"/>
+             type="rectangle" x="674" y="834" width="46" height="17"/>
     </entry>
     <entry id="102" name="hsa:23498" type="gene" reaction="rn:R02665"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23498">
@@ -142,7 +137,7 @@
     </entry>
     <entry id="103" name="hsa:8942" type="gene" reaction="rn:R03936"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8942">
-        <graphics name="KYNU" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="KYNU, KYNUU" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="576" y="575" width="46" height="17"/>
     </entry>
     <entry id="104" name="hsa:8564" type="gene" reaction="rn:R01960"
@@ -152,17 +147,17 @@
     </entry>
     <entry id="105" name="hsa:8942" type="gene" reaction="rn:R00987"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8942">
-        <graphics name="KYNU" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="KYNU, KYNUU" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="576" y="640" width="46" height="17"/>
     </entry>
     <entry id="106" name="hsa:125061" type="gene" reaction="rn:R00988"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:125061">
         <graphics name="AFMID, FKF, KF, KFA" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="675" y="603" width="46" height="17"/>
+             type="rectangle" x="674" y="603" width="46" height="17"/>
     </entry>
     <entry id="107" name="hsa:8942" type="gene" reaction="rn:R02668"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8942">
-        <graphics name="KYNU" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="KYNU, KYNUU" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="576" y="739" width="46" height="17"/>
     </entry>
     <entry id="108" name="hsa:6999" type="gene" reaction="rn:R00678"
@@ -189,6 +184,11 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51166+hsa:56267+hsa:883">
         <graphics name="AADAT, KAT2, KATII..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="469" y="641" width="46" height="17"/>
+    </entry>
+    <entry id="114" name="ko:K20219 ko:K20204" type="ortholog" reaction="rn:R00074"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K20219+K20204">
+        <graphics name="K20219..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="831" y="741" width="46" height="17"/>
     </entry>
     <entry id="115" name="hsa:4128 hsa:4129" type="gene" reaction="rn:R04907"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4128+hsa:4129">
@@ -228,7 +228,7 @@
     <entry id="130" name="path:hsa00380" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00380">
         <graphics name="TITLE:Tryptophan metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="147" y="61" width="213" height="25"/>
+             type="roundrectangle" x="143" y="61" width="205" height="25"/>
     </entry>
     <entry id="131" name="path:hsa00010" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00010">
@@ -478,7 +478,7 @@
     <entry id="187" name="cpd:C03722" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C03722">
         <graphics name="C03722" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="circle" x="776" y="810" width="8" height="8"/>
+             type="circle" x="775" y="810" width="8" height="8"/>
     </entry>
     <entry id="188" name="cpd:C04409" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C04409">
@@ -764,6 +764,11 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?map00362">
         <graphics name="Benzoate degradation" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="907" y="923" width="122" height="25"/>
+    </entry>
+    <entry id="273" name="cpd:C10164" type="compound"
+        link="http://www.kegg.jp/dbget-bin/www_bget?C10164">
+        <graphics name="C10164" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="circle" x="775" y="866" width="8" height="8"/>
     </entry>
     <relation entry1="84" entry2="85" type="ECrel">
         <subtype name="compound" value="155"/>

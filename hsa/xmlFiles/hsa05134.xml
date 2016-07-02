@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 30, 2011 13:12:47 +0900 (GMT+09:00) -->
+<!-- Creation date: Jan 18, 2016 13:43:54 +0900 (GMT+9) -->
 <pathway name="path:hsa05134" org="hsa" number="05134"
          title="Legionellosis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05134.png"
@@ -17,7 +17,7 @@
     </entry>
     <entry id="3" name="hsa:58484" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:58484">
-        <graphics name="NLRC4, CARD12, CLAN, CLAN1, CLANA, CLANB, CLANC, CLAND, CLR2.1, IPAF" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NLRC4, AIFEC, CARD12, CLAN, CLAN1, CLANA, CLANB, CLANC, CLAND, CLR2.1, FCAS4, IPAF" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="620" y="993" width="46" height="17"/>
     </entry>
     <entry id="4" name="hsa:29108" type="gene"
@@ -262,7 +262,7 @@
     </entry>
     <entry id="52" name="hsa:4791" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4791">
-        <graphics name="NFKB2, CVID10, H2TF1, LYT-10, LYT10, NF-kB2, p105, p52" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NFKB2, CVID10, H2TF1, LYT-10, LYT10, NF-kB2, p100, p52" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="717" y="588" width="46" height="17"/>
     </entry>
     <entry id="53" name="ko:K15491" type="ortholog"
@@ -297,7 +297,7 @@
     </entry>
     <entry id="59" name="hsa:3303 hsa:3304 hsa:3305 hsa:3306 hsa:3310 hsa:3312" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3303+hsa:3304+hsa:3305+hsa:3306+hsa:3310+hsa:3312">
-        <graphics name="HSPA1A, HEL-S-103, HSP70-1, HSP70-1A, HSP70I, HSP72, HSPA1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HSPA1A, HEL-S-103, HSP70-1, HSP70-1A, HSP70.1, HSP70I, HSP72, HSPA1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="846" y="803" width="46" height="17"/>
     </entry>
     <entry id="60" name="path:hsa04610" type="map"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="62" name="hsa:7100" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7100">
-        <graphics name="TLR5, MELIOS, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TLR5, MELIOS, SLE1, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="208" y="999" width="46" height="17"/>
     </entry>
     <entry id="63" name="cpd:C00338" type="compound"

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 16, 2015 16:10:10 +0900 (GMT+09:00) -->
+<!-- Creation date: Jun 17, 2015 09:14:31 +0900 (GMT+9) -->
 <pathway name="path:hsa05160" org="hsa" number="05160"
          title="Hepatitis C"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05160.png"
@@ -190,6 +190,61 @@
         <graphics name="STAT3, ADMIO, APRF, HIES" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="761" y="661" width="46" height="17"/>
     </entry>
+    <entry id="38" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="602" y="146" width="46" height="17"/>
+    </entry>
+    <entry id="39" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="602" y="165" width="46" height="17"/>
+    </entry>
+    <entry id="40" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="602" y="184" width="46" height="17"/>
+    </entry>
+    <entry id="41" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="602" y="203" width="46" height="17"/>
+    </entry>
+    <entry id="42" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="696" y="146" width="46" height="17"/>
+    </entry>
+    <entry id="43" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="696" y="165" width="46" height="17"/>
+    </entry>
+    <entry id="44" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="696" y="184" width="46" height="17"/>
+    </entry>
+    <entry id="45" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="696" y="203" width="46" height="17"/>
+    </entry>
+    <entry id="46" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="744" y="146" width="46" height="17"/>
+    </entry>
+    <entry id="47" name="ko:K19358" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19358">
+        <graphics name="K19358" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="744" y="165" width="46" height="17"/>
+    </entry>
+    <entry id="48" name="ko:K19359" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19359">
+        <graphics name="K19359" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="839" y="146" width="46" height="17"/>
+    </entry>
     <entry id="49" name="path:hsa04144" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa04144">
         <graphics name="Endocytosis" fgcolor="#000000" bgcolor="#FFFFFF"
@@ -242,7 +297,7 @@
     </entry>
     <entry id="59" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="177" y="818" width="46" height="17"/>
     </entry>
     <entry id="60" name="hsa:2885" type="gene"
@@ -367,7 +422,7 @@
     </entry>
     <entry id="84" name="hsa:5170" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5170">
-        <graphics name="PDPK1, PDK1, PDPK2, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDPK1, PDK1, PDPK2, PDPK2P, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="411" y="858" width="46" height="17"/>
     </entry>
     <entry id="85" name="hsa:572" type="gene"

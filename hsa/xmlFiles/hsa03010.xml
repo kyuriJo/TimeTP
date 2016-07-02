@@ -127,7 +127,7 @@
     </entry>
     <entry id="25" name="hsa:6234" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6234">
-        <graphics name="RPS28, S28" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RPS28, DBA15, S28" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="877" y="713" width="46" height="17"/>
     </entry>
     <entry id="26" name="hsa:140032 hsa:6191 hsa:6192" type="gene"
@@ -167,7 +167,7 @@
     </entry>
     <entry id="33" name="hsa:65003" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:65003">
-        <graphics name="MRPL11, L11MT, MRP-L11" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL11, CGI-113, L11MT, MRP-L11" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="889" y="453" width="46" height="17"/>
     </entry>
     <entry id="34" name="hsa:6122 hsa:6123" type="gene"
@@ -212,7 +212,7 @@
     </entry>
     <entry id="42" name="hsa:51069" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51069">
-        <graphics name="MRPL2, MRP-L14, RPML14" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL2, CGI-22, MRP-L14, RPML14" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="647" y="202" width="46" height="17"/>
     </entry>
     <entry id="43" name="hsa:11222" type="gene"
@@ -257,27 +257,27 @@
     </entry>
     <entry id="51" name="hsa:29088" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:29088">
-        <graphics name="MRPL15, L15mt, MRP-L15, MRP-L7, RPML7" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL15, HSPC145, L15mt, MRP-L15, MRP-L7, RPML7" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1015" y="277" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:6125" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6125">
-        <graphics name="RPL5, DBA6, L5, PPP1R135" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RPL5, DBA6, L5, MSTP030, PPP1R135" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="877" y="294" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:29074" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:29074">
-        <graphics name="MRPL18, L18mt, MRP-L18" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL18, HSPC071, L18mt, MRP-L18" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="877" y="277" width="46" height="17"/>
     </entry>
-    <entry id="54" name="hsa:6139" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6139">
-        <graphics name="RPL17, L17, PD-1, RPL23" fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="54" name="hsa:100526842 hsa:6139" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:100526842+hsa:6139">
+        <graphics name="RPL17-C18orf32..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="739" y="219" width="46" height="17"/>
     </entry>
     <entry id="55" name="hsa:29093" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:29093">
-        <graphics name="MRPL22, L22mt, MRP-L22, MRP-L25, RPML25" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL22, HSPC158, L22mt, MRP-L22, MRP-L25, RPML25" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="739" y="202" width="46" height="17"/>
     </entry>
     <entry id="56" name="hsa:6147" type="gene"
@@ -377,7 +377,7 @@
     </entry>
     <entry id="75" name="hsa:6161" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6161">
-        <graphics name="RPL32, L32" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RPL32, L32, PP9932" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="785" y="294" width="46" height="17"/>
     </entry>
     <entry id="76" name="hsa:6164" type="gene"
@@ -482,7 +482,7 @@
     </entry>
     <entry id="96" name="hsa:54948" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:54948">
-        <graphics name="MRPL16, L16mt, MRP-L16" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL16, L16mt, MRP-L16, PNAS-111" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="831" y="202" width="46" height="17"/>
     </entry>
     <entry id="97" name="hsa:63875" type="gene"
@@ -527,7 +527,7 @@
     </entry>
     <entry id="105" name="hsa:64983" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:64983">
-        <graphics name="MRPL32, L32mt, MRP-L32, bMRP-59b" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPL32, HSPC283, L32mt, MRP-L32, bMRP-59b" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="896" y="539" width="46" height="17"/>
     </entry>
     <entry id="106" name="hsa:9553" type="gene"
@@ -652,7 +652,7 @@
     </entry>
     <entry id="130" name="hsa:64960" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:64960">
-        <graphics name="MRPS15, MPR-S15, RPMS15, S15mt" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPS15, DC37, MPR-S15, RPMS15, S15mt" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="546" y="539" width="46" height="17"/>
     </entry>
     <entry id="131" name="hsa:51373" type="gene"
@@ -677,12 +677,12 @@
     </entry>
     <entry id="135" name="hsa:51021" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51021">
-        <graphics name="MRPS16, COXPD2, MRP-S16, RPMS16" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPS16, CGI-132, COXPD2, MRP-S16, RPMS16" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="695" y="611" width="46" height="17"/>
     </entry>
     <entry id="136" name="hsa:51023 hsa:55168" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51023+hsa:55168">
-        <graphics name="MRPS18C, MRP-S18-1, MRP-S18-c, MRPS18-1, S18mt-c, mrps18-c..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPS18C, CGI-134, MRP-S18-1, MRP-S18-c, MRPS18-1, S18mt-c, mrps18-c..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1010" y="539" width="46" height="17"/>
     </entry>
     <entry id="137" name="ko:K02968" type="ortholog"
@@ -692,7 +692,7 @@
     </entry>
     <entry id="138" name="hsa:54460" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:54460">
-        <graphics name="MRPS21, MRP-S21, RPMS21" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPS21, MDS016, MRP-S21, RPMS21" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="931" y="611" width="46" height="17"/>
     </entry>
     <entry id="139" name="hsa:6203" type="gene"
@@ -702,7 +702,7 @@
     </entry>
     <entry id="140" name="hsa:51116" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51116">
-        <graphics name="MRPS2, MRP-S2, S2mt" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MRPS2, CGI-91, MRP-S2, S2mt" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="417" y="539" width="46" height="17"/>
     </entry>
     <entry id="141" name="ko:K02944" type="ortholog"

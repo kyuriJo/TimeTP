@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jun 4, 2015 13:28:36 +0900 (GMT+9) -->
+<!-- Creation date: Jun 16, 2016 11:12:31 +0900 (GMT+9) -->
 <pathway name="path:hsa00030" org="hsa" number="00030"
          title="Pentose phosphate pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00030.png"
@@ -23,7 +23,7 @@
     <entry id="39" name="path:hsa00010" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00010">
         <graphics name="Glycolysis / Gluconeogenesis" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="1003" y="227" width="68" height="26"/>
+             type="roundrectangle" x="1005" y="227" width="71" height="26"/>
     </entry>
     <entry id="40" name="hsa:64080" type="gene" reaction="rn:R02750"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:64080">
@@ -32,12 +32,12 @@
     </entry>
     <entry id="41" name="hsa:55276" type="gene" reaction="rn:R02749"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:55276">
-        <graphics name="PGM2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PGM2, MSTP006" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="402" y="695" width="46" height="17"/>
     </entry>
     <entry id="42" name="hsa:51071" type="gene" reaction="rn:R01066"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51071">
-        <graphics name="DERA, DEOC" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DERA, CGI-26, DEOC" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="262" y="695" width="46" height="17"/>
     </entry>
     <entry id="43" name="hsa:221823 hsa:5631 hsa:5634" type="gene" reaction="rn:R01049"
@@ -47,7 +47,7 @@
     </entry>
     <entry id="44" name="hsa:55276" type="gene" reaction="rn:R01057"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:55276">
-        <graphics name="PGM2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PGM2, MSTP006" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="628" y="541" width="46" height="17"/>
     </entry>
     <entry id="45" name="hsa:64080" type="gene" reaction="rn:R01051"
@@ -57,12 +57,12 @@
     </entry>
     <entry id="46" name="hsa:7086 hsa:8277 hsa:84076" type="gene" reaction="rn:R01641"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7086+hsa:8277+hsa:84076">
-        <graphics name="TKT, HEL107, TK, TKT1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TKT, HEL-S-48, HEL107, TK, TKT1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="420" y="560" width="46" height="17"/>
     </entry>
     <entry id="47" name="hsa:22934" type="gene" reaction="rn:R01056"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:22934">
-        <graphics name="RPIA, RPI" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RPIA, RPI, RPIAD" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="530" y="485" width="46" height="17"/>
     </entry>
     <entry id="48" name="hsa:6120 hsa:729020" type="gene" reaction="rn:R01529"
@@ -72,7 +72,7 @@
     </entry>
     <entry id="49" name="hsa:7086 hsa:8277 hsa:84076" type="gene" reaction="rn:R01830"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7086+hsa:8277+hsa:84076">
-        <graphics name="TKT, HEL107, TK, TKT1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TKT, HEL-S-48, HEL107, TK, TKT1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="305" y="446" width="46" height="17"/>
     </entry>
     <entry id="50" name="hsa:226 hsa:229 hsa:230" type="gene" reaction="rn:R01070"
@@ -88,12 +88,12 @@
     <entry id="52" name="hsa:2203 hsa:8789" type="gene" reaction="rn:R04780"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2203+hsa:8789">
         <graphics name="FBP1, FBP..." fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="140" y="470" width="46" height="17"/>
+             type="rectangle" x="140" y="469" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:2821" type="gene" reaction="rn:R02740"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2821">
         <graphics name="GPI, AMF, GNPI, NLK, PGI, PHI, SA-36, SA36" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="202" y="417" width="46" height="17"/>
+             type="rectangle" x="202" y="416" width="46" height="17"/>
     </entry>
     <entry id="54" name="ko:K00032" type="ortholog" reaction="rn:R02032 rn:R02034"
         link="http://www.kegg.jp/dbget-bin/www_bget?K00032">
@@ -112,7 +112,7 @@
     </entry>
     <entry id="57" name="hsa:25796" type="gene" reaction="rn:R02035"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:25796">
-        <graphics name="PGLS, 6PGL" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PGLS, 6PGL, HEL-S-304" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="451" y="320" width="46" height="17"/>
     </entry>
     <entry id="58" name="hsa:2539" type="gene" reaction="rn:R02736"
@@ -150,9 +150,9 @@
         <graphics name="K00117" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="290" y="214" width="46" height="17"/>
     </entry>
-    <entry id="66" name="ko:K00115" type="ortholog" reaction="rn:R00305"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K00115">
-        <graphics name="K00115" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="66" name="ko:K00115 ko:K19813" type="ortholog" reaction="rn:R00305"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K00115+K19813">
+        <graphics name="K00115..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="242" y="214" width="46" height="17"/>
     </entry>
     <entry id="68" name="ko:K00034" type="ortholog" reaction="rn:R01520 rn:R01521"
@@ -178,7 +178,7 @@
     <entry id="72" name="path:hsa00030" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00030">
         <graphics name="TITLE:Pentose phosphate pathway" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="165" y="58" width="249" height="25"/>
+             type="roundrectangle" x="160" y="58" width="239" height="25"/>
     </entry>
     <entry id="73" name="path:hsa00240" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00240">
@@ -223,7 +223,7 @@
     <entry id="89" name="path:hsa00040" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00040">
         <graphics name="Pentose and glucuronate interconversions" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="497" y="116" width="129" height="34"/>
+             type="roundrectangle" x="496" y="116" width="129" height="34"/>
     </entry>
     <entry id="91" name="ko:K11395" type="ortholog" reaction="rn:R05605"
         link="http://www.kegg.jp/dbget-bin/www_bget?K11395">
@@ -515,10 +515,20 @@
         <graphics name="PGD, 6PGD" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="554" y="363" width="46" height="17"/>
     </entry>
+    <entry id="157" name="hsa:2539" type="gene" reaction="rn:R02736 rn:R10907"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2539">
+        <graphics name="G6PD, G6PD1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="255" y="331" width="46" height="17"/>
+    </entry>
     <entry id="158" name="ko:K19243" type="ortholog" reaction="rn:R10907"
         link="http://www.kegg.jp/dbget-bin/www_bget?K19243">
         <graphics name="K19243" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="303" y="331" width="46" height="17"/>
+    </entry>
+    <entry id="160" name="ko:K00895" type="ortholog" reaction="rn:R02073"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K00895">
+        <graphics name="K00895" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="113" y="493" width="46" height="17"/>
     </entry>
     <relation entry1="62" entry2="64" type="ECrel">
         <subtype name="compound" value="102"/>
@@ -754,6 +764,18 @@
     <relation entry1="156" entry2="70" type="maplink">
         <subtype name="compound" value="131"/>
     </relation>
+    <relation entry1="37" entry2="157" type="ECrel">
+        <subtype name="compound" value="121"/>
+    </relation>
+    <relation entry1="157" entry2="97" type="ECrel">
+        <subtype name="compound" value="121"/>
+    </relation>
+    <relation entry1="157" entry2="69" type="maplink">
+        <subtype name="compound" value="121"/>
+    </relation>
+    <relation entry1="157" entry2="57" type="ECrel">
+        <subtype name="compound" value="122"/>
+    </relation>
     <relation entry1="37" entry2="69" type="maplink">
         <subtype name="compound" value="121"/>
     </relation>
@@ -803,10 +825,10 @@
         <product id="129" name="cpd:C00231"/>
     </reaction>
     <reaction id="49" name="rn:R01830" type="reversible">
-        <substrate id="124" name="cpd:C05345"/>
         <substrate id="119" name="cpd:C00118"/>
-        <product id="129" name="cpd:C00231"/>
+        <substrate id="124" name="cpd:C05345"/>
         <product id="114" name="cpd:C00279"/>
+        <product id="129" name="cpd:C00231"/>
     </reaction>
     <reaction id="50" name="rn:R01070" type="reversible">
         <substrate id="120" name="cpd:C05378"/>
@@ -847,8 +869,8 @@
     <reaction id="77" name="rn:R01827" type="reversible">
         <substrate id="119" name="cpd:C00118"/>
         <substrate id="116" name="cpd:C05382"/>
-        <product id="124" name="cpd:C05345"/>
         <product id="114" name="cpd:C00279"/>
+        <product id="124" name="cpd:C05345"/>
     </reaction>
     <reaction id="78" name="rn:R01057" type="reversible">
         <substrate id="112" name="cpd:C00620"/>
@@ -861,5 +883,9 @@
     <reaction id="156" name="rn:R10221" type="irreversible">
         <substrate id="106" name="cpd:C00345"/>
         <product id="131" name="cpd:C00199"/>
+    </reaction>
+    <reaction id="157" name="rn:R02736 rn:R10907" type="irreversible">
+        <substrate id="121" name="cpd:C01172"/>
+        <product id="122" name="cpd:C01236"/>
     </reaction>
 </pathway>

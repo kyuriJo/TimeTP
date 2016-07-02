@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Mar 3, 2015 18:25:32 +0900 (GMT+9) -->
+<!-- Creation date: Jul 21, 2015 17:32:30 +0900 (GMT+9) -->
 <pathway name="path:hsa04022" org="hsa" number="04022"
          title="cGMP-PKG signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04022.png"
@@ -227,7 +227,7 @@
     </entry>
     <entry id="45" name="hsa:10488 hsa:1385 hsa:1386 hsa:1388 hsa:148327 hsa:468 hsa:64764 hsa:84699 hsa:90993 hsa:9586" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10488+hsa:1385+hsa:1386+hsa:1388+hsa:148327+hsa:468+hsa:64764+hsa:84699+hsa:90993+hsa:9586">
-        <graphics name="CREB3, LUMAN, LZIP..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CREB3, LUMAN, LZIP, sLZIP..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="707" y="805" width="46" height="17"/>
     </entry>
     <entry id="46" name="hsa:7408" type="gene"
@@ -427,7 +427,7 @@
     </entry>
     <entry id="86" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="113" y="889" width="46" height="17"/>
     </entry>
     <entry id="87" name="path:hsa04151" type="map"

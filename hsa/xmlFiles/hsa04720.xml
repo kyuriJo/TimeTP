@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 8, 2013 17:41:58 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:00:59 +0900 (GMT+9) -->
 <pathway name="path:hsa04720" org="hsa" number="04720"
          title="Long-term potentiation"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04720.png"
@@ -82,12 +82,12 @@
     </entry>
     <entry id="16" name="hsa:2902 hsa:2903 hsa:2904 hsa:2905 hsa:2906" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2902+hsa:2903+hsa:2904+hsa:2905+hsa:2906">
-        <graphics name="GRIN1, GluN1, MRD8, NMDA1, NMDAR1, NR1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GRIN1, GluN1, MRD8, NMD-R1, NMDA1, NMDAR1, NR1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="317" y="439" width="46" height="17"/>
     </entry>
-    <entry id="17" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="17" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="576" y="208" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:775" type="gene"
@@ -102,7 +102,7 @@
     </entry>
     <entry id="20" name="hsa:107 hsa:114" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:107+hsa:114">
-        <graphics name="ADCY1, AC1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADCY1, AC1, DFNB44..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="317" y="306" width="46" height="17"/>
     </entry>
     <entry id="21" name="hsa:2890 hsa:2891" type="gene"

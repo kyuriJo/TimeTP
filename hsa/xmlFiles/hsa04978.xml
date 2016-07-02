@@ -112,12 +112,12 @@
     </entry>
     <entry id="22" name="hsa:4891 hsa:6556" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4891+hsa:6556">
-        <graphics name="SLC11A2, DCT1, DMT1, NRAMP2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC11A2, AHMIO1, DCT1, DMT1, NRAMP2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="222" y="648" width="46" height="17"/>
     </entry>
     <entry id="23" name="hsa:30061" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:30061">
-        <graphics name="SLC40A1, FPN1, HFE4, IREG1, MST079, MTP1, SLC11A3" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC40A1, FPN1, HFE4, IREG1, MST079, MSTP079, MTP1, SLC11A3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="821" y="601" width="46" height="17"/>
     </entry>
     <entry id="24" name="cpd:C00032" type="compound"
@@ -167,7 +167,7 @@
     </entry>
     <entry id="33" name="hsa:7018" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7018">
-        <graphics name="TF, PRO1557, PRO2086, TFQTL1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TF, HEL-S-71p, PRO1557, PRO2086, TFQTL1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="940" y="659" width="46" height="17"/>
     </entry>
     <entry id="34" name="hsa:55630" type="gene"
@@ -205,8 +205,8 @@
         <graphics name="ATP7A, DSMAX, MK, MNK, SMAX3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="643" y="733" width="46" height="17"/>
     </entry>
-    <entry id="41" name="hsa:4489 hsa:4490 hsa:4493 hsa:4494 hsa:4495 hsa:4496 hsa:4499 hsa:4501 hsa:4502" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4489+hsa:4490+hsa:4493+hsa:4494+hsa:4495+hsa:4496+hsa:4499+hsa:4501+hsa:4502">
+    <entry id="41" name="hsa:4489 hsa:4490 hsa:4493 hsa:4494 hsa:4495 hsa:4496 hsa:4499 hsa:4501 hsa:4502 hsa:645745" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4489+hsa:4490+hsa:4493+hsa:4494+hsa:4495+hsa:4496+hsa:4499+hsa:4501+hsa:4502+hsa:645745">
         <graphics name="MT1A, MT1, MT1S, MTC..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="458" y="724" width="46" height="17"/>
     </entry>
@@ -257,7 +257,7 @@
     </entry>
     <entry id="51" name="hsa:6550" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6550">
-        <graphics name="SLC9A3, NHE3" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC9A3, DIAR8, NHE-3, NHE3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="308" y="454" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486" type="gene"

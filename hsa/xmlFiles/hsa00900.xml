@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Apr 8, 2015 10:58:34 +0900 (GMT+9) -->
+<!-- Creation date: Apr 18, 2016 15:11:14 +0900 (GMT+9) -->
 <pathway name="path:hsa00900" org="hsa" number="00900"
          title="Terpenoid backbone biosynthesis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00900.png"
@@ -23,7 +23,7 @@
     <entry id="53" name="path:hsa00900" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00900">
         <graphics name="TITLE:Terpenoid backbone biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="185" y="58" width="289" height="25"/>
+             type="roundrectangle" x="181" y="58" width="281" height="25"/>
     </entry>
     <entry id="54" name="cpd:C00022" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C00022">
@@ -230,7 +230,7 @@
         <graphics name="K12742" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="743" y="667" width="46" height="17"/>
     </entry>
-    <entry id="96" name="ko:K03527" type="ortholog" reaction="rn:R08210 rn:R07219"
+    <entry id="96" name="ko:K03527" type="ortholog" reaction="rn:R08210"
         link="http://www.kegg.jp/dbget-bin/www_bget?K03527">
         <graphics name="K03527" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="672" y="628" width="46" height="17"/>
@@ -240,7 +240,7 @@
         <graphics name="IDI1, IPP1, IPPI1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="613" y="668" width="46" height="17"/>
     </entry>
-    <entry id="98" name="ko:K03527" type="ortholog" reaction="rn:R05884 rn:R08209"
+    <entry id="98" name="ko:K03527" type="ortholog" reaction="rn:R05884"
         link="http://www.kegg.jp/dbget-bin/www_bget?K03527">
         <graphics name="K03527" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="608" y="587" width="46" height="17"/>

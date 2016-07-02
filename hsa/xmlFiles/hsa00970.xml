@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Apr 17, 2013 14:38:28 +0900 (GMT+09:00) -->
+<!-- Creation date: Feb 4, 2016 16:04:38 +0900 (GMT+9) -->
 <pathway name="path:hsa00970" org="hsa" number="00970"
          title="Aminoacyl-tRNA biosynthesis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00970.png"
@@ -32,7 +32,7 @@
     </entry>
     <entry id="60" name="hsa:10056 hsa:10667 hsa:2193" type="gene" reaction="rn:R03660"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10056+hsa:10667+hsa:2193">
-        <graphics name="FARSB, FARSLB, FRSB, PheHB, PheRS..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="FARSB, FARSLB, FRSB, HSPC173, PheHB, PheRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="875" y="879" width="46" height="17"/>
     </entry>
     <entry id="61" name="hsa:57038 hsa:5917" type="gene" reaction="rn:R03646"
@@ -47,7 +47,7 @@
     </entry>
     <entry id="63" name="hsa:79587 hsa:833" type="gene" reaction="rn:R03650"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:79587+hsa:833">
-        <graphics name="CARS2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CARS2, cysRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="271" y="1076" width="46" height="17"/>
     </entry>
     <entry id="64" name="hsa:2617" type="gene" reaction="rn:R03654"
@@ -67,17 +67,17 @@
     </entry>
     <entry id="67" name="hsa:4141 hsa:92935" type="gene" reaction="rn:R03659"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4141+hsa:92935">
-        <graphics name="MARS, METRS, MRS, MTRNS, SPG70..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MARS, CMT2U, ILFS2, ILLD, METRS, MRS, MTRNS, SPG70..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="271" y="1165" width="46" height="17"/>
     </entry>
     <entry id="68" name="hsa:57176 hsa:7407" type="gene" reaction="rn:R03665"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:57176+hsa:7407">
-        <graphics name="VARS2, G7a, VARS2L, VARSL..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="VARS2, COXPD20, VALRS, VARS2L, VARSL..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="875" y="157" width="46" height="17"/>
     </entry>
     <entry id="69" name="hsa:16 hsa:57505" type="gene" reaction="rn:R03038"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:16+hsa:57505">
-        <graphics name="AARS, CMT2N..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AARS, CMT2N, EIEE29..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="271" y="371" width="46" height="17"/>
     </entry>
     <entry id="70" name="hsa:3735" type="gene" reaction="rn:R03658"
@@ -107,17 +107,17 @@
     </entry>
     <entry id="75" name="hsa:51067 hsa:8565" type="gene" reaction="rn:R02918"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51067+hsa:8565">
-        <graphics name="YARS2, MLASA2, MT-TYRRS, TYRRS..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="YARS2, CGI-04, MLASA2, MT-TYRRS, TYRRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="875" y="968" width="46" height="17"/>
     </entry>
     <entry id="76" name="hsa:2058 hsa:25973" type="gene" reaction="rn:R03661"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2058+hsa:25973">
-        <graphics name="EPRS, EARS, GLUPRORS, PARS, QARS, QPRS..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EPRS, EARS, GLUPRORS, PARS, PIG32, QARS, QPRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="875" y="701" width="46" height="17"/>
     </entry>
     <entry id="77" name="hsa:124454 hsa:2058" type="gene" reaction="rn:R05578"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:124454+hsa:2058">
-        <graphics name="EARS2, COXPD12, MSE1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EARS2, COXPD12, MSE1, gluRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="271" y="146" width="46" height="17"/>
     </entry>
     <entry id="78" name="path:hsa00290" type="map"

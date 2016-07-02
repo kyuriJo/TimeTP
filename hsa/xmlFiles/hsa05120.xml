@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 13, 2014 11:25:22 +0900 (GMT+09:00) -->
+<!-- Creation date: Jan 18, 2016 13:44:43 +0900 (GMT+9) -->
 <pathway name="path:hsa05120" org="hsa" number="05120"
          title="Epithelial cell signaling in Helicobacter pylori infection"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05120.png"
@@ -57,7 +57,7 @@
     </entry>
     <entry id="11" name="hsa:8517" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8517">
-        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IMD33, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="658" y="608" width="46" height="17"/>
     </entry>
     <entry id="12" name="hsa:3551" type="gene"
@@ -112,7 +112,7 @@
     </entry>
     <entry id="22" name="hsa:5879" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5879">
-        <graphics name="RAC1, Rac-1, TC-25, p21-Rac1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAC1, MIG5, Rac-1, TC-25, p21-Rac1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="596" y="422" width="46" height="17"/>
     </entry>
     <entry id="23" name="hsa:9020" type="gene"
@@ -152,7 +152,7 @@
     </entry>
     <entry id="30" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="404" y="157" width="46" height="17"/>
     </entry>
     <entry id="31" name="hsa:150084 hsa:50848 hsa:58494 hsa:83700" type="gene"
@@ -167,7 +167,7 @@
     </entry>
     <entry id="33" name="hsa:6868" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6868">
-        <graphics name="ADAM17, ADAM18, CD156B, CSVP, NISBD, TACE" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADAM17, ADAM18, CD156B, CSVP, NISBD, NISBD1, TACE" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="404" y="247" width="46" height="17"/>
     </entry>
     <entry id="34" name="hsa:1839" type="gene"
@@ -252,7 +252,7 @@
     </entry>
     <entry id="50" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="404" y="276" width="46" height="17"/>
     </entry>
     <entry id="51" name="ko:K15842" type="ortholog"

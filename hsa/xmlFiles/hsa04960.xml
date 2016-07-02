@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 30, 2013 16:17:37 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:25:28 +0900 (GMT+9) -->
 <pathway name="path:hsa04960" org="hsa" number="04960"
          title="Aldosterone-regulated sodium reabsorption"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04960.png"
@@ -107,12 +107,12 @@
     </entry>
     <entry id="21" name="hsa:5170" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5170">
-        <graphics name="PDPK1, PDK1, PDPK2, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDPK1, PDK1, PDPK2, PDPK2P, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="337" y="546" width="46" height="17"/>
     </entry>
     <entry id="22" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="664" y="636" width="46" height="17"/>
     </entry>
     <entry id="23" name="cpd:C05981" type="compound"

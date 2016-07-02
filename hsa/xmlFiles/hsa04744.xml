@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jun 7, 2010 17:59:34 +0900 (GMT+09:00) -->
+<!-- Creation date: Nov 9, 2015 11:00:27 +0900 (GMT+9) -->
 <pathway name="path:hsa04744" org="hsa" number="04744"
          title="Phototransduction"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04744.png"
@@ -35,9 +35,9 @@
         <graphics name="PDE6A, CGPR-A, PDEA, RP43..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="490" y="266" width="46" height="17"/>
     </entry>
-    <entry id="7" name="hsa:2779 hsa:2780 hsa:2782 hsa:2792 hsa:346562" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2779+hsa:2780+hsa:2782+hsa:2792+hsa:346562">
-        <graphics name="GNAT1, CSNBAD3, GBT1, GNATR..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="7" name="hsa:2779 hsa:2780 hsa:2782 hsa:2792" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2779+hsa:2780+hsa:2782+hsa:2792">
+        <graphics name="GNAT1, CSNB1G, CSNBAD3, GBT1, GNATR..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="403" y="669" width="46" height="17"/>
     </entry>
     <entry id="8" name="hsa:2986 hsa:3000" type="gene"
@@ -50,9 +50,9 @@
         <graphics name="GUCY2F, CYGF, GC-F, GUC2DL, GUC2F, RETGC-2, ROS-GC2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="581" y="251" width="46" height="17"/>
     </entry>
-    <entry id="10" name="hsa:2779 hsa:2780 hsa:2782 hsa:2792 hsa:346562" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2779+hsa:2780+hsa:2782+hsa:2792+hsa:346562">
-        <graphics name="GNAT1, CSNBAD3, GBT1, GNATR..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="10" name="hsa:2779 hsa:2780 hsa:2782 hsa:2792" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2779+hsa:2780+hsa:2782+hsa:2792">
+        <graphics name="GNAT1, CSNB1G, CSNBAD3, GBT1, GNATR..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="402" y="265" width="46" height="17"/>
     </entry>
     <entry id="11" name="hsa:5145 hsa:5148 hsa:5158" type="gene"
@@ -195,14 +195,14 @@
         <graphics name="GRK7, GPRK7..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="279" y="701" width="46" height="17"/>
     </entry>
-    <entry id="39" name="hsa:408 hsa:409" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:408+hsa:409">
-        <graphics name="ARRB1, ARB1, ARR1..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="39" name="hsa:6295" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6295">
+        <graphics name="SAG, RP47, S-AG" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="347" y="295" width="46" height="17"/>
     </entry>
-    <entry id="40" name="hsa:408 hsa:409" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:408+hsa:409">
-        <graphics name="ARRB1, ARB1, ARR1..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="40" name="hsa:6295" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6295">
+        <graphics name="SAG, RP47, S-AG" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="332" y="701" width="46" height="17"/>
     </entry>
     <entry id="41" name="cpd:C00076" type="compound"
@@ -220,9 +220,9 @@
         <graphics name="GRK7, GPRK7..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="504" y="800" width="46" height="17"/>
     </entry>
-    <entry id="44" name="hsa:408 hsa:409" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:408+hsa:409">
-        <graphics name="ARRB1, ARB1, ARR1..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="44" name="hsa:6295" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6295">
+        <graphics name="SAG, RP47, S-AG" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="504" y="822" width="46" height="17"/>
     </entry>
     <entry id="45" name="cpd:C00305" type="compound"

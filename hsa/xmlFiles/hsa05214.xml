@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Oct 8, 2014 14:44:11 +0900 (GMT+09:00) -->
+<!-- Creation date: Mar 3, 2016 15:50:55 +0900 (GMT+9) -->
 <pathway name="path:hsa05214" org="hsa" number="05214"
          title="Glioma"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05214.png"
@@ -27,7 +27,7 @@
     </entry>
     <entry id="5" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="279" y="217" width="46" height="17"/>
     </entry>
     <entry id="6" name="hsa:5156 hsa:5159" type="gene"
@@ -62,7 +62,7 @@
     </entry>
     <entry id="12" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="280" y="633" width="46" height="17"/>
     </entry>
     <entry id="13" name="hsa:5156 hsa:5159" type="gene"
@@ -127,7 +127,7 @@
     </entry>
     <entry id="25" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="653" y="294" width="46" height="17"/>
     </entry>
     <entry id="26" name="hsa:5728" type="gene"
@@ -237,7 +237,7 @@
     </entry>
     <entry id="47" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="650" y="711" width="46" height="17"/>
     </entry>
     <entry id="48" name="hsa:2475" type="gene"

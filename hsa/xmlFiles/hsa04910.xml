@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Feb 13, 2015 16:27:59 +0900 (GMT+9) -->
+<!-- Creation date: Aug 14, 2015 09:27:17 +0900 (GMT+9) -->
 <pathway name="path:hsa04910" org="hsa" number="04910"
          title="Insulin signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04910.png"
@@ -82,7 +82,7 @@
     </entry>
     <entry id="16" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="64" y="408" width="46" height="17"/>
     </entry>
     <entry id="17" name="cpd:C00031" type="compound"
@@ -92,7 +92,7 @@
     </entry>
     <entry id="18" name="hsa:3991" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3991">
-        <graphics name="LIPE, AOMS4, HSL, LHS" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="LIPE, AOMS4, FPLD6, HSL, LHS" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="956" y="509" width="46" height="17"/>
     </entry>
     <entry id="19" name="hsa:5499 hsa:5500 hsa:5501 hsa:5506 hsa:5507 hsa:5509 hsa:79660 hsa:89801 hsa:90673" type="gene"
@@ -115,9 +115,9 @@
         <graphics name="CALML6, CAGLP..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="870" y="453" width="46" height="17"/>
     </entry>
-    <entry id="23" name="hsa:5566 hsa:5567 hsa:5568 hsa:5573 hsa:5575 hsa:5576 hsa:5577 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5573+hsa:5575+hsa:5576+hsa:5577+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="23" name="hsa:5566 hsa:5567 hsa:5568 hsa:5573 hsa:5575 hsa:5576 hsa:5577" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5573+hsa:5575+hsa:5576+hsa:5577">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="884" y="509" width="46" height="17"/>
     </entry>
     <entry id="24" name="hsa:31 hsa:32" type="gene"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="62" name="hsa:5170" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5170">
-        <graphics name="PDPK1, PDK1, PDPK2, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDPK1, PDK1, PDPK2, PDPK2P, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="516" y="408" width="46" height="17"/>
     </entry>
     <entry id="63" name="hsa:23624 hsa:867 hsa:868" type="gene"

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Nov 11, 2013 09:51:37 +0900 (GMT+09:00) -->
+<!-- Creation date: Jan 8, 2016 15:01:19 +0900 (GMT+9) -->
 <pathway name="path:hsa00982" org="hsa" number="00982"
          title="Drug metabolism - cytochrome P450"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00982.png"
@@ -237,7 +237,7 @@
     </entry>
     <entry id="106" name="hsa:1557 hsa:1559" type="gene" reaction="rn:R08275"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1557+hsa:1559">
-        <graphics name="CYP2C19, CPCJ, CYP2C, P450C2C, P450IIC19..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP2C19, CPCJ, CYP2C, CYPIIC17, CYPIIC19, P450C2C, P450IIC19..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="618" y="235" width="46" height="17"/>
     </entry>
     <entry id="107" name="hsa:1555" type="gene" reaction="rn:R08285"
@@ -245,8 +245,8 @@
         <graphics name="CYP2B6, CPB6, CYP2B, CYP2B7, CYP2B7P, CYPIIB6, EFVM, IIB1, P450" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="618" y="317" width="46" height="17"/>
     </entry>
-    <entry id="108" name="hsa:119391 hsa:221357 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene" reaction="rn:R08280"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
+    <entry id="108" name="hsa:119391 hsa:221357 hsa:27306 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene" reaction="rn:R08280"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:27306+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
         <graphics name="GSTO2, GSTO_2-2, bA127L20.1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="766" y="192" width="46" height="17"/>
     </entry>
@@ -577,7 +577,7 @@
     </entry>
     <entry id="181" name="hsa:1557" type="gene" reaction="rn:R08343"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1557">
-        <graphics name="CYP2C19, CPCJ, CYP2C, P450C2C, P450IIC19" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP2C19, CPCJ, CYP2C, CYPIIC17, CYPIIC19, P450C2C, P450IIC19" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1195" y="245" width="46" height="17"/>
     </entry>
     <entry id="182" name="hsa:4128 hsa:4129" type="gene" reaction="rn:R08346"
@@ -662,7 +662,7 @@
     </entry>
     <entry id="201" name="hsa:1557 hsa:1559" type="gene" reaction="rn:R08285"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1557+hsa:1559">
-        <graphics name="CYP2C19, CPCJ, CYP2C, P450C2C, P450IIC19..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP2C19, CPCJ, CYP2C, CYPIIC17, CYPIIC19, P450C2C, P450IIC19..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="618" y="298" width="46" height="17"/>
     </entry>
     <entry id="202" name="cpd:C16550" type="compound"
@@ -995,8 +995,8 @@
     </reaction>
     <reaction id="102" name="rn:R08276" type="irreversible">
         <substrate id="126" name="dr:D07760 cpd:C07888"/>
-        <product id="110" name="cpd:C16550"/>
         <product id="112" name="cpd:C06754"/>
+        <product id="110" name="cpd:C16550"/>
     </reaction>
     <reaction id="103" name="rn:R08275" type="irreversible">
         <substrate id="126" name="dr:D07760 cpd:C07888"/>

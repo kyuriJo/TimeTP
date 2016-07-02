@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 6, 2015 16:54:18 +0900 (GMT+09:00) -->
+<!-- Creation date: Mar 3, 2016 11:36:22 +0900 (GMT+9) -->
 <pathway name="path:hsa00592" org="hsa" number="00592"
          title="alpha-Linolenic acid metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00592.png"

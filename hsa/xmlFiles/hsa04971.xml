@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 12, 2014 13:30:04 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:31:30 +0900 (GMT+9) -->
 <pathway name="path:hsa04971" org="hsa" number="04971"
          title="Gastric acid secretion"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04971.png"
@@ -27,7 +27,7 @@
     </entry>
     <entry id="5" name="hsa:107 hsa:108 hsa:109 hsa:111 hsa:112 hsa:113 hsa:114 hsa:115 hsa:196883" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:107+hsa:108+hsa:109+hsa:111+hsa:112+hsa:113+hsa:114+hsa:115+hsa:196883">
-        <graphics name="ADCY1, AC1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADCY1, AC1, DFNB44..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="224" y="538" width="46" height="17"/>
     </entry>
     <entry id="6" name="cpd:C00575" type="compound"
@@ -35,9 +35,9 @@
         <graphics name="C00575" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="338" y="540" width="8" height="8"/>
     </entry>
-    <entry id="7" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="7" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="401" y="542" width="46" height="17"/>
     </entry>
     <entry id="8" name="hsa:2776" type="gene"
@@ -112,7 +112,7 @@
     </entry>
     <entry id="22" name="hsa:2778" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2778">
-        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, PHP1A, PHP1B, PHP1C, POH" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, POH, SCG6, SgVI" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="297" y="515" width="46" height="17"/>
     </entry>
     <entry id="23" name="cpd:C00238" type="compound"

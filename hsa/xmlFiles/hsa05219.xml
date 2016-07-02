@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 7, 2013 15:59:27 +0900 (GMT+09:00) -->
+<!-- Creation date: Aug 7, 2015 10:44:35 +0900 (GMT+9) -->
 <pathway name="path:hsa05219" org="hsa" number="05219"
          title="Bladder cancer"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05219.png"
@@ -52,8 +52,8 @@
     </entry>
     <entry id="10" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="255" y="507" width="46" height="17"/>
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="255" y="506" width="46" height="17"/>
     </entry>
     <entry id="11" name="hsa:999" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:999">
@@ -63,7 +63,7 @@
     <entry id="12" name="hsa:2064" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2064">
         <graphics name="ERBB2, CD340, HER-2, HER-2/neu, HER2, MLN_19, NEU, NGL, TKR1" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="255" y="482" width="46" height="17"/>
+             type="rectangle" x="255" y="528" width="46" height="17"/>
     </entry>
     <entry id="13" name="hsa:1029" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1029">
@@ -148,7 +148,7 @@
     <entry id="29" name="hsa:1950" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1950">
         <graphics name="EGF, HOMG4, URG" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="182" y="493" width="46" height="17"/>
+             type="rectangle" x="182" y="516" width="46" height="17"/>
     </entry>
     <entry id="30" name="path:hsa05219" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa05219">
@@ -180,7 +180,27 @@
         <graphics name="HRAS, C-BAS/HAS, C-H-RAS, C-HA-RAS1, CTLO, H-RASIDX, HAMSV, HRAS1, RASH1, p21ras..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="362" y="155" width="46" height="17"/>
     </entry>
-    <entry id="36" name="undefined" type="group">
+    <entry id="36" name="hsa:4313 hsa:4318" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4313+hsa:4318">
+        <graphics name="MMP2, CLG4, CLG4A, MMP-2, MMP-II, MONA, TBE-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="255" y="461" width="46" height="17"/>
+    </entry>
+    <entry id="37" name="hsa:7380" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7380">
+        <graphics name="UPK3A, UP3A, UPIII, UPIIIA, UPK3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="255" y="416" width="46" height="17"/>
+    </entry>
+    <entry id="38" name="hsa:1839" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1839">
+        <graphics name="HBEGF, DTR, DTS, DTSF, HEGFL" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="183" y="484" width="48" height="17"/>
+    </entry>
+    <entry id="39" name="hsa:6714" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6714">
+        <graphics name="SRC, ASV, SRC1, c-SRC, p60-Src" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="340" y="439" width="48" height="17"/>
+    </entry>
+    <entry id="40" name="undefined" type="group">
         <graphics fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="939" y="387" width="46" height="34"/>
         <component id="23"/>
@@ -207,7 +227,7 @@
         <subtype name="activation" value="--&gt;"/>
         <subtype name="phosphorylation" value="+p"/>
     </relation>
-    <relation entry1="36" entry2="21" type="PPrel">
+    <relation entry1="40" entry2="21" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
         <subtype name="phosphorylation" value="+p"/>
     </relation>
@@ -232,10 +252,10 @@
     <relation entry1="13" entry2="18" type="PPrel">
         <subtype name="missing interaction" value="-/-"/>
     </relation>
-    <relation entry1="14" entry2="36" type="PPrel">
+    <relation entry1="14" entry2="40" type="PPrel">
         <subtype name="missing interaction" value="-/-"/>
     </relation>
-    <relation entry1="28" entry2="36" type="PPrel">
+    <relation entry1="28" entry2="40" type="PPrel">
         <subtype name="missing interaction" value="-/-"/>
     </relation>
 </pathway>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 29, 2013 17:36:10 +0900 (GMT+09:00) -->
+<!-- Creation date: Jan 18, 2016 13:44:07 +0900 (GMT+9) -->
 <pathway name="path:hsa05133" org="hsa" number="05133"
          title="Pertussis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05133.png"
@@ -83,12 +83,12 @@
     <entry id="16" name="cpd:C00002" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C00002">
         <graphics name="C00002" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="circle" x="858" y="428" width="8" height="8"/>
+             type="circle" x="800" y="392" width="8" height="8"/>
     </entry>
     <entry id="17" name="cpd:C00575" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C00575">
         <graphics name="C00575" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="circle" x="928" y="470" width="8" height="8"/>
+             type="circle" x="800" y="470" width="8" height="8"/>
     </entry>
     <entry id="18" name="ko:K15126" type="ortholog"
         link="http://www.kegg.jp/dbget-bin/www_bget?K15126">
@@ -222,18 +222,18 @@
     </entry>
     <entry id="44" name="hsa:3678" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3678">
-        <graphics name="ITGA5, CD49e, FNRA, VLA5A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ITGA5, CD49e, FNRA, VLA-5, VLA5A" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="624" y="237" width="46" height="17"/>
     </entry>
     <entry id="45" name="hsa:387" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:387">
         <graphics name="RHOA, ARH12, ARHA, RHO12, RHOH12" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="950" y="428" width="46" height="17"/>
+             type="rectangle" x="950" y="391" width="46" height="17"/>
     </entry>
     <entry id="46" name="hsa:1072 hsa:1073" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1072+hsa:1073">
-        <graphics name="CFL1, CFL, HEL-S-15..." fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="1043" y="428" width="46" height="17"/>
+        <graphics name="CFL1, CFL, HEL-S-15, cofilin..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1043" y="391" width="46" height="17"/>
     </entry>
     <entry id="47" name="hsa:836" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:836">
@@ -447,7 +447,7 @@
     </entry>
     <entry id="89" name="hsa:3394" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3394">
-        <graphics name="IRF8, H-ICSBP, ICSBP, ICSBP1, IRF-8" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="IRF8, H-ICSBP, ICSBP, ICSBP1, IMD32A, IMD32B, IRF-8" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1182" y="726" width="46" height="17"/>
     </entry>
     <entry id="90" name="hsa:3659" type="gene"
@@ -458,7 +458,7 @@
     <entry id="91" name="cpd:C00238" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C00238">
         <graphics name="C00238" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="circle" x="763" y="592" width="8" height="8"/>
+             type="circle" x="721" y="592" width="8" height="8"/>
     </entry>
     <entry id="92" name="hsa:834" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:834">
@@ -467,7 +467,7 @@
     </entry>
     <entry id="93" name="hsa:114548" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:114548">
-        <graphics name="NLRP3, AGTAVPRL, AII, AVP, C1orf7, CIAS1, CLR1.1, FCAS, FCU, MWS, NALP3, PYPAF1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NLRP3, AGTAVPRL, AII, AVP, C1orf7, CIAS1, CLR1.1, FCAS, FCAS1, FCU, MWS, NALP3, PYPAF1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="872" y="609" width="46" height="17"/>
     </entry>
     <entry id="94" name="hsa:3592 hsa:3593" type="gene"
@@ -536,7 +536,6 @@
     </relation>
     <relation entry1="45" entry2="46" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
-        <subtype name="phosphorylation" value="+p"/>
         <subtype name="indirect effect" value="..&gt;"/>
     </relation>
     <relation entry1="100" entry2="101" type="PPrel">

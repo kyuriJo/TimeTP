@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Feb 21, 2014 15:20:27 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:48:39 +0900 (GMT+9) -->
 <pathway name="path:hsa05206" org="hsa" number="05206"
          title="MicroRNAs in cancer"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05206.png"
@@ -12,7 +12,7 @@
     </entry>
     <entry id="2" name="hsa:406922 hsa:406923 hsa:442890" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406922+hsa:406923+hsa:442890">
-        <graphics name="MIR133A1, MIRN133A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR133A1, MIRN133A1, mir-133a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="509" width="46" height="17"/>
     </entry>
     <entry id="3" name="hsa:993 hsa:994 hsa:995" type="gene"
@@ -32,7 +32,7 @@
     </entry>
     <entry id="6" name="hsa:1021" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1021">
-        <graphics name="CDK6, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CDK6, MCPH12, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="267" width="46" height="17"/>
     </entry>
     <entry id="7" name="hsa:406881 hsa:406882 hsa:406883 hsa:406884 hsa:406886 hsa:406887 hsa:406888 hsa:406889 hsa:406890 hsa:406891" type="gene"
@@ -47,12 +47,12 @@
     </entry>
     <entry id="9" name="hsa:1021" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1021">
-        <graphics name="CDK6, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CDK6, MCPH12, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="187" width="46" height="17"/>
     </entry>
     <entry id="10" name="hsa:406913" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406913">
-        <graphics name="MIR126, MIRN126, miRNA126" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR126, MIRN126, miRNA126, mir-126" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="331" width="46" height="17"/>
     </entry>
     <entry id="11" name="hsa:1398 hsa:1399" type="gene"
@@ -62,7 +62,7 @@
     </entry>
     <entry id="12" name="hsa:406948 hsa:406949 hsa:406950 hsa:406951" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406948+hsa:406949+hsa:406950+hsa:406951">
-        <graphics name="MIR15A, MIRN15A, hsa-mir-15a, miRNA15A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR15A, MIRN15A, hsa-mir-15a, miRNA15A, mir-15a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="299" width="46" height="17"/>
     </entry>
     <entry id="13" name="hsa:406901" type="gene"
@@ -77,27 +77,27 @@
     </entry>
     <entry id="15" name="hsa:407021 hsa:407024 hsa:407025 hsa:407026" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407021+hsa:407024+hsa:407025+hsa:407026">
-        <graphics name="MIR29A, MIRN29, MIRN29A, hsa-mir-29, hsa-mir-29a, miRNA29A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR29A, MIRN29, MIRN29A, hsa-mir-29, hsa-mir-29a, miRNA29A, mir-29a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="457" width="46" height="17"/>
     </entry>
     <entry id="16" name="hsa:1788 hsa:1789" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1788+hsa:1789">
-        <graphics name="DNMT3A, DNMT3A2, M.HsaIIIA..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DNMT3A, DNMT3A2, M.HsaIIIA, TBRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="457" width="46" height="17"/>
     </entry>
     <entry id="17" name="hsa:406904 hsa:406905" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406904+hsa:406905">
-        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1, mir-1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="392" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:406913" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406913">
-        <graphics name="MIR126, MIRN126, miRNA126" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR126, MIRN126, miRNA126, mir-126" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="312" y="661" width="44" height="17"/>
     </entry>
     <entry id="19" name="hsa:406910 hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406910+hsa:406911+hsa:406912">
-        <graphics name="MIR125A, MIRN125A, miRNA125A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125A, MIRN125A, miRNA125A, mir-125a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="820" width="46" height="17"/>
     </entry>
     <entry id="20" name="hsa:8091" type="gene"
@@ -132,7 +132,7 @@
     </entry>
     <entry id="26" name="hsa:406904 hsa:406905" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406904+hsa:406905">
-        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1, mir-1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="590" width="46" height="17"/>
     </entry>
     <entry id="27" name="hsa:4170" type="gene"
@@ -157,7 +157,7 @@
     </entry>
     <entry id="31" name="hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406985">
-        <graphics name="MIR200C, MIRN200C" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200C, MIRN200C, mir-200c" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="740" width="46" height="17"/>
     </entry>
     <entry id="32" name="hsa:6935" type="gene"
@@ -182,7 +182,7 @@
     </entry>
     <entry id="36" name="hsa:407055" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407055">
-        <graphics name="MIR99A, MIRN99A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR99A, MIRN99A, mir-99a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="724" width="46" height="17"/>
     </entry>
     <entry id="37" name="hsa:8626" type="gene"
@@ -192,7 +192,7 @@
     </entry>
     <entry id="38" name="hsa:406935 hsa:406937" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935+hsa:406937">
-        <graphics name="MIR143, MIRN143..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="803" width="46" height="17"/>
     </entry>
     <entry id="39" name="hsa:406881 hsa:406882 hsa:406883 hsa:406884 hsa:406886 hsa:406887 hsa:406888 hsa:406889 hsa:406890 hsa:406891" type="gene"
@@ -207,12 +207,12 @@
     </entry>
     <entry id="41" name="hsa:407010" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407010">
-        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A, mir-23a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="302" width="46" height="17"/>
     </entry>
     <entry id="42" name="hsa:407018" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407018">
-        <graphics name="MIR27A, MIR27, MIRN27A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR27A, MIR27, MIRN27A, mir-27a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="328" width="46" height="17"/>
     </entry>
     <entry id="43" name="hsa:407019" type="gene"
@@ -227,7 +227,7 @@
     </entry>
     <entry id="45" name="hsa:407055" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407055">
-        <graphics name="MIR99A, MIRN99A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR99A, MIRN99A, mir-99a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="403" width="46" height="17"/>
     </entry>
     <entry id="46" name="hsa:6768" type="gene"
@@ -247,7 +247,7 @@
     </entry>
     <entry id="49" name="hsa:406935 hsa:406937" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935+hsa:406937">
-        <graphics name="MIR143, MIRN143..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="157" width="46" height="17"/>
     </entry>
     <entry id="50" name="hsa:406967" type="gene"
@@ -257,7 +257,7 @@
     </entry>
     <entry id="51" name="hsa:406969 hsa:406970" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406969+hsa:406970">
-        <graphics name="MIR194-1, MIRN194-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR194-1, MIRN194-1, mir-194-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="203" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:27250" type="gene"
@@ -282,7 +282,7 @@
     </entry>
     <entry id="56" name="hsa:407029 hsa:407030 hsa:407031 hsa:407032 hsa:407033 hsa:407034" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407029+hsa:407030+hsa:407031+hsa:407032+hsa:407033+hsa:407034">
-        <graphics name="MIR30A, MIRN30A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR30A, MIRN30A, mir-30a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="386" width="46" height="17"/>
     </entry>
     <entry id="57" name="hsa:406885" type="gene"
@@ -297,7 +297,7 @@
     </entry>
     <entry id="59" name="hsa:406904 hsa:406905" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406904+hsa:406905">
-        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1, mir-1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="696" width="46" height="17"/>
     </entry>
     <entry id="60" name="hsa:406991" type="gene"
@@ -317,12 +317,12 @@
     </entry>
     <entry id="63" name="hsa:406947" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406947">
-        <graphics name="MIR155, MIRN155, miRNA155" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR155, MIRN155, miRNA155, mir-155" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="846" width="46" height="17"/>
     </entry>
     <entry id="64" name="hsa:406922 hsa:406923" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406922+hsa:406923">
-        <graphics name="MIR133A1, MIRN133A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR133A1, MIRN133A1, mir-133a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="779" width="46" height="17"/>
     </entry>
     <entry id="65" name="hsa:406903" type="gene"
@@ -347,12 +347,12 @@
     </entry>
     <entry id="69" name="hsa:574452" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:574452">
-        <graphics name="MIR494, MIRN494, hsa-mir-494" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR494, MIRN494, hsa-mir-494, mir-494" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="345" width="46" height="17"/>
     </entry>
     <entry id="70" name="hsa:693200" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:693200">
-        <graphics name="MIR615, MIRN615, hsa-mir-615" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR615, MIRN615, hsa-mir-615, mir-615" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="370" width="46" height="17"/>
     </entry>
     <entry id="71" name="hsa:406937" type="gene"
@@ -367,12 +367,12 @@
     </entry>
     <entry id="73" name="hsa:406982" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406982">
-        <graphics name="MIR20A, MIR20, MIRN20, MIRN20A, hsa-mir-20, hsa-mir-20a, miR-20, miRNA20A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR20A, MIR20, MIRN20, MIRN20A, hsa-mir-20, hsa-mir-20a, miR-20, miRNA20A, mir-20a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="227" width="46" height="17"/>
     </entry>
     <entry id="74" name="hsa:442898" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442898">
-        <graphics name="MIR324, MIRN324, hsa-mir-324" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR324, MIRN324, hsa-mir-324, mir-324" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="256" width="46" height="17"/>
     </entry>
     <entry id="75" name="hsa:407006" type="gene"
@@ -407,7 +407,7 @@
     </entry>
     <entry id="81" name="hsa:406935" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935">
-        <graphics name="MIR143, MIRN143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="563" width="46" height="17"/>
     </entry>
     <entry id="82" name="hsa:406902" type="gene"
@@ -417,27 +417,27 @@
     </entry>
     <entry id="83" name="hsa:100500809 hsa:407010 hsa:407011" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:100500809+hsa:407010+hsa:407011">
-        <graphics name="MIR23C, hsa-mir-23c..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR23C, hsa-mir-23c, mir-23c..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="611" width="46" height="17"/>
     </entry>
     <entry id="84" name="hsa:406906" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406906">
-        <graphics name="MIR122, MIR122A, MIRN122, MIRN122A, hsa-mir-122, miRNA122, miRNA122A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR122, MIR122A, MIRN122, MIRN122A, hsa-mir-122, miRNA122, miRNA122A, mir-122" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="682" width="46" height="17"/>
     </entry>
     <entry id="85" name="hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406911+hsa:406912">
-        <graphics name="MIR125B1, MIRN125B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125B1, MIRN125B1, mir-125b-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="705" width="46" height="17"/>
     </entry>
     <entry id="86" name="hsa:407048 hsa:407049" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407048+hsa:407049">
-        <graphics name="MIR92A1, MIR92-1, MIRN92-1, MIRN92A-1, MIRN92A1, miRNA92-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR92A1, MIR92-1, MIRN92-1, MIRN92A-1, MIRN92A1, miRNA92-1, mir-92a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="635" width="46" height="17"/>
     </entry>
     <entry id="87" name="hsa:406942" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406942">
-        <graphics name="MIR150, MIRN150, miRNA150" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR150, MIRN150, miRNA150, mir-150" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="728" width="46" height="17"/>
     </entry>
     <entry id="88" name="hsa:407008" type="gene"
@@ -447,7 +447,7 @@
     </entry>
     <entry id="89" name="hsa:407055" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407055">
-        <graphics name="MIR99A, MIRN99A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR99A, MIRN99A, mir-99a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="660" width="46" height="17"/>
     </entry>
     <entry id="90" name="hsa:442909" type="gene"
@@ -477,12 +477,12 @@
     </entry>
     <entry id="95" name="hsa:407040" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407040">
-        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34, mir-34a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="492" width="46" height="17"/>
     </entry>
     <entry id="96" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="984" y="492" width="46" height="17"/>
     </entry>
     <entry id="97" name="hsa:407053" type="gene"
@@ -517,7 +517,7 @@
     </entry>
     <entry id="103" name="hsa:619552" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:619552">
-        <graphics name="MIR483, MIRN483, hsa-mir-483" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR483, MIRN483, hsa-mir-483, mir-483" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="285" width="46" height="17"/>
     </entry>
     <entry id="104" name="hsa:595 hsa:894 hsa:898 hsa:9134" type="gene"
@@ -537,22 +537,22 @@
     </entry>
     <entry id="107" name="hsa:27086" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:27086">
-        <graphics name="FOXP1, 12CC4, QRF1, hFKH1B" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="FOXP1, 12CC4, HSPC215, MFH, QRF1, hFKH1B" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="382" width="46" height="17"/>
     </entry>
     <entry id="108" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="433" width="46" height="17"/>
     </entry>
     <entry id="109" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="553" width="46" height="17"/>
     </entry>
     <entry id="110" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="605" width="46" height="17"/>
     </entry>
     <entry id="111" name="hsa:5292" type="gene"
@@ -562,7 +562,7 @@
     </entry>
     <entry id="112" name="hsa:406933" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406933">
-        <graphics name="MIR141, MIRN141" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR141, MIRN141, mir-141" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="767" width="46" height="17"/>
     </entry>
     <entry id="113" name="hsa:7042" type="gene"
@@ -582,12 +582,12 @@
     </entry>
     <entry id="116" name="hsa:406904 hsa:406905" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406904+hsa:406905">
-        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR1-1, MIRN1-1, hsa-mir-1-1, miRNA1-1, mir-1-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="313" y="847" width="46" height="17"/>
     </entry>
     <entry id="117" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="847" width="46" height="17"/>
     </entry>
     <entry id="118" name="hsa:407006" type="gene"
@@ -607,7 +607,7 @@
     </entry>
     <entry id="121" name="hsa:406988" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406988">
-        <graphics name="MIR205, MIRN205" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR205, MIRN205, mir-205" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="209" width="46" height="17"/>
     </entry>
     <entry id="122" name="hsa:406991" type="gene"
@@ -622,7 +622,7 @@
     </entry>
     <entry id="124" name="hsa:406935 hsa:406937" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935+hsa:406937">
-        <graphics name="MIR143, MIRN143..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="417" width="46" height="17"/>
     </entry>
     <entry id="125" name="hsa:406967" type="gene"
@@ -632,7 +632,7 @@
     </entry>
     <entry id="126" name="hsa:406969 hsa:406970" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406969+hsa:406970">
-        <graphics name="MIR194-1, MIRN194-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR194-1, MIRN194-1, mir-194-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="480" width="46" height="17"/>
     </entry>
     <entry id="127" name="hsa:1387 hsa:2033" type="gene"
@@ -657,7 +657,7 @@
     </entry>
     <entry id="131" name="hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406911+hsa:406912">
-        <graphics name="MIR125B1, MIRN125B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125B1, MIRN125B1, mir-125b-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="498" width="46" height="17"/>
     </entry>
     <entry id="132" name="hsa:2064" type="gene"
@@ -677,12 +677,12 @@
     </entry>
     <entry id="135" name="hsa:406988" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406988">
-        <graphics name="MIR205, MIRN205" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR205, MIRN205, mir-205" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="594" width="46" height="17"/>
     </entry>
     <entry id="136" name="hsa:494324" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:494324">
-        <graphics name="MIR375, MIRN375, hsa-mir-375, miRNA375" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR375, MIRN375, hsa-mir-375, miRNA375, mir-375" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="853" width="46" height="17"/>
     </entry>
     <entry id="137" name="hsa:27250" type="gene"
@@ -767,12 +767,12 @@
     </entry>
     <entry id="154" name="hsa:494324" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:494324">
-        <graphics name="MIR375, MIRN375, hsa-mir-375, miRNA375" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR375, MIRN375, hsa-mir-375, miRNA375, mir-375" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="798" width="46" height="17"/>
     </entry>
     <entry id="155" name="hsa:494335" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:494335">
-        <graphics name="MIR423, MIRN423, hsa-mir-423" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR423, MIRN423, hsa-mir-423, mir-423" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="821" width="46" height="17"/>
     </entry>
     <entry id="156" name="hsa:406885" type="gene"
@@ -782,7 +782,7 @@
     </entry>
     <entry id="157" name="hsa:6774" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6774">
-        <graphics name="STAT3, APRF, HIES" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="STAT3, ADMIO, APRF, HIES" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="984" y="774" width="46" height="17"/>
     </entry>
     <entry id="158" name="hsa:4609" type="gene"
@@ -807,17 +807,17 @@
     </entry>
     <entry id="162" name="hsa:407010" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407010">
-        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A, mir-23a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="476" width="46" height="17"/>
     </entry>
     <entry id="163" name="hsa:407015 hsa:407016 hsa:407017" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407015+hsa:407016+hsa:407017">
-        <graphics name="MIR26A1, MIR26A, MIRN26A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR26A1, MIR26A, MIRN26A1, mir-26a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="507" width="46" height="17"/>
     </entry>
     <entry id="164" name="hsa:407018" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407018">
-        <graphics name="MIR27A, MIR27, MIRN27A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR27A, MIR27, MIRN27A, mir-27a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="539" width="46" height="17"/>
     </entry>
     <entry id="165" name="hsa:406937" type="gene"
@@ -827,7 +827,7 @@
     </entry>
     <entry id="166" name="hsa:406943" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406943">
-        <graphics name="MIR152, MIRN152" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR152, MIRN152, mir-152" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="609" width="46" height="17"/>
     </entry>
     <entry id="167" name="hsa:406978" type="gene"
@@ -837,7 +837,7 @@
     </entry>
     <entry id="168" name="hsa:406906" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406906">
-        <graphics name="MIR122, MIR122A, MIRN122, MIRN122A, hsa-mir-122, miRNA122, miRNA122A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR122, MIR122A, MIRN122, MIRN122A, hsa-mir-122, miRNA122, miRNA122A, mir-122" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="671" width="46" height="17"/>
     </entry>
     <entry id="169" name="hsa:1786" type="gene"
@@ -877,12 +877,12 @@
     </entry>
     <entry id="232" name="hsa:407048 hsa:407049" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407048+hsa:407049">
-        <graphics name="MIR92A1, MIR92-1, MIRN92-1, MIRN92A-1, MIRN92A1, miRNA92-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR92A1, MIR92-1, MIRN92-1, MIRN92A-1, MIRN92A1, miRNA92-1, mir-92a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1293" y="153" width="46" height="17"/>
     </entry>
     <entry id="233" name="hsa:406925 hsa:406926 hsa:442891" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406925+hsa:406926+hsa:442891">
-        <graphics name="MIR135A1, MIRN135-1, MIRN135A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR135A1, MIRN135-1, MIRN135A1, mir-135a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1293" y="177" width="46" height="17"/>
     </entry>
     <entry id="234" name="hsa:406937" type="gene"
@@ -897,7 +897,7 @@
     </entry>
     <entry id="236" name="hsa:406913" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406913">
-        <graphics name="MIR126, MIRN126, miRNA126" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR126, MIRN126, miRNA126, mir-126" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="201" width="46" height="17"/>
     </entry>
     <entry id="237" name="hsa:406881 hsa:406882 hsa:406883 hsa:406884 hsa:406886 hsa:406887 hsa:406888 hsa:406889 hsa:406890 hsa:406891" type="gene"
@@ -907,22 +907,22 @@
     </entry>
     <entry id="238" name="hsa:406935" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935">
-        <graphics name="MIR143, MIRN143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="317" width="46" height="17"/>
     </entry>
     <entry id="239" name="hsa:406953" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406953">
-        <graphics name="MIR18A, MIR18, MIRN18, MIRN18A, hsa-mir-18, hsa-mir-18a, miR-18, miRNA18A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR18A, MIR18, MIRN18, MIRN18A, hsa-mir-18, hsa-mir-18a, miR-18, miRNA18A, mir-18a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="292" width="46" height="17"/>
     </entry>
     <entry id="240" name="hsa:406913" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406913">
-        <graphics name="MIR126, MIRN126, miRNA126" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR126, MIRN126, miRNA126, mir-126" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="373" width="46" height="17"/>
     </entry>
     <entry id="241" name="hsa:407040" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407040">
-        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34, mir-34a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="398" width="46" height="17"/>
     </entry>
     <entry id="242" name="hsa:406991" type="gene"
@@ -932,7 +932,7 @@
     </entry>
     <entry id="243" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="440" width="46" height="17"/>
     </entry>
     <entry id="244" name="hsa:10297 hsa:324" type="gene"
@@ -942,7 +942,7 @@
     </entry>
     <entry id="245" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="124" width="46" height="15"/>
     </entry>
     <entry id="246" name="hsa:3667" type="gene"
@@ -952,7 +952,7 @@
     </entry>
     <entry id="247" name="hsa:5296" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5296">
-        <graphics name="PIK3R2, MPPH, P85B, p85, p85-BETA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PIK3R2, MPPH, MPPH1, P85B, p85, p85-BETA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="201" width="46" height="17"/>
     </entry>
     <entry id="248" name="hsa:3845" type="gene"
@@ -962,7 +962,7 @@
     </entry>
     <entry id="249" name="hsa:1788" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1788">
-        <graphics name="DNMT3A, DNMT3A2, M.HsaIIIA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DNMT3A, DNMT3A2, M.HsaIIIA, TBRS" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="292" width="46" height="17"/>
     </entry>
     <entry id="250" name="hsa:5598" type="gene"
@@ -977,7 +977,7 @@
     </entry>
     <entry id="252" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="398" width="46" height="17"/>
     </entry>
     <entry id="253" name="hsa:10253" type="gene"
@@ -997,7 +997,7 @@
     </entry>
     <entry id="256" name="hsa:406907 hsa:406908 hsa:406909" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406907+hsa:406908+hsa:406909">
-        <graphics name="MIR124-1, MIR124A, MIR124A1, MIRN124-1, MIRN124A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR124-1, MIR124A, MIR124A1, MIRN124-1, MIRN124A1, mir-124-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="565" width="46" height="17"/>
     </entry>
     <entry id="257" name="hsa:406928" type="gene"
@@ -1007,22 +1007,22 @@
     </entry>
     <entry id="258" name="hsa:407040" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407040">
-        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34, mir-34a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="618" width="46" height="17"/>
     </entry>
     <entry id="259" name="hsa:406915 hsa:406916" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406915+hsa:406916">
-        <graphics name="MIR128-1, MIR128A, MIRN128-1, MIRN128A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR128-1, MIR128A, MIRN128-1, MIRN128A, mir-128-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="645" width="46" height="17"/>
     </entry>
     <entry id="260" name="hsa:406948 hsa:406949" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406948+hsa:406949">
-        <graphics name="MIR15A, MIRN15A, hsa-mir-15a, miRNA15A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR15A, MIRN15A, hsa-mir-15a, miRNA15A, mir-15a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="672" width="46" height="17"/>
     </entry>
     <entry id="261" name="hsa:1021" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1021">
-        <graphics name="CDK6, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CDK6, MCPH12, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="592" width="46" height="17"/>
     </entry>
     <entry id="262" name="hsa:1871" type="gene"
@@ -1032,7 +1032,7 @@
     </entry>
     <entry id="263" name="hsa:898 hsa:9134" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:898+hsa:9134">
-        <graphics name="CCNE1, CCNE..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CCNE1, CCNE, pCCNE1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="672" width="46" height="17"/>
     </entry>
     <entry id="264" name="hsa:406991" type="gene"
@@ -1062,7 +1062,7 @@
     </entry>
     <entry id="269" name="hsa:407015 hsa:407016" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407015+hsa:407016">
-        <graphics name="MIR26A1, MIR26A, MIRN26A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR26A1, MIR26A, MIRN26A1, mir-26a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1293" y="726" width="46" height="17"/>
     </entry>
     <entry id="270" name="hsa:406991" type="gene"
@@ -1087,22 +1087,22 @@
     </entry>
     <entry id="274" name="hsa:442900" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442900">
-        <graphics name="MIR326, MIRN326, hsa-mir-326" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR326, MIRN326, hsa-mir-326, mir-326" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="764" width="46" height="17"/>
     </entry>
     <entry id="275" name="hsa:407040" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407040">
-        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34, mir-34a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="790" width="46" height="17"/>
     </entry>
     <entry id="276" name="hsa:406915 hsa:406916" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406915+hsa:406916">
-        <graphics name="MIR128-1, MIR128A, MIRN128-1, MIRN128A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR128-1, MIR128A, MIRN128-1, MIRN128A, mir-128-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1482" y="815" width="46" height="17"/>
     </entry>
     <entry id="277" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="718" width="46" height="17"/>
     </entry>
     <entry id="278" name="hsa:8660" type="gene"
@@ -1112,7 +1112,7 @@
     </entry>
     <entry id="279" name="hsa:4851 hsa:4853 hsa:4854 hsa:4855" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4851+hsa:4853+hsa:4854+hsa:4855">
-        <graphics name="NOTCH1, TAN1, hN1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NOTCH1, AOS5, AOVD1, TAN1, hN1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1560" y="778" width="46" height="17"/>
     </entry>
     <entry id="280" name="hsa:100532731 hsa:648" type="gene"
@@ -1162,12 +1162,12 @@
     </entry>
     <entry id="565" name="hsa:406982" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406982">
-        <graphics name="MIR20A, MIR20, MIRN20, MIRN20A, hsa-mir-20, hsa-mir-20a, miR-20, miRNA20A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR20A, MIR20, MIRN20, MIRN20A, hsa-mir-20, hsa-mir-20a, miR-20, miRNA20A, mir-20a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1292" y="1180" width="46" height="17"/>
     </entry>
     <entry id="566" name="hsa:406900" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406900">
-        <graphics name="MIR106B, MIRN106B" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR106B, MIRN106B, mir-106b" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1292" y="1253" width="46" height="17"/>
     </entry>
     <entry id="567" name="hsa:407006" type="gene"
@@ -1177,7 +1177,7 @@
     </entry>
     <entry id="568" name="hsa:407040" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407040">
-        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34, mir-34a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1185" width="46" height="17"/>
     </entry>
     <entry id="569" name="hsa:407036" type="gene"
@@ -1187,12 +1187,12 @@
     </entry>
     <entry id="570" name="hsa:442902" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442902">
-        <graphics name="MIR330, MIRN330, hsa-mir-330" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR330, MIRN330, hsa-mir-330, mir-330" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1331" width="46" height="17"/>
     </entry>
     <entry id="571" name="hsa:442918" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442918">
-        <graphics name="MIR373, MIRN373, hsa-mir-373, miRNA373" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR373, MIRN373, hsa-mir-373, miRNA373, mir-373" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1510" width="46" height="17"/>
     </entry>
     <entry id="572" name="hsa:406938" type="gene"
@@ -1207,7 +1207,7 @@
     </entry>
     <entry id="574" name="hsa:406988" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406988">
-        <graphics name="MIR205, MIRN205" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR205, MIRN205, mir-205" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1610" width="46" height="17"/>
     </entry>
     <entry id="575" name="hsa:1869" type="gene"
@@ -1217,12 +1217,12 @@
     </entry>
     <entry id="576" name="hsa:1021" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1021">
-        <graphics name="CDK6, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CDK6, MCPH12, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1559" y="1174" width="46" height="17"/>
     </entry>
     <entry id="577" name="hsa:23411" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23411">
-        <graphics name="SIRT1, SIR2L1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SIRT1, SIR2, SIR2L1, hSIR2" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1559" y="1201" width="46" height="17"/>
     </entry>
     <entry id="578" name="hsa:1869" type="gene"
@@ -1252,7 +1252,7 @@
     </entry>
     <entry id="583" name="hsa:406935" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935">
-        <graphics name="MIR143, MIRN143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1766" width="46" height="17"/>
     </entry>
     <entry id="584" name="hsa:5598" type="gene"
@@ -1262,7 +1262,7 @@
     </entry>
     <entry id="585" name="hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406911+hsa:406912">
-        <graphics name="MIR125B1, MIRN125B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125B1, MIRN125B1, mir-125b-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1292" y="1766" width="46" height="17"/>
     </entry>
     <entry id="586" name="hsa:578" type="gene"
@@ -1297,7 +1297,7 @@
     </entry>
     <entry id="592" name="hsa:406913" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406913">
-        <graphics name="MIR126, MIRN126, miRNA126" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR126, MIRN126, miRNA126, mir-126" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1662" width="46" height="17"/>
     </entry>
     <entry id="593" name="hsa:406952" type="gene"
@@ -1337,27 +1337,27 @@
     </entry>
     <entry id="600" name="hsa:554213" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:554213">
-        <graphics name="MIR449A, MIRN449, MIRN449A, hsa-mir-449" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR449A, MIRN449, MIRN449A, hsa-mir-449, mir-449a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1097" width="46" height="17"/>
     </entry>
     <entry id="601" name="hsa:406893 hsa:406894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406893+hsa:406894">
-        <graphics name="MIR101-1, MIRN101-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR101-1, MIRN101-1, mir-101-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1122" width="46" height="17"/>
     </entry>
     <entry id="602" name="hsa:407010" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407010">
-        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A, mir-23a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1147" width="46" height="17"/>
     </entry>
     <entry id="603" name="hsa:406948" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406948">
-        <graphics name="MIR15A, MIRN15A, hsa-mir-15a, miRNA15A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR15A, MIRN15A, hsa-mir-15a, miRNA15A, mir-15a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1260" width="46" height="17"/>
     </entry>
     <entry id="604" name="hsa:442903" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442903">
-        <graphics name="MIR331, MIRN331, hsa-mir-331" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR331, MIRN331, hsa-mir-331, mir-331" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1481" y="1388" width="46" height="17"/>
     </entry>
     <entry id="605" name="hsa:3065" type="gene"
@@ -1387,7 +1387,7 @@
     </entry>
     <entry id="610" name="hsa:7473 hsa:89780" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7473+hsa:89780">
-        <graphics name="WNT3, INT4..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="WNT3, INT4, TETAMS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1559" y="1285" width="46" height="17"/>
     </entry>
     <entry id="611" name="hsa:113130" type="gene"
@@ -1417,7 +1417,7 @@
     </entry>
     <entry id="616" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1103" width="46" height="17"/>
     </entry>
     <entry id="617" name="hsa:100532731 hsa:648" type="gene"
@@ -1437,7 +1437,7 @@
     </entry>
     <entry id="620" name="hsa:23414" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23414">
-        <graphics name="ZFPM2, DIH3, FOG2, ZC2HC11B, ZNF89B, hFOG-2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ZFPM2, DIH3, FOG2, SRXY9, ZC2HC11B, ZNF89B, hFOG-2" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="387" y="1139" width="46" height="17"/>
     </entry>
     <entry id="621" name="hsa:406881 hsa:406882 hsa:406883 hsa:406884 hsa:406886 hsa:406887 hsa:406888 hsa:406889 hsa:406890 hsa:406891" type="gene"
@@ -1457,7 +1457,7 @@
     </entry>
     <entry id="624" name="hsa:407029 hsa:407033 hsa:407034" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407029+hsa:407033+hsa:407034">
-        <graphics name="MIR30A, MIRN30A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR30A, MIRN30A, mir-30a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1261" width="46" height="17"/>
     </entry>
     <entry id="625" name="hsa:3690" type="gene"
@@ -1472,7 +1472,7 @@
     </entry>
     <entry id="627" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1291" width="46" height="17"/>
     </entry>
     <entry id="628" name="hsa:406881 hsa:406882 hsa:406883 hsa:406884 hsa:406886 hsa:406887 hsa:406888 hsa:406889 hsa:406890 hsa:406891" type="gene"
@@ -1482,7 +1482,7 @@
     </entry>
     <entry id="629" name="hsa:406954 hsa:406955 hsa:406956 hsa:406957 hsa:406995 hsa:574457" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406954+hsa:406955+hsa:406956+hsa:406957+hsa:406995+hsa:574457">
-        <graphics name="MIR181A2, MIRN181A, MIRN181A2, hsa-mir-181a-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR181A2, MIRN181A, MIRN181A2, hsa-mir-181a-2, mir-181a-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="120" y="1248" width="46" height="17"/>
     </entry>
     <entry id="630" name="hsa:472" type="gene"
@@ -1492,7 +1492,7 @@
     </entry>
     <entry id="631" name="hsa:406947" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406947">
-        <graphics name="MIR155, MIRN155, miRNA155" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR155, MIRN155, miRNA155, mir-155" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="120" y="1279" width="46" height="17"/>
     </entry>
     <entry id="632" name="hsa:8651" type="gene"
@@ -1502,7 +1502,7 @@
     </entry>
     <entry id="633" name="hsa:442904" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442904">
-        <graphics name="MIR335, MIRN335, hsa-mir-335, miRNA335" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR335, MIRN335, hsa-mir-335, miRNA335, mir-335" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1362" width="46" height="17"/>
     </entry>
     <entry id="634" name="hsa:6659" type="gene"
@@ -1517,17 +1517,17 @@
     </entry>
     <entry id="636" name="hsa:406913" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406913">
-        <graphics name="MIR126, MIRN126, miRNA126" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR126, MIRN126, miRNA126, mir-126" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1398" width="46" height="17"/>
     </entry>
     <entry id="637" name="hsa:406989" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406989">
-        <graphics name="MIR206, MIRN206, miRNA206" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR206, MIRN206, miRNA206, mir-206" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="308" y="1425" width="44" height="17"/>
     </entry>
     <entry id="638" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1451" width="46" height="17"/>
     </entry>
     <entry id="639" name="hsa:406881 hsa:406882 hsa:406883 hsa:406884 hsa:406886 hsa:406887 hsa:406888 hsa:406889 hsa:406890 hsa:406891" type="gene"
@@ -1547,7 +1547,7 @@
     </entry>
     <entry id="642" name="hsa:442918" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442918">
-        <graphics name="MIR373, MIRN373, hsa-mir-373, miRNA373" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR373, MIRN373, hsa-mir-373, miRNA373, mir-373" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="120" y="1393" width="46" height="17"/>
     </entry>
     <entry id="643" name="hsa:574467 hsa:574484 hsa:574493" type="gene"
@@ -1572,7 +1572,7 @@
     </entry>
     <entry id="647" name="hsa:23405" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23405">
-        <graphics name="DICER1, DCR1, Dicer, HERNA, MNG1, RMSE2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DICER1, DCR1, Dicer, Dicer1e, HERNA, K12H4.8-LIKE, MNG1, RMSE2" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="198" y="1463" width="46" height="17"/>
     </entry>
     <entry id="648" name="hsa:406991" type="gene"
@@ -1607,7 +1607,7 @@
     </entry>
     <entry id="654" name="hsa:3678" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3678">
-        <graphics name="ITGA5, CD49e, FNRA, VLA5A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ITGA5, CD49e, FNRA, VLA-5, VLA5A" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="198" y="1614" width="46" height="17"/>
     </entry>
     <entry id="655" name="hsa:5962" type="gene"
@@ -1622,7 +1622,7 @@
     </entry>
     <entry id="657" name="hsa:574455" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:574455">
-        <graphics name="MIR193B, MIRN193B" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR193B, MIRN193B, mir-193b" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="120" y="1698" width="46" height="17"/>
     </entry>
     <entry id="658" name="hsa:5328" type="gene"
@@ -1647,7 +1647,7 @@
     </entry>
     <entry id="662" name="hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406911+hsa:406912">
-        <graphics name="MIR125B1, MIRN125B1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125B1, MIRN125B1, mir-125b-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="120" y="1801" width="46" height="17"/>
     </entry>
     <entry id="663" name="hsa:578" type="gene"
@@ -1657,7 +1657,7 @@
     </entry>
     <entry id="664" name="hsa:574411" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:574411">
-        <graphics name="MIR451A, MIR451, MIRN451, hsa-mir-451, hsa-mir-451a" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR451A, MIR451, MIRN451, hsa-mir-451, hsa-mir-451a, mir-451a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1743" width="46" height="17"/>
     </entry>
     <entry id="665" name="hsa:5243" type="gene"
@@ -1667,7 +1667,7 @@
     </entry>
     <entry id="666" name="hsa:442910" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:442910">
-        <graphics name="MIR345, MIRN345, hsa-mir-345" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR345, MIRN345, hsa-mir-345, mir-345" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="309" y="1776" width="46" height="17"/>
     </entry>
     <entry id="667" name="hsa:407043 hsa:407044 hsa:407045" type="gene"
@@ -1682,7 +1682,7 @@
     </entry>
     <entry id="669" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="1751" width="46" height="17"/>
     </entry>
     <entry id="670" name="hsa:6935" type="gene"
@@ -1697,7 +1697,7 @@
     </entry>
     <entry id="672" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1669" width="46" height="17"/>
     </entry>
     <entry id="673" name="hsa:6935" type="gene"
@@ -1742,32 +1742,32 @@
     </entry>
     <entry id="681" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1153" width="46" height="17"/>
     </entry>
     <entry id="682" name="hsa:406935" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935">
-        <graphics name="MIR143, MIRN143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1264" width="46" height="17"/>
     </entry>
     <entry id="683" name="hsa:407040" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407040">
-        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34A, MIRN34A, miRNA34A, mir-34, mir-34a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1290" width="46" height="17"/>
     </entry>
     <entry id="684" name="hsa:407041" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407041">
-        <graphics name="MIR34B, MIRN34B, miRNA34B" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34B, MIRN34B, miRNA34B, mir-34b" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1324" width="46" height="17"/>
     </entry>
     <entry id="685" name="hsa:407042" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407042">
-        <graphics name="MIR34C, MIRN34C, miRNA34C" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR34C, MIRN34C, miRNA34C, mir-34c" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1359" width="46" height="17"/>
     </entry>
     <entry id="686" name="hsa:406910 hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406910+hsa:406911+hsa:406912">
-        <graphics name="MIR125A, MIRN125A, miRNA125A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125A, MIRN125A, miRNA125A, mir-125a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1394" width="46" height="17"/>
     </entry>
     <entry id="687" name="hsa:3845" type="gene"
@@ -1777,17 +1777,17 @@
     </entry>
     <entry id="688" name="hsa:4233" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4233">
-        <graphics name="MET, AUTS9, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MET, AUTS9, DFNB97, HGFR, RCCP2, c-Met" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="779" y="1300" width="46" height="17"/>
     </entry>
     <entry id="689" name="hsa:4851 hsa:4853 hsa:4854 hsa:4855" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4851+hsa:4853+hsa:4854+hsa:4855">
-        <graphics name="NOTCH1, TAN1, hN1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NOTCH1, AOS5, AOVD1, TAN1, hN1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="779" y="1324" width="46" height="17"/>
     </entry>
     <entry id="690" name="hsa:1021" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1021">
-        <graphics name="CDK6, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CDK6, MCPH12, PLSTIRE" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="779" y="1348" width="46" height="17"/>
     </entry>
     <entry id="691" name="hsa:2064" type="gene"
@@ -1812,7 +1812,7 @@
     </entry>
     <entry id="695" name="hsa:406983 hsa:406984 hsa:406985" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406983+hsa:406984+hsa:406985">
-        <graphics name="MIR200A, MIRN200A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR200A, MIRN200A, mir-200a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="1361" width="46" height="17"/>
     </entry>
     <entry id="696" name="hsa:5728" type="gene"
@@ -1837,17 +1837,17 @@
     </entry>
     <entry id="700" name="hsa:672" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:672">
-        <graphics name="BRCA1, BRCAI, BRCC1, BROVCA1, IRIS, PNCA4, PPP1R53, PSCP, RNF53" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="BRCA1, BRCAI, BRCC1, BROVCA1, FANCS, IRIS, PNCA4, PPP1R53, PSCP, RNF53" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="590" y="1392" width="46" height="17"/>
     </entry>
     <entry id="701" name="hsa:406900" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406900">
-        <graphics name="MIR106B, MIRN106B" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR106B, MIRN106B, mir-106b" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="1424" width="46" height="17"/>
     </entry>
     <entry id="702" name="hsa:406982" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406982">
-        <graphics name="MIR20A, MIR20, MIRN20, MIRN20A, hsa-mir-20, hsa-mir-20a, miR-20, miRNA20A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR20A, MIR20, MIRN20, MIRN20A, hsa-mir-20, hsa-mir-20a, miR-20, miRNA20A, mir-20a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="512" y="1454" width="46" height="17"/>
     </entry>
     <entry id="703" name="hsa:1026" type="gene"
@@ -1857,7 +1857,7 @@
     </entry>
     <entry id="704" name="hsa:407046 hsa:407047 hsa:407051" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407046+hsa:407047+hsa:407051">
-        <graphics name="MIR9-1, MIRN9-1, hsa-mir-9-1, miRNA9-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR9-1, MIRN9-1, hsa-mir-9-1, miRNA9-1, mir-9-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1534" width="46" height="17"/>
     </entry>
     <entry id="705" name="hsa:4790" type="gene"
@@ -1867,7 +1867,7 @@
     </entry>
     <entry id="706" name="hsa:406976 hsa:406977" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406976+hsa:406977">
-        <graphics name="MIR199A1, MIR-199-s, MIRN199A1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR199A1, MIR-199-s, MIRN199A1, mir-199a-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="701" y="1579" width="46" height="17"/>
     </entry>
     <entry id="707" name="hsa:3551" type="gene"
@@ -1907,7 +1907,7 @@
     </entry>
     <entry id="714" name="hsa:407055" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407055">
-        <graphics name="MIR99A, MIRN99A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR99A, MIRN99A, mir-99a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1100" width="46" height="17"/>
     </entry>
     <entry id="715" name="hsa:406892" type="gene"
@@ -1917,12 +1917,12 @@
     </entry>
     <entry id="716" name="hsa:406893 hsa:406894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406893+hsa:406894">
-        <graphics name="MIR101-1, MIRN101-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR101-1, MIRN101-1, mir-101-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1189" width="46" height="17"/>
     </entry>
     <entry id="717" name="hsa:406910 hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406910+hsa:406911+hsa:406912">
-        <graphics name="MIR125A, MIRN125A, miRNA125A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125A, MIRN125A, miRNA125A, mir-125a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1224" width="46" height="17"/>
     </entry>
     <entry id="718" name="hsa:406937" type="gene"
@@ -1932,7 +1932,7 @@
     </entry>
     <entry id="719" name="hsa:406971" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406971">
-        <graphics name="MIR195, MIRN195, miRNA195" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR195, MIRN195, miRNA195, mir-195" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1304" width="46" height="17"/>
     </entry>
     <entry id="720" name="hsa:407043 hsa:407044 hsa:407045" type="gene"
@@ -1942,22 +1942,22 @@
     </entry>
     <entry id="721" name="hsa:407029 hsa:407030 hsa:407031 hsa:407032 hsa:407033 hsa:407034" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407029+hsa:407030+hsa:407031+hsa:407032+hsa:407033+hsa:407034">
-        <graphics name="MIR30A, MIRN30A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR30A, MIRN30A, mir-30a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1366" width="46" height="17"/>
     </entry>
     <entry id="722" name="hsa:406917 hsa:406918" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406917+hsa:406918">
-        <graphics name="MIR129-1, MIR-129b, MIRN129-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR129-1, MIR-129b, MIRN129-1, mir-129-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1395" width="46" height="17"/>
     </entry>
     <entry id="723" name="hsa:406935" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935">
-        <graphics name="MIR143, MIRN143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1435" width="46" height="17"/>
     </entry>
     <entry id="724" name="hsa:407021 hsa:407024 hsa:407025 hsa:407026" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407021+hsa:407024+hsa:407025+hsa:407026">
-        <graphics name="MIR29A, MIRN29, MIRN29A, hsa-mir-29, hsa-mir-29a, miRNA29A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR29A, MIRN29, MIRN29A, hsa-mir-29, hsa-mir-29a, miRNA29A, mir-29a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1153" width="46" height="17"/>
     </entry>
     <entry id="725" name="hsa:406902 hsa:406903" type="gene"
@@ -1967,7 +1967,7 @@
     </entry>
     <entry id="726" name="hsa:407010" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407010">
-        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR23A, MIRN23A, hsa-mir-23a, miRNA23A, mir-23a" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="906" y="1324" width="46" height="17"/>
     </entry>
     <entry id="727" name="hsa:100302238 hsa:100302282 hsa:406895 hsa:406896" type="gene"
@@ -2027,7 +2027,7 @@
     </entry>
     <entry id="738" name="hsa:407029 hsa:407030 hsa:407031 hsa:407032 hsa:407033 hsa:407034" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:407029+hsa:407030+hsa:407031+hsa:407032+hsa:407033+hsa:407034">
-        <graphics name="MIR30A, MIRN30A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR30A, MIRN30A, mir-30a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1636" width="46" height="17"/>
     </entry>
     <entry id="739" name="hsa:472" type="gene"
@@ -2042,7 +2042,7 @@
     </entry>
     <entry id="741" name="hsa:406910 hsa:406911 hsa:406912" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406910+hsa:406911+hsa:406912">
-        <graphics name="MIR125A, MIRN125A, miRNA125A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR125A, MIRN125A, miRNA125A, mir-125a..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1688" width="46" height="17"/>
     </entry>
     <entry id="742" name="hsa:1029" type="gene"
@@ -2057,7 +2057,7 @@
     </entry>
     <entry id="744" name="hsa:406935" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406935">
-        <graphics name="MIR143, MIRN143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR143, MIRN143, mir-143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1748" width="46" height="17"/>
     </entry>
     <entry id="745" name="hsa:472" type="gene"
@@ -2072,7 +2072,7 @@
     </entry>
     <entry id="747" name="hsa:406917 hsa:406918" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:406917+hsa:406918">
-        <graphics name="MIR129-1, MIR-129b, MIRN129-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MIR129-1, MIR-129b, MIRN129-1, mir-129-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1095" y="1808" width="46" height="17"/>
     </entry>
     <entry id="748" name="hsa:4194" type="gene"
@@ -2152,7 +2152,7 @@
     </entry>
     <entry id="763" name="hsa:5894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5894">
-        <graphics name="RAF1, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1175" y="1214" width="46" height="17"/>
     </entry>
     <entry id="764" name="hsa:3845" type="gene"
@@ -2222,7 +2222,7 @@
     </entry>
     <entry id="777" name="hsa:5894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5894">
-        <graphics name="RAF1, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1175" y="1557" width="46" height="17"/>
     </entry>
     <entry id="778" name="path:hsa05219" type="map"
@@ -2247,7 +2247,7 @@
     </entry>
     <entry id="782" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="391" y="820" width="46" height="17"/>
     </entry>
     <entry id="783" name="hsa:90427" type="gene"

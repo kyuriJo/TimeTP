@@ -50,9 +50,9 @@
         <graphics name="PEX12, PAF-3, PBD3A" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="476" y="221" width="46" height="17"/>
     </entry>
-    <entry id="10" name="hsa:5830" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5830">
-        <graphics name="PEX5, PBD2A, PBD2B, PTS1-BP, PTS1R, PXR1" fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="10" name="hsa:51555 hsa:5830" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51555+hsa:5830">
+        <graphics name="PEX5L, PEX5R, PEX5RP, PXR2, PXR2B, TRIP8b..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="619" y="150" width="46" height="17"/>
     </entry>
     <entry id="11" name="hsa:5191" type="gene"
@@ -82,12 +82,12 @@
     </entry>
     <entry id="16" name="hsa:5825" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5825">
-        <graphics name="ABCD3, ABC43, PMP70, PXMP1, ZWS2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ABCD3, ABC43, CBAS5, PMP70, PXMP1, ZWS2" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="232" y="302" width="46" height="17"/>
     </entry>
-    <entry id="17" name="hsa:5830" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5830">
-        <graphics name="PEX5, PBD2A, PBD2B, PTS1-BP, PTS1R, PXR1" fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="17" name="hsa:51555 hsa:5830" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51555+hsa:5830">
+        <graphics name="PEX5L, PEX5R, PEX5RP, PXR2, PXR2B, TRIP8b..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="267" y="170" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:8443" type="gene"
@@ -322,7 +322,7 @@
     </entry>
     <entry id="64" name="hsa:25824" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:25824">
-        <graphics name="PRDX5, ACR1, AOEB166, B166, HEL-S-55, PLP, PMP20, PRDX6, PRXV, prx-V" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PRDX5, ACR1, AOEB166, B166, HEL-S-55, PLP, PMP20, PRDX6, PRXV, SBBI10, prx-V" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="633" y="629" width="46" height="17"/>
     </entry>
     <entry id="65" name="hsa:6647 hsa:6648" type="gene"

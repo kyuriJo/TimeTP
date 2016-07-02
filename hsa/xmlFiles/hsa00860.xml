@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Apr 20, 2015 17:42:20 +0900 (GMT+9) -->
+<!-- Creation date: Apr 18, 2016 15:37:59 +0900 (GMT+9) -->
 <pathway name="path:hsa00860" org="hsa" number="00860"
          title="Porphyrin and chlorophyll metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00860.png"
@@ -198,7 +198,7 @@
     <entry id="63" name="path:hsa00860" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00860">
         <graphics name="TITLE:Porphyrin and chlorophyll metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="217" y="58" width="353" height="25"/>
+             type="roundrectangle" x="211" y="58" width="341" height="25"/>
     </entry>
     <entry id="64" name="path:hsa00260" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00260">
@@ -647,7 +647,7 @@
     </entry>
     <entry id="251" name="hsa:3052" type="gene" reaction="rn:R02480"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3052">
-        <graphics name="HCCS, CCHL, MCOPS7, MLS" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HCCS, CCHL, LSDMCA1, MCOPS7, MLS" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="767" y="329" width="46" height="17"/>
     </entry>
     <entry id="252" name="ko:K19073" type="ortholog" reaction="rn:R06272"
@@ -737,7 +737,7 @@
     </entry>
     <entry id="271" name="hsa:211 hsa:212" type="gene" reaction="rn:R00830"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:211+hsa:212">
-        <graphics name="ALAS1, ALAS, ALAS3, ALASH, MIG4..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ALAS1, ALAS, ALAS-H, ALAS3, ALASH, MIG4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="89" y="352" width="46" height="17"/>
     </entry>
     <entry id="272" name="ko:K02492" type="ortholog" reaction="rn:R04109"
@@ -747,7 +747,7 @@
     </entry>
     <entry id="273" name="hsa:124454 hsa:2058" type="gene" reaction="rn:R05578"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:124454+hsa:2058">
-        <graphics name="EARS2, COXPD12, MSE1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EARS2, COXPD12, MSE1, gluRS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="175" y="493" width="46" height="17"/>
     </entry>
     <entry id="274" name="ko:K02302 ko:K02304 ko:K03794" type="ortholog" reaction="rn:R02864"
@@ -885,9 +885,9 @@
         <graphics name="MMAB, ATR, CFAP23, cblB, cob" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="463" y="1295" width="46" height="17"/>
     </entry>
-    <entry id="302" name="ko:K02231" type="ortholog" reaction="rn:R05222"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K02231">
-        <graphics name="K02231" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="302" name="ko:K02231 ko:K19712" type="ortholog" reaction="rn:R05222"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K02231+K19712">
+        <graphics name="K02231..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="395" y="1210" width="46" height="17"/>
     </entry>
     <entry id="303" name="ko:K04720" type="ortholog" reaction="rn:R06530"
@@ -1271,8 +1271,8 @@
     </reaction>
     <reaction id="321" name="rn:R03683" type="irreversible">
         <substrate id="124" name="cpd:C01708"/>
-        <product id="97" name="cpd:C14819"/>
         <product id="99" name="cpd:C00500"/>
+        <product id="97" name="cpd:C14819"/>
     </reaction>
     <reaction id="244" name="rn:R02391 rn:R02393" type="irreversible">
         <substrate id="99" name="cpd:C00500"/>
@@ -1323,8 +1323,8 @@
         <product id="58" name="cpd:C05787"/>
     </reaction>
     <reaction id="257" name="rn:R00310" type="irreversible">
-        <substrate id="95" name="cpd:C14818"/>
         <substrate id="322" name="cpd:C02191"/>
+        <substrate id="95" name="cpd:C14818"/>
         <product id="55" name="cpd:C00032"/>
     </reaction>
 </pathway>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Feb 21, 2014 15:26:31 +0900 (GMT+09:00) -->
+<!-- Creation date: Apr 12, 2016 10:31:18 +0900 (GMT+9) -->
 <pathway name="path:hsa04660" org="hsa" number="04660"
          title="T cell receptor signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04660.png"
@@ -32,7 +32,7 @@
     </entry>
     <entry id="6" name="hsa:7124" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7124">
-        <graphics name="TNF, DIF, TNF-alpha, TNFA, TNFSF2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TNF, DIF, TNF-alpha, TNFA, TNFSF2, TNLG1F" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1140" y="699" width="46" height="17"/>
     </entry>
     <entry id="7" name="hsa:1437" type="gene"
@@ -72,7 +72,7 @@
     </entry>
     <entry id="14" name="hsa:4790 hsa:5970" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4790+hsa:5970">
-        <graphics name="NFKB1, EBP-1, KBF1, NF-kB1, NF-kappa-B, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB1, NF-kappa-B, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="828" y="784" width="46" height="17"/>
     </entry>
     <entry id="15" name="hsa:3551" type="gene"
@@ -82,7 +82,7 @@
     </entry>
     <entry id="16" name="hsa:8517" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8517">
-        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IKKAP1, IKKG, IMD33, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="651" y="832" width="46" height="17"/>
     </entry>
     <entry id="17" name="hsa:1147" type="gene"
@@ -97,22 +97,22 @@
     </entry>
     <entry id="19" name="hsa:1326" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1326">
-        <graphics name="MAP3K8, COT, EST, ESTF, MEKK8, TPL2, Tpl-2, c-COT" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MAP3K8, AURA2, COT, EST, ESTF, MEKK8, TPL2, Tpl-2, c-COT" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="507" y="867" width="46" height="17"/>
     </entry>
     <entry id="20" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="432" y="867" width="46" height="17"/>
     </entry>
     <entry id="21" name="hsa:10892" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10892">
-        <graphics name="MALT1, IMD12, MLT, MLT1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MALT1, IMD12, MLT, MLT1, PCASP1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="524" y="822" width="46" height="17"/>
     </entry>
     <entry id="22" name="hsa:8915" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8915">
-        <graphics name="BCL10, CARMEN, CIPER, CLAP, c-E10, mE10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="BCL10, CARMEN, CIPER, CLAP, IMD37, c-E10, mE10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="524" y="805" width="46" height="17"/>
     </entry>
     <entry id="23" name="hsa:84433" type="gene"
@@ -127,7 +127,7 @@
     </entry>
     <entry id="25" name="hsa:5170" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5170">
-        <graphics name="PDPK1, PDK1, PDPK2, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDPK1, PDK1, PDPK2, PDPK2P, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="379" y="904" width="46" height="17"/>
     </entry>
     <entry id="26" name="hsa:2885" type="gene"
@@ -177,7 +177,7 @@
     </entry>
     <entry id="35" name="hsa:4772 hsa:4773 hsa:4775" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4772+hsa:4773+hsa:4775">
-        <graphics name="NFATC1, NF-ATC, NFAT2, NFATc..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NFATC1, NF-ATC, NF-ATc1.2, NFAT2, NFATc..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="827" y="575" width="46" height="17"/>
     </entry>
     <entry id="36" name="hsa:5530 hsa:5532 hsa:5533 hsa:5534 hsa:5535" type="gene"
@@ -220,8 +220,8 @@
         <graphics name="RHOA, ARH12, ARHA, RHO12, RHOH12..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="498" y="466" width="46" height="17"/>
     </entry>
-    <entry id="44" name="hsa:10298 hsa:5058 hsa:5062 hsa:5063 hsa:56924 hsa:57144" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10298+hsa:5058+hsa:5062+hsa:5063+hsa:56924+hsa:57144">
+    <entry id="44" name="hsa:10298 hsa:106821730 hsa:5058 hsa:5062 hsa:5063 hsa:56924 hsa:57144" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10298+hsa:106821730+hsa:5058+hsa:5062+hsa:5063+hsa:56924+hsa:57144">
         <graphics name="PAK4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="498" y="397" width="46" height="17"/>
     </entry>
@@ -262,12 +262,12 @@
     </entry>
     <entry id="52" name="hsa:919" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:919">
-        <graphics name="CD247, CD3-ZETA, CD3H, CD3Q, CD3Z, T3Z, TCRZ" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CD247, CD3-ZETA, CD3H, CD3Q, CD3Z, IMD25, T3Z, TCRZ" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="210" y="361" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:919" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:919">
-        <graphics name="CD247, CD3-ZETA, CD3H, CD3Q, CD3Z, T3Z, TCRZ" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CD247, CD3-ZETA, CD3H, CD3Q, CD3Z, IMD25, T3Z, TCRZ" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="210" y="344" width="46" height="17"/>
     </entry>
     <entry id="54" name="hsa:2534" type="gene"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="62" name="hsa:1493" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1493">
-        <graphics name="CTLA4, CD, CD152, CELIAC3, CTLA-4, GRD4, GSE, IDDM12" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CTLA4, ALPS5, CD, CD152, CELIAC3, CTLA-4, GRD4, GSE, IDDM12" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="162" y="152" width="46" height="17"/>
     </entry>
     <entry id="63" name="hsa:5133" type="gene"
@@ -352,7 +352,7 @@
     </entry>
     <entry id="70" name="hsa:5894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5894">
-        <graphics name="RAF1, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="554" y="639" width="46" height="17"/>
     </entry>
     <entry id="71" name="hsa:5594 hsa:5595" type="gene"
@@ -412,17 +412,17 @@
     </entry>
     <entry id="82" name="undefined" type="group">
         <graphics fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="651" y="832" width="46" height="51"/>
-        <component id="15"/>
-        <component id="16"/>
-        <component id="17"/>
-    </entry>
-    <entry id="83" name="undefined" type="group">
-        <graphics fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="524" y="805" width="46" height="51"/>
         <component id="21"/>
         <component id="22"/>
         <component id="23"/>
+    </entry>
+    <entry id="83" name="undefined" type="group">
+        <graphics fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="651" y="832" width="46" height="51"/>
+        <component id="15"/>
+        <component id="16"/>
+        <component id="17"/>
     </entry>
     <relation entry1="61" entry2="63" type="PPrel">
         <subtype name="binding/association" value="---"/>
@@ -460,20 +460,6 @@
     <relation entry1="47" entry2="53" type="PPrel">
         <subtype name="binding/association" value="---"/>
     </relation>
-    <relation entry1="54" entry2="56" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-        <subtype name="binding/association" value="---"/>
-    </relation>
-    <relation entry1="54" entry2="53" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-        <subtype name="binding/association" value="---"/>
-    </relation>
-    <relation entry1="60" entry2="59" type="PPrel">
-        <subtype name="dephosphorylation" value="-p"/>
-    </relation>
-    <relation entry1="60" entry2="54" type="PPrel">
-        <subtype name="dephosphorylation" value="-p"/>
-    </relation>
     <relation entry1="61" entry2="47" type="PPrel">
         <subtype name="inhibition" value="--|"/>
         <subtype name="dephosphorylation" value="-p"/>
@@ -491,26 +477,8 @@
         <subtype name="inhibition" value="--|"/>
     </relation>
     <relation entry1="58" entry2="47" type="PPrel">
-        <subtype name="ubiquitination" value="+u"/>
         <subtype name="inhibition" value="--|"/>
-    </relation>
-    <relation entry1="59" entry2="47" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="47" entry2="46" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="47" entry2="40" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="37" entry2="42" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="37" entry2="38" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="45" entry2="44" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
+        <subtype name="ubiquitination" value="+u"/>
     </relation>
     <relation entry1="29" entry2="30" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
@@ -529,21 +497,6 @@
     </relation>
     <relation entry1="32" entry2="33" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
-    </relation>
-    <relation entry1="25" entry2="20" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="20" entry2="19" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="19" entry2="18" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="18" entry2="82" type="PPrel">
-        <subtype name="phosphorylation" value="+p"/>
-    </relation>
-    <relation entry1="36" entry2="35" type="PPrel">
-        <subtype name="dephosphorylation" value="-p"/>
     </relation>
     <relation entry1="39" entry2="31" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
@@ -584,7 +537,7 @@
     </relation>
     <relation entry1="71" entry2="34" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
-        <subtype name="phosphorylation" value="+p"/>
+        <subtype name="dephosphorylation" value="-p"/>
     </relation>
     <relation entry1="33" entry2="70" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
@@ -630,7 +583,7 @@
         <subtype name="activation" value="--&gt;"/>
         <subtype name="phosphorylation" value="+p"/>
     </relation>
-    <relation entry1="83" entry2="16" type="PPrel">
+    <relation entry1="82" entry2="16" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
         <subtype name="ubiquitination" value="+u"/>
     </relation>
@@ -638,7 +591,79 @@
         <subtype name="activation" value="--&gt;"/>
         <subtype name="phosphorylation" value="+p"/>
     </relation>
+    <relation entry1="60" entry2="59" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="dephosphorylation" value="-p"/>
+    </relation>
+    <relation entry1="60" entry2="54" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="dephosphorylation" value="-p"/>
+    </relation>
+    <relation entry1="56" entry2="54" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="53" entry2="54" type="PPrel">
+        <subtype name="phosphorylation" value="+p"/>
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="54" entry2="59" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="54" entry2="47" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="47" entry2="40" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="47" entry2="46" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="45" entry2="44" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="37" entry2="42" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="37" entry2="38" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="36" entry2="35" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="dephosphorylation" value="-p"/>
+    </relation>
+    <relation entry1="20" entry2="19" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="19" entry2="18" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="18" entry2="83" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
     <relation entry1="15" entry2="13" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="25" entry2="20" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="phosphorylation" value="+p"/>
+    </relation>
+    <relation entry1="75" entry2="76" type="PPrel">
+        <subtype name="binding/association" value="---"/>
+    </relation>
+    <relation entry1="59" entry2="47" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
         <subtype name="phosphorylation" value="+p"/>
     </relation>
 </pathway>

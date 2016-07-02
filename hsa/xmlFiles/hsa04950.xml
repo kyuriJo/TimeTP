@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jul 2, 2009 13:17:11 +0900 (JST) -->
+<!-- Creation date: Aug 7, 2015 16:44:51 +0900 (GMT+9) -->
 <pathway name="path:hsa04950" org="hsa" number="04950"
          title="Maturity onset diabetes of the young"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04950.png"
          link="http://www.kegg.jp/kegg-bin/show_pathway?hsa04950">
     <entry id="1" name="hsa:6928" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6928">
-        <graphics name="HNF1B, FJHN, HNF-1B, HNF1beta, HNF2, HPC11, LF-B3, LFB3, MODY5, TCF-2, TCF2, VHNF1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HNF1B, FJHN, HNF-1-beta, HNF-1B, HNF1beta, HNF2, HPC11, LF-B3, LFB3, MODY5, TCF-2, TCF2, VHNF1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="359" y="399" width="46" height="17"/>
     </entry>
     <entry id="2" name="hsa:3280" type="gene"
@@ -32,7 +32,7 @@
     </entry>
     <entry id="6" name="hsa:3651" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3651">
-        <graphics name="PDX1, GSF, IDX-1, IPF1, IUF1, MODY4, PDX-1, STF-1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDX1, GSF, IDX-1, IPF1, IUF1, MODY4, PAGEN1, PDX-1, STF-1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="442" y="715" width="46" height="17"/>
     </entry>
     <entry id="7" name="hsa:3171" type="gene"
@@ -43,7 +43,7 @@
     <entry id="8" name="hsa:4760" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4760">
         <graphics name="NEUROD1, BETA2, BHF-1, MODY6, NEUROD, bHLHa3" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="597" y="445" width="46" height="17"/>
+             type="rectangle" x="596" y="463" width="46" height="17"/>
     </entry>
     <entry id="9" name="hsa:3280" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3280">
@@ -67,7 +67,7 @@
     </entry>
     <entry id="13" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="524" y="853" width="46" height="17"/>
     </entry>
     <entry id="14" name="hsa:6927" type="gene"
@@ -83,11 +83,11 @@
     <entry id="16" name="hsa:5078" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5078">
         <graphics name="PAX4, KPD, MODY9" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="548" y="445" width="46" height="17"/>
+             type="rectangle" x="548" y="463" width="46" height="17"/>
     </entry>
     <entry id="17" name="hsa:5080" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5080">
-        <graphics name="PAX6, AN, AN2, D11S812E, MGDA, WAGR" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PAX6, AN, AN2, D11S812E, FVH1, MGDA, WAGR" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="156" y="478" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:6514" type="gene"
@@ -122,23 +122,23 @@
     </entry>
     <entry id="24" name="hsa:5080" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5080">
-        <graphics name="PAX6, AN, AN2, D11S812E, MGDA, WAGR" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PAX6, AN, AN2, D11S812E, FVH1, MGDA, WAGR" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="506" y="669" width="46" height="17"/>
     </entry>
     <entry id="25" name="hsa:3172" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3172">
-        <graphics name="HNF4A, HNF4, HNF4a7, HNF4a8, HNF4a9, HNF4alpha, MODY, MODY1, NR2A1, NR2A21, TCF, TCF14" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HNF4A, FRTS4, HNF4, HNF4a7, HNF4a8, HNF4a9, HNF4alpha, MODY, MODY1, NR2A1, NR2A21, TCF, TCF14" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="442" y="761" width="46" height="17"/>
     </entry>
     <entry id="26" name="hsa:3651" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3651">
-        <graphics name="PDX1, GSF, IDX-1, IPF1, IUF1, MODY4, PDX-1, STF-1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDX1, GSF, IDX-1, IPF1, IUF1, MODY4, PAGEN1, PDX-1, STF-1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="442" y="202" width="46" height="17"/>
     </entry>
     <entry id="27" name="hsa:4821" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4821">
         <graphics name="NKX2-2, NKX2.2, NKX2B" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="442" y="445" width="46" height="17"/>
+             type="rectangle" x="442" y="463" width="46" height="17"/>
     </entry>
     <entry id="28" name="hsa:3087" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3087">
@@ -152,13 +152,13 @@
     </entry>
     <entry id="30" name="hsa:5080" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5080">
-        <graphics name="PAX6, AN, AN2, D11S812E, MGDA, WAGR" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="500" y="445" width="46" height="17"/>
+        <graphics name="PAX6, AN, AN2, D11S812E, FVH1, MGDA, WAGR" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="500" y="463" width="46" height="17"/>
     </entry>
     <entry id="31" name="hsa:4825" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4825">
         <graphics name="NKX6-1, NKX6.1, NKX6A" fgcolor="#000000" bgcolor="#BFFFBF"
-             type="rectangle" x="442" y="537" width="46" height="17"/>
+             type="rectangle" x="442" y="555" width="46" height="17"/>
     </entry>
     <entry id="32" name="hsa:3170" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3170">
@@ -167,7 +167,7 @@
     </entry>
     <entry id="33" name="hsa:3651" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3651">
-        <graphics name="PDX1, GSF, IDX-1, IPF1, IUF1, MODY4, PDX-1, STF-1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDX1, GSF, IDX-1, IPF1, IUF1, MODY4, PAGEN1, PDX-1, STF-1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="212" y="478" width="46" height="17"/>
     </entry>
     <entry id="34" name="hsa:3175" type="gene"
@@ -189,6 +189,11 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa04910">
         <graphics name="Insulin signaling pathway" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="553" y="917" width="104" height="34"/>
+    </entry>
+    <entry id="46" name="hsa:222546" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:222546">
+        <graphics name="RFX6, MTCHRS, MTFS, RFXDC1, dJ955L16.1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="644" y="463" width="46" height="17"/>
     </entry>
     <relation entry1="34" entry2="26" type="GErel">
         <subtype name="expression" value="--&gt;"/>

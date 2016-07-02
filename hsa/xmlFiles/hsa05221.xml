@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Oct 8, 2014 14:39:19 +0900 (GMT+09:00) -->
+<!-- Creation date: Aug 27, 2015 18:26:02 +0900 (GMT+9) -->
 <pathway name="path:hsa05221" org="hsa" number="05221"
          title="Acute myeloid leukemia"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05221.png"
@@ -12,7 +12,7 @@
     </entry>
     <entry id="2" name="hsa:3845" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3845">
-        <graphics name="KRAS, C-K-RAS, CFC2, K-RAS2A, K-RAS2B, K-RAS4A, K-RAS4B, KI-RAS, KRAS1, KRAS2, NS, NS3, RASK2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="KRAS, C-K-RAS, CFC2, K-RAS2A, K-RAS2B, K-RAS4A, K-RAS4B, KI-RAS, KRAS1, KRAS2, NS, NS3, RALD, RASK2" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="498" y="290" width="46" height="17"/>
     </entry>
     <entry id="3" name="hsa:4893" type="gene"
@@ -37,7 +37,7 @@
     </entry>
     <entry id="7" name="hsa:861 hsa:862" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:861+hsa:862">
-        <graphics name="RUNX1, AML1, AML1-EVI-1, AMLCR1, CBFA2, EVI-1, PEBP2aB..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RUNX1, AML1, AML1-EVI-1, AMLCR1, CBF2alpha, CBFA2, EVI-1, PEBP2aB, PEBP2alpha..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="940" y="560" width="46" height="17"/>
     </entry>
     <entry id="8" name="path:hsa04630" type="map"
@@ -67,12 +67,12 @@
     </entry>
     <entry id="13" name="hsa:4790 hsa:5970" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4790+hsa:5970">
-        <graphics name="NFKB1, EBP-1, KBF1, NF-kB1, NF-kappa-B, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB1, NF-kappa-B, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="840" y="116" width="46" height="17"/>
     </entry>
     <entry id="14" name="hsa:6774 hsa:6776 hsa:6777" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6774+hsa:6776+hsa:6777">
-        <graphics name="STAT3, APRF, HIES..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="STAT3, ADMIO, APRF, HIES..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="484" y="340" width="46" height="17"/>
     </entry>
     <entry id="15" name="hsa:3728" type="gene"
@@ -117,7 +117,7 @@
     </entry>
     <entry id="23" name="hsa:861" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:861">
-        <graphics name="RUNX1, AML1, AML1-EVI-1, AMLCR1, CBFA2, EVI-1, PEBP2aB" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RUNX1, AML1, AML1-EVI-1, AMLCR1, CBF2alpha, CBFA2, EVI-1, PEBP2aB, PEBP2alpha" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1033" y="398" width="46" height="17"/>
     </entry>
     <entry id="24" name="path:hsa04210" type="map"
@@ -172,7 +172,7 @@
     </entry>
     <entry id="34" name="hsa:2475" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2475">
-        <graphics name="MTOR, FRAP, FRAP1, FRAP2, RAFT1, RAPT1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MTOR, FRAP, FRAP1, FRAP2, RAFT1, RAPT1, SKS" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="709" y="205" width="46" height="17"/>
     </entry>
     <entry id="35" name="hsa:1978" type="gene"
@@ -187,7 +187,7 @@
     </entry>
     <entry id="37" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="637" y="160" width="46" height="17"/>
     </entry>
     <entry id="38" name="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503" type="gene"

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 30, 2013 16:48:09 +0900 (GMT+09:00) -->
+<!-- Creation date: Dec 17, 2015 16:27:43 +0900 (GMT+9) -->
 <pathway name="path:hsa04066" org="hsa" number="04066"
          title="HIF-1 signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04066.png"
@@ -57,7 +57,7 @@
     </entry>
     <entry id="11" name="hsa:6513" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6513">
-        <graphics name="SLC2A1, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC2A1, CSE, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1099" y="615" width="46" height="17"/>
     </entry>
     <entry id="12" name="hsa:1950 hsa:3479 hsa:3630" type="gene"
@@ -87,7 +87,7 @@
     </entry>
     <entry id="17" name="hsa:1956 hsa:2064 hsa:3480 hsa:3643" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956+hsa:2064+hsa:3480+hsa:3643">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="169" y="272" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503" type="gene"
@@ -142,12 +142,12 @@
     </entry>
     <entry id="28" name="hsa:6513" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6513">
-        <graphics name="SLC2A1, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC2A1, CSE, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="171" y="710" width="46" height="17"/>
     </entry>
     <entry id="29" name="hsa:3939" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3939">
-        <graphics name="LDHA, GSD11, HEL-S-133P, LDH1, LDHM" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="LDHA, GSD11, HEL-S-133P, LDH1, LDHM, PIG19" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1099" y="809" width="46" height="17"/>
     </entry>
     <entry id="30" name="hsa:5163" type="gene"
@@ -172,7 +172,7 @@
     </entry>
     <entry id="34" name="hsa:3939" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3939">
-        <graphics name="LDHA, GSD11, HEL-S-133P, LDH1, LDHM" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="LDHA, GSD11, HEL-S-133P, LDH1, LDHM, PIG19" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="353" y="808" width="46" height="17"/>
     </entry>
     <entry id="35" name="path:hsa00020" type="map"
@@ -187,7 +187,7 @@
     </entry>
     <entry id="37" name="hsa:5160 hsa:5161 hsa:5162" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5160+hsa:5161+hsa:5162">
-        <graphics name="PDHA1, PDHA, PDHCE1A, PHE1A..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDHA1, PDHA, PDHAD, PDHCE1A, PHE1A..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="447" y="695" width="46" height="17"/>
     </entry>
     <entry id="38" name="hsa:5163" type="gene"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="62" name="hsa:4878" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4878">
-        <graphics name="NPPA, ANF, ANP, ATFB6, ATRST2, CDD-ANF, PND" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NPPA, ANF, ANP, ATFB6, ATRST2, CDD, CDD-ANF, CDP, PND" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1099" y="538" width="46" height="17"/>
     </entry>
     <entry id="63" name="hsa:7076" type="gene"

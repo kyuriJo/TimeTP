@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 2, 2013 14:20:51 +0900 (GMT+09:00) -->
+<!-- Creation date: Feb 24, 2016 14:39:53 +0900 (GMT+9) -->
 <pathway name="path:hsa04012" org="hsa" number="04012"
          title="ErbB signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04012.png"
@@ -67,12 +67,12 @@
     </entry>
     <entry id="13" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="200" y="268" width="46" height="17"/>
     </entry>
     <entry id="14" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="200" y="217" width="46" height="17"/>
     </entry>
     <entry id="15" name="path:hsa05212" type="map"
@@ -132,11 +132,11 @@
     </entry>
     <entry id="26" name="hsa:2475" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2475">
-        <graphics name="MTOR, FRAP, FRAP1, FRAP2, RAFT1, RAPT1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="MTOR, FRAP, FRAP1, FRAP2, RAFT1, RAPT1, SKS" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="542" y="582" width="46" height="17"/>
     </entry>
-    <entry id="27" name="hsa:10298 hsa:5058 hsa:5062 hsa:5063 hsa:56924 hsa:57144" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10298+hsa:5058+hsa:5062+hsa:5063+hsa:56924+hsa:57144">
+    <entry id="27" name="hsa:10298 hsa:106821730 hsa:5058 hsa:5062 hsa:5063 hsa:56924 hsa:57144" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10298+hsa:106821730+hsa:5058+hsa:5062+hsa:5063+hsa:56924+hsa:57144">
         <graphics name="PAK4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="549" y="369" width="46" height="17"/>
     </entry>
@@ -262,7 +262,7 @@
     </entry>
     <entry id="52" name="hsa:2069" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2069">
-        <graphics name="EREG, ER" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EREG, EPR, ER, Ep" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="69" y="397" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:685" type="gene"
@@ -297,12 +297,12 @@
     </entry>
     <entry id="59" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="453" y="650" width="46" height="17"/>
     </entry>
     <entry id="60" name="hsa:1956" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956">
-        <graphics name="EGFR, ERBB, ERBB1, HER1, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="EGFR, ERBB, ERBB1, HER1, NISBD2, PIG61, mENA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="200" y="200" width="46" height="17"/>
     </entry>
     <entry id="61" name="path:hsa04020" type="map"

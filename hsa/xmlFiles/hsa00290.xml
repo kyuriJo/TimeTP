@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Sep 13, 2012 16:31:20 +0900 (GMT+09:00) -->
+<!-- Creation date: Mar 3, 2016 11:19:58 +0900 (GMT+9) -->
 <pathway name="path:hsa00290" org="hsa" number="00290"
          title="Valine, leucine and isoleucine biosynthesis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00290.png"

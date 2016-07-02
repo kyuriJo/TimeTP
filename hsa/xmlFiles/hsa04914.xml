@@ -17,7 +17,7 @@
     </entry>
     <entry id="3" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="78" y="463" width="46" height="17"/>
     </entry>
     <entry id="4" name="hsa:4342" type="gene"
@@ -100,9 +100,9 @@
         <graphics name="HSP90AA1, EL52, HSP86, HSP89A, HSP90A, HSP90N, HSPC1, HSPCA, HSPCAL1, HSPCAL4, HSPN, Hsp89, Hsp90, LAP-2, LAP2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="468" y="301" width="46" height="17"/>
     </entry>
-    <entry id="23" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="23" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="292" y="371" width="46" height="17"/>
     </entry>
     <entry id="24" name="hsa:9088" type="gene"
@@ -145,9 +145,9 @@
         <graphics name="CCNA2, CCN1, CCNA..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="531" y="181" width="46" height="17"/>
     </entry>
-    <entry id="32" name="hsa:245711 hsa:387778" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:245711+hsa:387778">
-        <graphics name="SPDYA, RINGO3, RINGOA, SPDY1, SPY1..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="32" name="hsa:100310812 hsa:100505767 hsa:100996746 hsa:102723555 hsa:102723849 hsa:245711 hsa:285955 hsa:387778 hsa:388333 hsa:441272 hsa:441273 hsa:442590 hsa:729597" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:100310812+hsa:100505767+hsa:100996746+hsa:102723555+hsa:102723849+hsa:245711+hsa:285955+hsa:387778+hsa:388333+hsa:441272+hsa:441273+hsa:442590+hsa:729597">
+        <graphics name="SPDYE2B, SPDYE2L..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="531" y="148" width="46" height="17"/>
     </entry>
     <entry id="34" name="hsa:1432 hsa:5599 hsa:5600 hsa:5601 hsa:5602 hsa:5603 hsa:6300" type="gene"

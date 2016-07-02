@@ -230,9 +230,9 @@
         <graphics name="STIP1, HEL-S-94n, HOP, IEF-SSP-3521, P60, STI1, STI1L" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="461" y="282" width="46" height="17"/>
     </entry>
-    <entry id="46" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="46" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="573" y="282" width="46" height="17"/>
     </entry>
     <entry id="47" name="cpd:C00575" type="compound"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="62" name="hsa:4851" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4851">
-        <graphics name="NOTCH1, TAN1, hN1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NOTCH1, AOS5, AOVD1, TAN1, hN1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="319" y="767" width="46" height="17"/>
     </entry>
     <entry id="63" name="path:hsa04330" type="map"
@@ -332,7 +332,7 @@
     </entry>
     <entry id="66" name="hsa:3303" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3303">
-        <graphics name="HSPA1A, HEL-S-103, HSP70-1, HSP70-1A, HSP70I, HSP72, HSPA1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HSPA1A, HEL-S-103, HSP70-1, HSP70-1A, HSP70.1, HSP70I, HSP72, HSPA1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="531" y="661" width="46" height="17"/>
     </entry>
     <entry id="67" name="cpd:C02140" type="compound"

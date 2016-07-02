@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Nov 11, 2013 11:13:57 +0900 (GMT+09:00) -->
+<!-- Creation date: Jan 8, 2016 15:03:00 +0900 (GMT+9) -->
 <pathway name="path:hsa05204" org="hsa" number="05204"
          title="Chemical carcinogenesis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05204.png"
@@ -65,8 +65,8 @@
         <graphics name="ADH1A, ADH1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="928" y="1889" width="46" height="17"/>
     </entry>
-    <entry id="17" name="hsa:119391 hsa:221357 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
+    <entry id="17" name="hsa:119391 hsa:221357 hsa:27306 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:27306+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
         <graphics name="GSTO2, GSTO_2-2, bA127L20.1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="708" y="1934" width="46" height="17"/>
     </entry>
@@ -155,13 +155,13 @@
         <graphics name="C14556" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="305" y="431" width="8" height="8"/>
     </entry>
-    <entry id="36" name="hsa:119391 hsa:221357 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
+    <entry id="36" name="hsa:119391 hsa:221357 hsa:27306 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:27306+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
         <graphics name="GSTO2, GSTO_2-2, bA127L20.1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="357" y="509" width="46" height="17"/>
     </entry>
-    <entry id="37" name="hsa:119391 hsa:221357 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
+    <entry id="37" name="hsa:119391 hsa:221357 hsa:27306 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:27306+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
         <graphics name="GSTO2, GSTO_2-2, bA127L20.1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="251" y="547" width="46" height="17"/>
     </entry>
@@ -450,9 +450,9 @@
         <graphics name="NAT2, AAC2, NAT-2, PNAT" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="871" y="146" width="46" height="17"/>
     </entry>
-    <entry id="97" name="hsa:101929857 hsa:445329 hsa:6799 hsa:6817 hsa:6818" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:101929857+hsa:445329+hsa:6799+hsa:6817+hsa:6818">
-        <graphics name="101929857..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="97" name="hsa:445329 hsa:6799 hsa:6817 hsa:6818" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:445329+hsa:6799+hsa:6817+hsa:6818">
+        <graphics name="SULT1A4, HAST3, M-PST, ST1A3/ST1A4, ST1A4, TL-PST..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="871" y="188" width="46" height="17"/>
     </entry>
     <entry id="98" name="cpd:C19180" type="compound"
@@ -502,17 +502,17 @@
     </entry>
     <entry id="107" name="hsa:100861540 hsa:1543 hsa:1551 hsa:1576 hsa:1577 hsa:64816" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:100861540+hsa:1543+hsa:1551+hsa:1576+hsa:1577+hsa:64816">
-        <graphics name="CYP3A7-CYP3AP1, CYP3A7-3AP1, CYP3A7.1L, CYP3A7-CYP3A51P..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP3A7-CYP3A51P, CYP3A7-3AP1, CYP3A7-CYP3AP1, CYP3A7.1L..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="183" y="711" width="46" height="17"/>
     </entry>
     <entry id="108" name="hsa:100861540 hsa:1543 hsa:1551 hsa:1576 hsa:1577 hsa:64816" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:100861540+hsa:1543+hsa:1551+hsa:1576+hsa:1577+hsa:64816">
-        <graphics name="CYP3A7-CYP3AP1, CYP3A7-3AP1, CYP3A7.1L, CYP3A7-CYP3A51P..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP3A7-CYP3A51P, CYP3A7-3AP1, CYP3A7-CYP3AP1, CYP3A7.1L..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="183" y="760" width="46" height="17"/>
     </entry>
     <entry id="109" name="hsa:100861540 hsa:1543 hsa:1551 hsa:1576 hsa:1577 hsa:64816" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:100861540+hsa:1543+hsa:1551+hsa:1576+hsa:1577+hsa:64816">
-        <graphics name="CYP3A7-CYP3AP1, CYP3A7-3AP1, CYP3A7.1L, CYP3A7-CYP3A51P..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CYP3A7-CYP3A51P, CYP3A7-3AP1, CYP3A7-CYP3AP1, CYP3A7.1L..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="183" y="814" width="46" height="17"/>
     </entry>
     <entry id="110" name="cpd:C19525" type="compound"
@@ -665,8 +665,8 @@
         <graphics name="CYP2E1, CPE1, CYP2E, P450-J, P450C2E" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="190" y="1882" width="46" height="17"/>
     </entry>
-    <entry id="140" name="hsa:119391 hsa:221357 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
+    <entry id="140" name="hsa:119391 hsa:221357 hsa:27306 hsa:2938 hsa:2939 hsa:2940 hsa:2941 hsa:2944 hsa:2946 hsa:2947 hsa:2948 hsa:2949 hsa:2950 hsa:2952 hsa:2953 hsa:373156 hsa:4257 hsa:4258 hsa:4259 hsa:653689 hsa:9446" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:119391+hsa:221357+hsa:27306+hsa:2938+hsa:2939+hsa:2940+hsa:2941+hsa:2944+hsa:2946+hsa:2947+hsa:2948+hsa:2949+hsa:2950+hsa:2952+hsa:2953+hsa:373156+hsa:4257+hsa:4258+hsa:4259+hsa:653689+hsa:9446">
         <graphics name="GSTO2, GSTO_2-2, bA127L20.1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="203" y="2054" width="46" height="17"/>
     </entry>

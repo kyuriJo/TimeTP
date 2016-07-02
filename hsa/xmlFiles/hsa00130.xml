@@ -77,7 +77,7 @@
     </entry>
     <entry id="65" name="hsa:27235" type="gene" reaction="rn:R05000 rn:R05616 rn:R07273"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:27235">
-        <graphics name="COQ2, CL640, COQ10D1, MSA1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="COQ2, CL640, COQ10D1, MSA1, PHB:PPT" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="432" y="715" width="46" height="17"/>
     </entry>
     <entry id="66" name="ko:K00568" type="ortholog" reaction="rn:R08781 rn:R05614"
@@ -402,7 +402,7 @@
     </entry>
     <entry id="131" name="hsa:51004" type="gene" reaction="rn:R08773 rn:R04982"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51004">
-        <graphics name="COQ6, CGI10, COQ10D6" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="COQ6, CGI-10, CGI10, COQ10D6" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="432" y="1019" width="46" height="17"/>
     </entry>
     <entry id="132" name="hsa:84274" type="gene" reaction="rn:R08774 rn:R04983"

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 9, 2014 15:04:41 +0900 (GMT+09:00) -->
+<!-- Creation date: Apr 15, 2016 13:43:58 +0900 (GMT+9) -->
 <pathway name="path:hsa00910" org="hsa" number="00910"
          title="Nitrogen metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00910.png"
@@ -43,22 +43,27 @@
     <entry id="26" name="ko:K10534" type="ortholog" reaction="rn:R00794 rn:R00796"
         link="http://www.kegg.jp/dbget-bin/www_bget?K10534">
         <graphics name="K10534" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="252" y="257" width="46" height="17"/>
+             type="rectangle" x="225" y="287" width="46" height="17"/>
     </entry>
     <entry id="28" name="ko:K00370 ko:K00371 ko:K00374 ko:K00373 ko:K00372 ko:K00360 ko:K02567 ko:K02568" type="ortholog" reaction="rn:R00798"
         link="http://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374+K00373+K00372+K00360+K02567+K02568">
         <graphics name="K00370..." fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="252" y="234" width="46" height="17"/>
+             type="rectangle" x="250" y="234" width="46" height="17"/>
     </entry>
     <entry id="29" name="ko:K00367" type="ortholog" reaction="rn:R00791"
         link="http://www.kegg.jp/dbget-bin/www_bget?K00367">
         <graphics name="K00367" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="252" y="276" width="46" height="17"/>
+             type="rectangle" x="225" y="266" width="46" height="17"/>
     </entry>
     <entry id="30" name="ko:K00459" type="ortholog" reaction="rn:R00025"
         link="http://www.kegg.jp/dbget-bin/www_bget?K00459">
         <graphics name="K00459" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="307" y="376" width="46" height="17"/>
+    </entry>
+    <entry id="31" name="ko:K19823" type="ortholog" reaction="rn:R10388 rn:R10389"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19823">
+        <graphics name="K19823" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="357" y="376" width="46" height="17"/>
     </entry>
     <entry id="33" name="ko:K05601 ko:K15864" type="ortholog" reaction="rn:R00143"
         link="http://www.kegg.jp/dbget-bin/www_bget?K05601+K15864">
@@ -135,8 +140,8 @@
         <graphics name="C00088" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="332" y="276" width="8" height="8"/>
     </entry>
-    <entry id="51" name="path:hsa00460" type="map"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00460">
+    <entry id="51" name="path:map00460" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map00460">
         <graphics name="Cyanoamino acid metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="641" y="65" width="104" height="34"/>
     </entry>
@@ -215,10 +220,10 @@
         <graphics name="CPS1, CPSASE1, PHN" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="747" y="277" width="46" height="17"/>
     </entry>
-    <entry id="72" name="path:hsa00330" type="map"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00330">
-        <graphics name="Arginine and proline metabolism" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="970" y="276" width="117" height="34"/>
+    <entry id="72" name="path:hsa00220" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa00220">
+        <graphics name="Arginine biosynthesis" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="974" y="277" width="125" height="25"/>
     </entry>
     <entry id="74" name="ko:K02575" type="ortholog"
         link="http://www.kegg.jp/dbget-bin/www_bget?K02575">
@@ -335,7 +340,7 @@
         <graphics name="C00088" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="278" y="582" width="8" height="8"/>
     </entry>
-    <entry id="106" name="ko:K00370 ko:K00371 ko:K00374 ko:K00373" type="ortholog" reaction="rn:R00798"
+    <entry id="106" name="ko:K00370 ko:K00371 ko:K00374 ko:K00373" type="ortholog" reaction="rn:R09497 rn:R00798"
         link="http://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374+K00373">
         <graphics name="K00370..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="219" y="505" width="46" height="17"/>
@@ -519,6 +524,11 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?K17877">
         <graphics name="K17877" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="556" y="572" width="46" height="17"/>
+    </entry>
+    <entry id="153" name="ko:K00370 ko:K00371 ko:K00374 ko:K00373" type="ortholog" reaction="rn:R09497"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K00370+K00371+K00374+K00373">
+        <graphics name="K00370..." fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="273" y="266" width="46" height="17"/>
     </entry>
     <relation entry1="71" entry2="91" type="ECrel">
         <subtype name="compound" value="14"/>

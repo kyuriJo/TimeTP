@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jun 8, 2015 16:20:29 +0900 (GMT+9) -->
+<!-- Creation date: Aug 10, 2015 14:07:51 +0900 (GMT+9) -->
 <pathway name="path:hsa00071" org="hsa" number="00071"
          title="Fatty acid degradation"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00071.png"
@@ -52,7 +52,7 @@
     </entry>
     <entry id="42" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R03026"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="898" y="495" width="46" height="17"/>
     </entry>
     <entry id="43" name="path:hsa00072" type="map"
@@ -97,7 +97,7 @@
     </entry>
     <entry id="51" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R04749"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="747" y="496" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:35" type="gene" reaction="rn:R04751"
@@ -132,7 +132,7 @@
     </entry>
     <entry id="59" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R04746"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="621" y="497" width="46" height="17"/>
     </entry>
     <entry id="60" name="hsa:34" type="gene" reaction="rn:R03777"
@@ -162,7 +162,7 @@
     </entry>
     <entry id="66" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R04744"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="495" y="497" width="46" height="17"/>
     </entry>
     <entry id="67" name="hsa:34" type="gene" reaction="rn:R04754"
@@ -207,7 +207,7 @@
     </entry>
     <entry id="76" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R04170"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="369" y="498" width="46" height="17"/>
     </entry>
     <entry id="77" name="hsa:34" type="gene" reaction="rn:R03857"
@@ -262,7 +262,7 @@
     </entry>
     <entry id="90" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R04740"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="243" y="498" width="46" height="17"/>
     </entry>
     <entry id="91" name="hsa:34" type="gene" reaction="rn:R03990"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="102" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R04738"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="118" y="498" width="46" height="17"/>
     </entry>
     <entry id="103" name="hsa:34" type="gene" reaction="rn:R01279"
@@ -677,7 +677,7 @@
     </entry>
     <entry id="200" name="hsa:126129 hsa:1374 hsa:1375" type="gene" reaction="rn:R01923"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:126129+hsa:1374+hsa:1375">
-        <graphics name="CPT1C, CATL1, CPT1-B, CPT1P, CPTI-B, CPTIC..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CPT1C, CATL1, CPT1-B, CPT1P, CPTI-B, CPTIC, SPG73..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="143" y="268" width="46" height="17"/>
     </entry>
     <entry id="201" name="cpd:C00154" type="compound"

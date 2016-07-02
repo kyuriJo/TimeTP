@@ -754,6 +754,8 @@ def visualize(resPath, KEGGPathFilePath, networks, network, pathDict, pathPval, 
 	for pathway,tri in pathDict.iteritems() :
 		pathlist = tri[0]	# the list of entry path
 		genelist = tri[1]	# the network (ent!gene)
+		if pathway not in pnameDic :
+			continue
 		p = pnameDic[pathway]
 		if len(p)>30 :
 			p = p[:30]+'...'

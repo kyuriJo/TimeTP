@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 2, 2013 14:42:55 +0900 (GMT+09:00) -->
+<!-- Creation date: Sep 28, 2015 14:09:43 +0900 (GMT+9) -->
 <pathway name="path:hsa04917" org="hsa" number="04917"
          title="Prolactin signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04917.png"
@@ -22,7 +22,7 @@
     </entry>
     <entry id="4" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="661" y="267" width="46" height="17"/>
     </entry>
     <entry id="5" name="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503" type="gene"
@@ -47,7 +47,7 @@
     </entry>
     <entry id="9" name="hsa:5894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5894">
-        <graphics name="RAF1, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="661" y="184" width="46" height="17"/>
     </entry>
     <entry id="10" name="hsa:3265 hsa:3845 hsa:4893" type="gene"
@@ -87,7 +87,7 @@
     </entry>
     <entry id="17" name="hsa:6772 hsa:6774 hsa:6776 hsa:6777" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6772+hsa:6774+hsa:6776+hsa:6777">
-        <graphics name="STAT1, CANDF7, ISGF-3, STAT91..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="STAT1, CANDF7, IMD31A, IMD31B, IMD31C, ISGF-3, STAT91..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="426" y="363" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:25759 hsa:399694 hsa:53358 hsa:6464" type="gene"
@@ -122,7 +122,7 @@
     </entry>
     <entry id="24" name="hsa:10000 hsa:207 hsa:208" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208">
-        <graphics name="AKT3, MPPH, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="661" y="133" width="46" height="17"/>
     </entry>
     <entry id="25" name="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503" type="gene"
@@ -237,12 +237,12 @@
     </entry>
     <entry id="47" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1028" y="937" width="46" height="17"/>
     </entry>
     <entry id="48" name="hsa:894" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:894">
-        <graphics name="CCND2, KIAK0002" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CCND2, KIAK0002, MPPH3" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1028" y="910" width="46" height="17"/>
     </entry>
     <entry id="49" name="path:hsa04911" type="map"

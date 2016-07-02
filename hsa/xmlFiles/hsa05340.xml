@@ -40,14 +40,14 @@
         <graphics name="CD40LG, CD154, CD40L, HIGM1, IGM, IMD3, T-BAM, TNFSF5, TRAP, gp39, hCD40L" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1051" y="654" width="46" height="17"/>
     </entry>
-    <entry id="8" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="8" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="741" y="542" width="46" height="17"/>
     </entry>
-    <entry id="9" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="9" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="949" y="590" width="46" height="17"/>
     </entry>
     <entry id="10" name="hsa:920" type="gene"
@@ -70,14 +70,14 @@
         <graphics name="CD4, CD4mut" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1096" y="229" width="46" height="17"/>
     </entry>
-    <entry id="14" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="14" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1120" y="541" width="46" height="17"/>
     </entry>
     <entry id="15" name="hsa:8517" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8517">
-        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="IKBKG, AMCBX1, FIP-3, FIP3, Fip3p, IKK-gamma, IMD33, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1025" y="521" width="46" height="17"/>
     </entry>
     <entry id="16" name="hsa:57379" type="gene"
@@ -90,9 +90,9 @@
         <graphics name="UNG, DGU, HIGM4, HIGM5, UDG, UNG1, UNG15, UNG2" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="998" y="677" width="46" height="17"/>
     </entry>
-    <entry id="18" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="18" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="303" y="653" width="46" height="17"/>
     </entry>
     <entry id="19" name="hsa:973" type="gene"
@@ -132,7 +132,7 @@
     </entry>
     <entry id="26" name="hsa:23495" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23495">
-        <graphics name="TNFRSF13B, CD267, CVID, CVID2, RYZN, TACI, TNFRSF14B" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TNFRSF13B, CD267, CVID, CVID2, IGAD2, RYZN, TACI, TNFRSF14B" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1217" y="677" width="46" height="17"/>
     </entry>
     <entry id="27" name="hsa:100" type="gene"
@@ -205,9 +205,9 @@
         <graphics name="AIRE, AIRE1, APECED, APS1, APSI, PGA1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="874" y="222" width="46" height="17"/>
     </entry>
-    <entry id="41" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="41" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="904" y="542" width="46" height="17"/>
     </entry>
     <entry id="42" name="hsa:5896" type="gene"
@@ -245,24 +245,24 @@
         <graphics name="CIITA, C2TA, CIITAIV, MHC2TA, NLRA" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="977" y="307" width="46" height="17"/>
     </entry>
-    <entry id="49" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="49" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="417" y="545" width="46" height="17"/>
     </entry>
-    <entry id="50" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="50" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="576" y="543" width="46" height="17"/>
     </entry>
     <entry id="51" name="hsa:84876" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:84876">
-        <graphics name="ORAI1, CRACM1, IMD9, ORAT1, TMEM142A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ORAI1, CRACM1, IMD9, ORAT1, TAM2, TMEM142A" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1183" y="53" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:84876" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:84876">
-        <graphics name="ORAI1, CRACM1, IMD9, ORAT1, TMEM142A" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ORAI1, CRACM1, IMD9, ORAT1, TAM2, TMEM142A" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1183" y="310" width="46" height="17"/>
     </entry>
 </pathway>

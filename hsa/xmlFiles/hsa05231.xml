@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Nov 28, 2014 16:45:59 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:53:59 +0900 (GMT+9) -->
 <pathway name="path:hsa05231" org="hsa" number="05231"
          title="Choline metabolism in cancer"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05231.png"
@@ -242,12 +242,12 @@
     </entry>
     <entry id="48" name="hsa:7454 hsa:8976" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7454+hsa:8976">
-        <graphics name="WAS, IMD2, SCNX, THC, THC1, WASP..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="WAS, IMD2, SCNX, THC, THC1, WASP, WASPA..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="874" y="357" width="46" height="17"/>
     </entry>
     <entry id="49" name="hsa:5879 hsa:5880 hsa:5881" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5879+hsa:5880+hsa:5881">
-        <graphics name="RAC1, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAC1, MIG5, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="719" y="396" width="46" height="17"/>
     </entry>
     <entry id="50" name="hsa:10163 hsa:10810 hsa:8936" type="gene"

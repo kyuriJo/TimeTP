@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 5, 2015 18:08:33 +0900 (GMT+09:00) -->
+<!-- Creation date: Apr 26, 2016 16:56:34 +0900 (GMT+9) -->
 <pathway name="path:hsa00310" org="hsa" number="00310"
          title="Lysine degradation"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00310.png"
@@ -25,6 +25,11 @@
         <graphics name="C05161" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="445" y="171" width="8" height="8"/>
     </entry>
+    <entry id="40" name="ko:K19743" type="ortholog" reaction="rn:R02201 rn:R02203"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19743">
+        <graphics name="K19743" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="576" y="262" width="46" height="17"/>
+    </entry>
     <entry id="41" name="hsa:10157" type="gene" reaction="rn:R00716"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10157">
         <graphics name="AASS, LKR/SDH, LKRSDH, LORSDH" fgcolor="#000000" bgcolor="#BFFFBF"
@@ -42,7 +47,7 @@
     </entry>
     <entry id="44" name="hsa:1892 hsa:1962 hsa:3030" type="gene" reaction="rn:R03026"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1892+hsa:1962+hsa:3030">
-        <graphics name="ECHS1, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ECHS1, ECHS1D, SCEH..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="936" y="466" width="46" height="17"/>
     </entry>
     <entry id="45" name="hsa:1962 hsa:3033" type="gene" reaction="rn:R01975"
@@ -50,7 +55,7 @@
         <graphics name="EHHADH, ECHD, FRTS3, L-PBE, LBFP, LBP, PBFE..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1048" y="465" width="46" height="17"/>
     </entry>
-    <entry id="47" name="ko:K13609" type="ortholog" reaction="rn:R02201 rn:R02203"
+    <entry id="47" name="ko:K13609" type="ortholog" reaction="rn:R02203"
         link="http://www.kegg.jp/dbget-bin/www_bget?K13609">
         <graphics name="K13609" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="576" y="241" width="46" height="17"/>
@@ -118,7 +123,7 @@
     <entry id="69" name="path:hsa00310" type="map"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00310">
         <graphics name="TITLE:Lysine degradation" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="roundrectangle" x="129" y="58" width="177" height="25"/>
+             type="roundrectangle" x="125" y="58" width="169" height="25"/>
     </entry>
     <entry id="72" name="hsa:51268" type="gene" reaction="rn:R02204"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51268">

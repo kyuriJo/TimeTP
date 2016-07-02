@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 8, 2013 15:32:22 +0900 (GMT+09:00) -->
+<!-- Creation date: Mar 3, 2016 11:27:17 +0900 (GMT+9) -->
 <pathway name="path:hsa00532" org="hsa" number="00532"
          title="Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00532.png"
@@ -97,7 +97,7 @@
     </entry>
     <entry id="24" name="hsa:55454 hsa:55790" type="gene" reaction="rn:R05929"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:55454+hsa:55790">
-        <graphics name="CSGALNACT2, CHGN2, GALNACT-2, GALNACT2..." fgcolor="#66CC66" bgcolor="#FFFFFF"
+        <graphics name="CSGALNACT2, CHGN2, GALNACT-2, GALNACT2, PRO0082..." fgcolor="#66CC66" bgcolor="#FFFFFF"
              type="line" coords="519,151,562,151"/>
     </entry>
     <entry id="25" name="hsa:26229" type="gene" reaction="rn:R05928"
@@ -167,7 +167,7 @@
     </entry>
     <entry id="44" name="hsa:55454 hsa:55790" type="gene" reaction="rn:R05929"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:55454+hsa:55790">
-        <graphics name="CSGALNACT2, CHGN2, GALNACT-2, GALNACT2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CSGALNACT2, CHGN2, GALNACT-2, GALNACT2, PRO0082..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1135" y="332" width="46" height="17"/>
     </entry>
     <entry id="45" name="hsa:22856 hsa:337876 hsa:54480 hsa:79586" type="gene" reaction="rn:R05931"

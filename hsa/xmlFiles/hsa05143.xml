@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 30, 2013 11:27:50 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:38:33 +0900 (GMT+9) -->
 <pathway name="path:hsa05143" org="hsa" number="05143"
          title="African trypanosomiasis"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05143.png"
@@ -85,14 +85,14 @@
         <graphics name="C00696" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="1215" y="419" width="8" height="8"/>
     </entry>
-    <entry id="17" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="17" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="482" y="242" width="46" height="17"/>
     </entry>
-    <entry id="18" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="18" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="482" y="262" width="46" height="17"/>
     </entry>
     <entry id="19" name="hsa:3586" type="gene"

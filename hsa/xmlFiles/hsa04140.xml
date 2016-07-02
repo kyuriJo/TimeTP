@@ -125,9 +125,9 @@
         <graphics name="IFNA1, IFL, IFN, IFN-ALPHA, IFN-alphaD, IFNA13, IFNA@..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="765" y="225" width="46" height="17"/>
     </entry>
-    <entry id="26" name="hsa:8678" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8678">
-        <graphics name="BECN1, ATG6, VPS30, beclin1" fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="26" name="hsa:441925 hsa:8678" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:441925+hsa:8678">
+        <graphics name="BECN2, BECN1L1, BECN1P1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="503" y="284" width="46" height="17"/>
     </entry>
     <entry id="27" name="hsa:5289" type="gene"
@@ -137,7 +137,7 @@
     </entry>
     <entry id="28" name="hsa:3630" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3630">
-        <graphics name="INS, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="INS, IDDM, IDDM1, IDDM2, ILPR, IRDN, MODY10" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="55" y="193" width="46" height="17"/>
     </entry>
     <entry id="29" name="hsa:5562 hsa:5563" type="gene"

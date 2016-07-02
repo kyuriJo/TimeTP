@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Feb 17, 2015 10:00:46 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 16, 2015 16:50:36 +0900 (GMT+9) -->
 <pathway name="path:hsa00040" org="hsa" number="00040"
          title="Pentose and glucuronate interconversions"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00040.png"
@@ -265,9 +265,9 @@
         <graphics name="K01051" fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="452" y="118" width="46" height="17"/>
     </entry>
-    <entry id="123" name="ko:K01728" type="ortholog" reaction="rn:R02361"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K01728">
-        <graphics name="K01728" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="123" name="ko:K01728 ko:K19551" type="ortholog" reaction="rn:R02361"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K01728+K19551">
+        <graphics name="K01728..." fgcolor="#000000" bgcolor="#FFFFFF"
              type="rectangle" x="389" y="138" width="46" height="17"/>
     </entry>
     <entry id="124" name="ko:K01730" type="ortholog" reaction="rn:R04382"
@@ -578,7 +578,7 @@
     <entry id="190" name="ko:K18106" type="ortholog" reaction="rn:R07676 rn:R10565"
         link="http://www.kegg.jp/dbget-bin/www_bget?K18106">
         <graphics name="K18106" fgcolor="#000000" bgcolor="#FFFFFF"
-             type="rectangle" x="551" y="251" width="46" height="17"/>
+             type="rectangle" x="541" y="240" width="46" height="17"/>
     </entry>
     <entry id="191" name="cpd:C00333" type="compound"
         link="http://www.kegg.jp/dbget-bin/www_bget?C00333">
@@ -649,6 +649,11 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa00020">
         <graphics name="Citrate cycle (TCA cycle)" fgcolor="#000000" bgcolor="#FFFFFF"
              type="roundrectangle" x="88" y="926" width="76" height="25"/>
+    </entry>
+    <entry id="208" name="ko:K19634" type="ortholog" reaction="rn:R07676"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K19634">
+        <graphics name="K19634" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="541" y="261" width="46" height="17"/>
     </entry>
     <relation entry1="67" entry2="97" type="ECrel">
         <subtype name="compound" value="66"/>

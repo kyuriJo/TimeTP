@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Jan 19, 2015 14:55:43 +0900 (GMT+09:00) -->
+<!-- Creation date: Jan 18, 2016 13:44:23 +0900 (GMT+9) -->
 <pathway name="path:hsa05132" org="hsa" number="05132"
          title="Salmonella infection"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa05132.png"
@@ -22,7 +22,7 @@
     </entry>
     <entry id="4" name="hsa:5879" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5879">
-        <graphics name="RAC1, Rac-1, TC-25, p21-Rac1" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAC1, MIG5, Rac-1, TC-25, p21-Rac1" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="667" y="453" width="46" height="17"/>
     </entry>
     <entry id="5" name="hsa:998" type="gene"
@@ -62,7 +62,7 @@
     </entry>
     <entry id="12" name="hsa:7454 hsa:8976" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7454+hsa:8976">
-        <graphics name="WAS, IMD2, SCNX, THC, THC1, WASP..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="WAS, IMD2, SCNX, THC, THC1, WASP, WASPA..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="865" y="604" width="46" height="17"/>
     </entry>
     <entry id="13" name="hsa:2353 hsa:3725" type="gene"
@@ -212,7 +212,7 @@
     </entry>
     <entry id="42" name="hsa:1778 hsa:1780 hsa:1781 hsa:1783 hsa:51143 hsa:79659" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1778+hsa:1780+hsa:1781+hsa:1783+hsa:51143+hsa:79659">
-        <graphics name="DYNC1H1, DHC1, DHC1a, DNCH1, DNCL, DNECL, DYHC, Dnchc1, HL-3, SMALED1, p22..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DYNC1H1, CMT2O, DHC1, DHC1a, DNCH1, DNCL, DNECL, DYHC, Dnchc1, HL-3, SMALED1, p22..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="848" y="1066" width="46" height="17"/>
     </entry>
     <entry id="43" name="ko:K15352" type="ortholog"
@@ -237,7 +237,7 @@
     </entry>
     <entry id="47" name="hsa:83547" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:83547">
-        <graphics name="RILP" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RILP, PP10141" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="704" y="1013" width="46" height="17"/>
     </entry>
     <entry id="48" name="hsa:147700 hsa:3831 hsa:64837 hsa:89953" type="gene"
@@ -257,7 +257,7 @@
     </entry>
     <entry id="51" name="hsa:58484" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:58484">
-        <graphics name="NLRC4, AIFEC, CARD12, CLAN, CLAN1, CLANA, CLANB, CLANC, CLAND, CLR2.1, IPAF" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NLRC4, AIFEC, CARD12, CLAN, CLAN1, CLANA, CLANB, CLANC, CLAND, CLR2.1, FCAS4, IPAF" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="646" y="319" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:29108" type="gene"
@@ -297,7 +297,7 @@
     </entry>
     <entry id="59" name="hsa:29941 hsa:5585 hsa:5586" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:29941+hsa:5585+hsa:5586">
-        <graphics name="PKN3..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PKN3, UTDP4-1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="989" y="660" width="46" height="17"/>
     </entry>
     <entry id="60" name="ko:K15349" type="ortholog"
@@ -402,7 +402,7 @@
     </entry>
     <entry id="80" name="hsa:388372 hsa:6351 hsa:9560" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:388372+hsa:6351+hsa:9560">
-        <graphics name="CCL4L1, AT744.2, CCL4L, LAG-1, LAG1, SCYA4L, SCYA4L1, CCL4L2..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CCL4L1, AT744.2, CCL4L, LAG-1, LAG1, SCYA4L, SCYA4L1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1056" y="478" width="43" height="17"/>
     </entry>
     <entry id="81" name="hsa:2919 hsa:2920 hsa:2921" type="gene"

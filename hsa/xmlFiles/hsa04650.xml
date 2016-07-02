@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Aug 2, 2013 14:24:19 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 26, 2015 09:39:17 +0900 (GMT+9) -->
 <pathway name="path:hsa04650" org="hsa" number="04650"
          title="Natural killer cell mediated cytotoxicity"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04650.png"
          link="http://www.kegg.jp/kegg-bin/show_pathway?hsa04650">
-    <entry id="1" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="1" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="362" y="560" width="46" height="17"/>
     </entry>
     <entry id="2" name="hsa:4772 hsa:4773" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4772+hsa:4773">
-        <graphics name="NFATC1, NF-ATC, NFAT2, NFATc..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="NFATC1, NF-ATC, NF-ATc1.2, NFAT2, NFATc..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="987" y="649" width="46" height="17"/>
     </entry>
     <entry id="3" name="hsa:5530 hsa:5532 hsa:5533 hsa:5534 hsa:5535" type="gene"
@@ -37,7 +37,7 @@
     </entry>
     <entry id="8" name="hsa:3459 hsa:3460" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3459+hsa:3460">
-        <graphics name="IFNGR1, CD119, IFNGR..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="IFNGR1, CD119, IFNGR, IMD27A, IMD27B..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="287" y="757" width="46" height="17"/>
     </entry>
     <entry id="9" name="hsa:5335 hsa:5336" type="gene"
@@ -82,7 +82,7 @@
     </entry>
     <entry id="17" name="hsa:6452" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6452">
-        <graphics name="SH3BP2, 3BP-2, 3BP2, CRBM, CRPM" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SH3BP2, 3BP-2, 3BP2, CRBM, CRPM, RES4-23" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="668" y="383" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:5335 hsa:5336" type="gene"
@@ -142,7 +142,7 @@
     </entry>
     <entry id="29" name="hsa:919" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:919">
-        <graphics name="CD247, CD3-ZETA, CD3H, CD3Q, CD3Z, T3Z, TCRZ" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CD247, CD3-ZETA, CD3H, CD3Q, CD3Z, IMD25, T3Z, TCRZ" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="500" y="571" width="46" height="17"/>
     </entry>
     <entry id="30" name="hsa:2207" type="gene"
@@ -312,7 +312,7 @@
     </entry>
     <entry id="63" name="hsa:5879 hsa:5880 hsa:5881" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5879+hsa:5880+hsa:5881">
-        <graphics name="RAC1, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="RAC1, MIG5, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="797" y="340" width="46" height="17"/>
     </entry>
     <entry id="64" name="hsa:10451 hsa:7409 hsa:7410" type="gene"
@@ -505,9 +505,9 @@
         <graphics name="KLRC4-KLRK1..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1200" y="511" width="46" height="17"/>
     </entry>
-    <entry id="120" name="ko:K06856" type="ortholog"
-        link="http://www.kegg.jp/dbget-bin/www_bget?K06856">
-        <graphics name="K06856" fgcolor="#000000" bgcolor="#FFFFFF"
+    <entry id="120" name="hsa:102723407" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:102723407">
+        <graphics name="102723407" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1135" y="414" width="46" height="17"/>
     </entry>
     <entry id="121" name="undefined" type="group">
@@ -867,7 +867,13 @@
     <relation entry1="7" entry2="40" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
     </relation>
+    <relation entry1="1" entry2="82" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
     <relation entry1="99" entry2="124" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="120" entry2="116" type="PPrel">
         <subtype name="activation" value="--&gt;"/>
     </relation>
     <relation entry1="102" entry2="119" type="PPrel">

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 13, 2015 09:39:03 +0900 (GMT+9) -->
+<!-- Creation date: Jan 8, 2016 14:39:38 +0900 (GMT+9) -->
 <pathway name="path:hsa00590" org="hsa" number="00590"
          title="Arachidonic acid metabolism"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa00590.png"
@@ -412,7 +412,7 @@
     </entry>
     <entry id="141" name="hsa:27306 hsa:5730" type="gene" reaction="rn:R02266"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:27306+hsa:5730">
-        <graphics name="HPGDS, GSTS, GSTS1-1, PGD2, PGDS..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="HPGDS, GSTS, GSTS1, GSTS1-1, PGD2, PGDS..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="251" y="403" width="46" height="17"/>
     </entry>
     <entry id="143" name="hsa:873 hsa:874" type="gene" reaction="rn:R02581"

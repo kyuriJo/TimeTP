@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Mar 4, 2015 17:38:15 +0900 (GMT+9) -->
+<!-- Creation date: Oct 23, 2015 15:55:03 +0900 (GMT+9) -->
 <pathway name="path:hsa04919" org="hsa" number="04919"
          title="Thyroid hormone signaling pathway"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04919.png"
@@ -32,7 +32,7 @@
     </entry>
     <entry id="6" name="hsa:5170" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5170">
-        <graphics name="PDPK1, PDK1, PDPK2, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="PDPK1, PDK1, PDPK2, PDPK2P, PRO0461" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="486" y="482" width="46" height="17"/>
     </entry>
     <entry id="7" name="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503" type="gene"
@@ -170,9 +170,9 @@
         <graphics name="C00575" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="468" y="101" width="8" height="8"/>
     </entry>
-    <entry id="34" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="34" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="542" y="103" width="46" height="17"/>
     </entry>
     <entry id="35" name="cpd:C01245" type="compound"
@@ -212,12 +212,12 @@
     </entry>
     <entry id="42" name="hsa:6513" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6513">
-        <graphics name="SLC2A1, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC2A1, CSE, DYT17, DYT18, DYT9, EIG12, GLUT, GLUT-1, GLUT1, GLUT1DS, HTLVR, PED" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1170" y="722" width="46" height="17"/>
     </entry>
     <entry id="43" name="hsa:9882" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:9882">
-        <graphics name="TBC1D4, AS160" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="TBC1D4, AS160, NIDDM5" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="672" y="505" width="46" height="17"/>
     </entry>
     <entry id="44" name="hsa:5208" type="gene"
@@ -227,7 +227,7 @@
     </entry>
     <entry id="45" name="hsa:6548" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6548">
-        <graphics name="SLC9A1, APNH, NHE-1, NHE1, PPP1R143" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="SLC9A1, APNH, LIKNS, NHE-1, NHE1, PPP1R143" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="192" y="304" width="46" height="17"/>
     </entry>
     <entry id="46" name="hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486" type="gene"

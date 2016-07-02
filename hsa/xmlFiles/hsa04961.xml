@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: May 30, 2013 17:04:11 +0900 (GMT+09:00) -->
+<!-- Creation date: Oct 23, 2015 10:26:38 +0900 (GMT+9) -->
 <pathway name="path:hsa04961" org="hsa" number="04961"
          title="Endocrine and other factor-regulated calcium reabsorption"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa04961.png"
@@ -87,22 +87,22 @@
     </entry>
     <entry id="17" name="hsa:793" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:793">
-        <graphics name="CALB1, CALB" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CALB1, CALB, D-28K" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="637" y="625" width="46" height="17"/>
     </entry>
     <entry id="18" name="hsa:793" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:793">
-        <graphics name="CALB1, CALB" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CALB1, CALB, D-28K" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="548" y="679" width="46" height="17"/>
     </entry>
     <entry id="19" name="hsa:793" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:793">
-        <graphics name="CALB1, CALB" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CALB1, CALB, D-28K" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="638" y="708" width="46" height="17"/>
     </entry>
     <entry id="20" name="hsa:793" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:793">
-        <graphics name="CALB1, CALB" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="CALB1, CALB, D-28K" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="716" y="680" width="46" height="17"/>
     </entry>
     <entry id="21" name="hsa:624" type="gene"
@@ -187,12 +187,12 @@
     </entry>
     <entry id="37" name="hsa:1759 hsa:1785 hsa:26052" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1759+hsa:1785+hsa:26052">
-        <graphics name="DNM1, DNM..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DNM1, DNM, EIEE31..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="158" y="447" width="46" height="17"/>
     </entry>
     <entry id="38" name="hsa:1759 hsa:1785 hsa:26052" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1759+hsa:1785+hsa:26052">
-        <graphics name="DNM1, DNM..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="DNM1, DNM, EIEE31..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="158" y="407" width="46" height="17"/>
     </entry>
     <entry id="39" name="hsa:9365" type="gene"
@@ -245,9 +245,9 @@
         <graphics name="C00951" fgcolor="#000000" bgcolor="#FFFFFF"
              type="circle" x="831" y="284" width="8" height="8"/>
     </entry>
-    <entry id="49" name="hsa:5566 hsa:5567 hsa:5568 hsa:5613" type="gene"
-        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568+hsa:5613">
-        <graphics name="PRKACA, PKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+    <entry id="49" name="hsa:5566 hsa:5567 hsa:5568" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5566+hsa:5567+hsa:5568">
+        <graphics name="PRKACA, PKACA, PPNAD4..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="278" y="586" width="46" height="17"/>
     </entry>
     <entry id="50" name="cpd:C00575" type="compound"
@@ -257,12 +257,12 @@
     </entry>
     <entry id="51" name="hsa:112 hsa:115" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:112+hsa:115">
-        <graphics name="ADCY6, AC6..." fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="ADCY6, AC6, LCCS8..." fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="470" y="508" width="46" height="17"/>
     </entry>
     <entry id="52" name="hsa:2778" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2778">
-        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, PHP1A, PHP1B, PHP1C, POH" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="GNAS, AHO, C20orf45, GNAS1, GPSA, GSA, GSP, NESP, POH, SCG6, SgVI" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="570" y="458" width="46" height="17"/>
     </entry>
     <entry id="53" name="hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486" type="gene"

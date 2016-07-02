@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.1_.dtd">
-<!-- Creation date: Oct 20, 2010 09:20:42 +0900 (JST) -->
+<!-- Creation date: Aug 13, 2015 17:33:47 +0900 (GMT+9) -->
 <pathway name="path:hsa03440" org="hsa" number="03440"
          title="Homologous recombination"
          image="http://www.kegg.jp/kegg/pathway/hsa/hsa03440.png"
@@ -242,7 +242,7 @@
     </entry>
     <entry id="48" name="hsa:675" type="gene"
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:675">
-        <graphics name="BRCA2, BRCC2, BROVCA2, FACD, FAD, FAD1, FANCD, FANCD1, GLM3, PNCA2" fgcolor="#000000" bgcolor="#BFFFBF"
+        <graphics name="BRCA2, BRCC2, BROVCA2, FACD, FAD, FAD1, FANCD, FANCD1, GLM3, PNCA2, XRCC11" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="1082" y="330" width="46" height="17"/>
     </entry>
     <entry id="49" name="ko:K10959" type="ortholog"
@@ -284,5 +284,10 @@
         link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6742">
         <graphics name="SSBP1, Mt-SSB, SOSS-B1, SSBP, mtSSB" fgcolor="#000000" bgcolor="#BFFFBF"
              type="rectangle" x="253" y="195" width="46" height="17"/>
+    </entry>
+    <entry id="57" name="hsa:50511" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:50511">
+        <graphics name="SYCP3, COR1, SCP3, SPGF4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="1154" y="330" width="46" height="17"/>
     </entry>
 </pathway>
