@@ -23,6 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import copy
 import re
 import os
+import shutil
 import scipy.stats
 import scipy.spatial
 from scipy.signal import correlate 
@@ -34,7 +35,6 @@ import numpy as np
 import sys
 import math
 import random
-
 
 keggDict = {}
 kgDict = {}
@@ -59,9 +59,6 @@ def genDict(file1, KEGGgeneFilePath, numTP) :
 
 	# keggDict 	: Kegg ID - Profile
 	# kgDict 	: Kegg ID - Gene ID
-	keggDict = {}
-	kgDict = {}
-	gkDict = {}
 	temp = {}
 	keggFile = open(KEGGgeneFilePath, 'r')
 	
@@ -114,7 +111,7 @@ def genDict(file1, KEGGgeneFilePath, numTP) :
 				gkDict[g]=l[1]
 				min = l[0]
 	
-	return (keggDict, kgDict, gkDict, species)
+	return species
 
 def poisson_new(k, lamb):
         return (lamb**k/factorial(k)) * np.exp(-lamb)
@@ -245,12 +242,12 @@ def pathwayAnalysis(numTP, networks, entries, DEGs, DEGPval, maxDelay, profile, 
 				temp.append(len(c))
 			for c in temp_cc :
 				if profile =='DEG' :
-					prob2[round(c)]+=1	# for poisson
+					prob2[int(round(c))]+=1	# for poisson
 				temp2.append(c)		# for hist
 
-		# Fitting the Poisson dist (node)	
-		prob = prob / np.sum(prob)
-		param, cov = curve_fit(poisson_new, bin, prob)
+		# Fitting the Poisson dist (node)
+		#prob = prob / np.sum(prob)
+		#param, cov = curve_fit(poisson_new, bin, prob)
 
 		# (cc)
 		if profile=='DEG' :
@@ -267,8 +264,10 @@ def pathwayAnalysis(numTP, networks, entries, DEGs, DEGPval, maxDelay, profile, 
 			else :
 				pval = scipy.stats.poisson.sf(round(net_cc[i]), param2[0])	# cc and poisson
 			pathPval[pathway].append(pval)
+			print 'P-value:', pval
 			# Fixed
-			if pval < threshold and DEGPval[pathway] < threshold :
+			#if pval < threshold and DEGPval[pathway] < threshold :
+			if pval < threshold : 
 				source = set([x for x in net_eg[i].nodes() if net_eg[i].in_degree(x)==0])
 				targets = set(map(lambda x: x.split('!')[1], net_eg[i].nodes()))
 				print 'source '+str(len(source))
@@ -636,25 +635,24 @@ def cytoscapejs(webPath, pathway, pathNo, path, net_eg, knetwork, network, seedS
 	file1 = open(webPath+'/'+pathway+'_'+str(pathNo+1)+'.html', 'w')
 	file1.write('<head><link href="style.css" rel="stylesheet" />\n')
 	file1.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>\n')
-	file1.write('<script src="http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js"></script>\n')
-	file1.write('<script src="https://cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js"></script>\n<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.1.2/cytoscape-dagre.js"></script>\n')
+	file1.write('<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js/d48294ac/dist/cytoscape.min.js"></script>\n')
+	file1.write('<script src="https://unpkg.com/dagre@0.7.4/dist/dagre.js"></script>\n<script src="cytoscape-dagre.js"></script>\n')
 	file1.write('<script src="'+pathway+'_'+str(pathNo+1)+'.js"></script></head>\n')
 	file1.write('<body><div id="cy"></div></body></html>\n')
 	file1.close()
 
 	file2 = open(webPath+'/'+pathway+'_'+str(pathNo+1)+'.js', 'w')
-	file2.write('$(function(){\n $("#cy").cytoscape({ style: cytoscape.stylesheet()\n')
-	file2.write('.selector("node[type = \'single\']")\n.css({\n"width":"30px","height":"30px","content":"data(id)","border-color":"data(bc)","border-width": 3,"pie-size":"100%",\n')
+	file2.write('window.addEventListener(\'DOMContentLoaded\', function(){\nvar cy = window.cy = cytoscape({\n  container: document.getElementById(\'cy\'),\n  boxSelectionEnabled: false, autounselectify: true, layout: {  name: \'dagre\'  },\n')
+	file2.write("style: [ {  selector: \'node[type=\"single\"]\',\nstyle: {\"width\":\"30px\",\"height\":\"30px\",\"content\":\"data(id)\",\"border-color\":\"data(bc)\",\"border-width\": 3,\"pie-size\":\"100%\",\n")
 
 	for i in range(numTP) :
-		#file2.write('"pie-'+str(i+1)+'-background-color":"mapData(p'+str(i+1)+', 0, 1, #ffffff, #ff0000)",\n')
 		file2.write('"pie-'+str(i+1)+'-background-color": "data(p'+str(i+1)+')",\n')
 		file2.write('"pie-'+str(i+1)+'-background-size": '+str(100/(numTP)))
 		if i<numTP-1 :
 			file2.write(',')
 		else:
-			file2.write('})')
-	file2.write('.selector("edge")\n.css({\n"width":"mapData(weight, 0, 1000, 1, 4)","target-arrow-shape":"data(shape)","opacity":1.0,"target-arrow-color":"black","curve-style":"bezier"}),\n')
+			file2.write('}\n},\n')
+	file2.write('{ selector: \'edge\',\nstyle:{\n"width":"mapData(weight, 0, 1000, 1, 4)","target-arrow-shape":"data(shape)","opacity":1.0,"target-arrow-color":"black","curve-style":"bezier"}\n}],\n')
 
 	nodes = set()
 	edges = set()
@@ -730,9 +728,7 @@ def cytoscapejs(webPath, pathway, pathNo, path, net_eg, knetwork, network, seedS
                         nodes.add('{data:{id:"'+kgDict[g]+'",'+profilejs(keggDict[g])+', bc: "green", type: "single" }}')	
 
 	# Print out
-	file2.write('elements:{ nodes: ['+','.join(list(nodes))+'],\n edges: ['+','.join(list(edges))+']},\n')
-	file2.write('layout: { name: "dagre", padding: 10 },\n ready: function(){ window.cy = this; }}); });\n');
-			
+	file2.write('elements:{ nodes: ['+','.join(list(nodes))+'],\n edges: ['+','.join(list(edges))+']}\n});\n});')
 	file2.close()
 	
 	return pathway+'_'+str(pathNo+1)+'.html', TFs
@@ -795,26 +791,26 @@ def visualize(resPath, KEGGPathFilePath, networks, network, pathDict, pathPval, 
 
 def visualize2(webPath, networks, network, TFpath, labeled, labeled_path, pathDict, pathPval, DEGPval, threshold) :
         file1 = open(webPath+'/network_overview.html', 'w')
-        file1.write('<head><link href="style.css" rel="stylesheet" />\n')
-        file1.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>\n')
-        file1.write('<script src="http://cytoscape.github.io/cytoscape.js/api/cytoscape.js-latest/cytoscape.min.js">\n')
-	file1.write('</script>\n<script src="https://cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js"></script>\n<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.1.2/cytoscape-dagre.js"></script>\n')
-        file1.write('<script src="network_overview.js"></script></head>\n')
-        file1.write('<body><div id="cy"></div></body></html>\n')
-        file1.close()
+	file1.write('<head><link href="style.css" rel="stylesheet" />\n')
+	file1.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>\n')
+	file1.write('<script src="https://cdn.rawgit.com/cytoscape/cytoscape.js/d48294ac/dist/cytoscape.min.js"></script>\n')
+	file1.write('<script src="https://unpkg.com/dagre@0.7.4/dist/dagre.js"></script>\n<script src="cytoscape-dagre.js"></script>\n')
+	file1.write('<script src="network_overview.js"></script></head>\n')
+	file1.write('<body><div id="cy"></div></body></html>\n')
+	file1.close()
 
-        file2 = open(webPath+'/network_overview.js', 'w')
-        file2.write('$(function(){\n $("#cy").cytoscape({ style: cytoscape.stylesheet()\n')
-        file2.write('.selector("node[type = \'single\']")\n.css({\n"width":"40px","height":"40px","font-size":"20px","content":"data(id)","border-color":"data(bc)","border-width": 3,"pie-size":"100%",\n')
+	file2 = open(webPath+'/network_overview.js', 'w')
+	file2.write('window.addEventListener(\'DOMContentLoaded\', function(){\nvar cy = window.cy = cytoscape({\n  container: document.getElementById(\'cy\'),\n  boxSelectionEnabled: false, autounselectify: true, layout: {  name: \'dagre\'  },\n')
+	file2.write("style: [ {  selector: \'node[type = \"single\"]',\nstyle: {\"width\":\"30px\",\"height\":\"30px\",\"content\":\"data(id)\",\"border-color\":\"data(bc)\",\"border-width\": 3,\"pie-size\":\"100%\",\n")
 
-        for i in range(numTP) :
-                file2.write('"pie-'+str(i+1)+'-background-color": "data(p'+str(i+1)+')",\n')
-                file2.write('"pie-'+str(i+1)+'-background-size": '+str(100/(numTP)))
-                if i<numTP-1 :
-                        file2.write(',')
-                else:
-                        file2.write('})')
-        file2.write('.selector("edge")\n.css({\n"width":"mapData(weight, 0, 1000, 1, 4)","target-arrow-shape":"data(shape)","opacity":1.0,"target-arrow-color":"black","curve-style":"bezier"}),\n')
+	for i in range(numTP) :
+		file2.write('"pie-'+str(i+1)+'-background-color": "data(p'+str(i+1)+')",\n')
+		file2.write('"pie-'+str(i+1)+'-background-size": '+str(100/(numTP)))
+		if i<numTP-1 :
+			file2.write(',')
+		else:
+			file2.write('}\n},\n')
+	file2.write('{ selector: \'edge\',\nstyle:{\n"width":"mapData(weight, 0, 1000, 1, 4)","target-arrow-shape":"data(shape)","opacity":1.0,"target-arrow-color":"black","curve-style":"bezier"}\n}],\n')
 
 	tempNet = nx.DiGraph()
         nodes = set()
@@ -882,9 +878,7 @@ def visualize2(webPath, networks, network, TFpath, labeled, labeled_path, pathDi
 					nodes.add('{data:{id:"'+kgDict[g]+'",'+profilejs(keggDict[g])+', bc: "green", type: "single" }}')
 
         # Print out
-        file2.write('elements:{ nodes: ['+','.join(list(nodes))+'],\n edges: ['+','.join(list(edges))+']},\n')
-        file2.write('layout: { name: "dagre", padding: 10 },\n ready: function(){ window.cy = this; }}); });\n');
-
+        file2.write('elements:{ nodes: ['+','.join(list(nodes))+'],\n edges: ['+','.join(list(edges))+']}\n});\n});')
         file2.close()
 
 def makeFiles(webPath) :
@@ -936,7 +930,8 @@ if __name__ == "__main__" :
 		os.mkdir(resPath) 
 	if not os.path.exists(webPath) :
 		os.mkdir(webPath)
-
+	shutil.copy("legend.PNG", webPath)	
+	shutil.copy("cytoscape-dagre.js", webPath)
 	conf.close()
 	
 	pfile = 'DEG_profile.txt'
@@ -947,8 +942,8 @@ if __name__ == "__main__" :
 		xmlPath = os.path.join(species, 'xmlFiles')		
  
 	print ". genDict"
-	(keggDict, kgDict, gkDict, species) = genDict(os.path.join(resPath, pfile), KEGGgeneFilePath, numTP)
-	
+	species = genDict(os.path.join(resPath, pfile), KEGGgeneFilePath, numTP)
+
 	print ". parseXml"
 	(networks, entries, DEGs) = parseXml(xmlPath, keggDict)
 
