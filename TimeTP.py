@@ -756,7 +756,8 @@ def visualize(resPath, KEGGPathFilePath, networks, network, pathDict, pathPval, 
 		if len(p)>30 :
 			p = p[:30]+'...'
 		s = ''
-		s+='<tr><td rowspan="'+str(len(pathlist))+'">'+pathway+'</td><td class="name" rowspan="'+str(len(pathlist))+'">'+p+'</td><td rowspan="'+str(len(pathlist))+'">'+ "{:5.3f}".format(DEGPval[pathway])+'</td>\n'
+		row = str(1) if len(pathlist)<2 else str(len(pathlist))
+		s+='<tr><td rowspan="'+row+'">'+pathway+'</td><td class="name" rowspan="'+row+'">'+p+'</td><td rowspan="'+row+'">'+ "{:5.3f}".format(DEGPval[pathway])+'</td>\n'
 		
 		# If there is perturbed path(s)
 		for i in range(len(pathlist)) :
